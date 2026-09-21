@@ -1,0 +1,66 @@
+# Category taxonomy for awesome-monid.
+# Order here = order in the generated README. Do not renumber ids, they are
+# used as anchors and in data/projects.yaml.
+
+- id: research-intel
+  emoji: "\U0001F50E"
+  title: Research & Intel
+  blurb: Company and people profiles, due diligence, competitor and news monitoring.
+
+- id: sales-leadgen
+  emoji: "\U0001F3AF"
+  title: Sales & Lead Gen
+  blurb: Finding, enriching, scoring and reaching prospects.
+
+- id: marketing-seo-geo
+  emoji: "\U0001F4C8"
+  title: Marketing, SEO & GEO
+  blurb: Content pipelines, rank tracking, and visibility inside AI answers.
+
+- id: commerce-pricing
+  emoji: "\U0001F6D2"
+  title: Commerce & Pricing
+  blurb: Marketplace data, price tracking, review and listing analysis.
+
+- id: social-creator
+  emoji: "\U0001F4F1"
+  title: Social & Creator
+  blurb: Topic discovery, outlier analysis, account and campaign operations.
+
+- id: generative-media
+  emoji: "\U0001F3AC"
+  title: Generative Media
+  blurb: Video, image, voice and 3D pipelines driven by an agent.
+
+- id: markets-finance
+  emoji: "\U0001F4B9"
+  title: Markets & Finance
+  blurb: Prediction markets, trading bots, alternative data.
+
+- id: local-realworld
+  emoji: "\U0001F5FA️"
+  title: Local & Real-world
+  blurb: Maps, travel, mobility, and anything anchored to a physical place.
+
+- id: skills-mcp-plugins
+  emoji: "\U0001F9E9"
+  title: Agent Skills, MCP & Plugins
+  blurb: Claude skills, MCP servers, IDE and editor plugins that expose Monid.
+
+- id: framework-integrations
+  emoji: "\U0001F50C"
+  title: Framework Integrations
+  blurb: Adapters and providers wiring Monid into another agent framework.
+
+- id: starters-templates
+  emoji: "\U0001F9F0"
+  title: Starters & Templates
+  blurb: Clone-and-run projects meant to be forked.
+
+- id: tutorials-writeups
+  emoji: "\U0001F393"
+  title: Tutorials & Write-ups
+  blurb: Posts, videos and teardowns that show how something was built.
+
+# There is deliberately no hackathon category. What a project does is the useful
+# axis; where it was born is a tag, carried in the `event` field on the entry.

@@ -1,0 +1,4 @@
+node_modules/
+.lycheecache
+preview*.html
+README.demo.md

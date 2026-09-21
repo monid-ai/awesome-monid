@@ -1,0 +1,29 @@
+name: linkcheck
+
+# A dead link is how a curated list starts to rot. Weekly sweep, and the
+# failure opens an issue instead of quietly going red in a tab nobody reads.
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        id: lychee
+        with:
+          args: --no-progress --max-concurrency 4 --exclude-path .github README.md
+          fail: false
+      - uses: peter-evans/create-issue-from-file@v5
+        if: steps.lychee.outputs.exit_code != 0
+        with:
+          title: Dead links in the list
+          content-filepath: ./lychee/out.md
+          labels: maintenance

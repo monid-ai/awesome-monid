@@ -1,0 +1,131 @@
+name: Submit a project
+description: Add something built on Monid to the list
+title: "[submit] "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One project per issue. A bot turns this form into a pull request, so keep the
+        fields clean. Rules: [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md).
+
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+      description: Display name. No taglines, no "AI-powered" suffix.
+      placeholder: Lost Cat Radar
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      description: What a reader should open first. The live app if there is one, otherwise the repo.
+      placeholder: https://example.com
+    validations:
+      required: true
+
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub repo
+      description: "owner/name. Leave empty if closed source."
+      placeholder: your-org/your-repo
+    validations:
+      required: false
+
+  - type: input
+    id: author
+    attributes:
+      label: Author
+      description: How the builder should be credited. You may submit someone else's work.
+      placeholder: "@handle or Person Name"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - research-intel
+        - sales-leadgen
+        - marketing-seo-geo
+        - commerce-pricing
+        - social-creator
+        - generative-media
+        - markets-finance
+        - local-realworld
+        - skills-mcp-plugins
+        - framework-integrations
+        - starters-templates
+        - tutorials-writeups
+        - hackathon
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: kind
+    attributes:
+      label: Kind
+      options:
+        - label: hosted
+        - label: oss
+        - label: skill
+        - label: writeup
+
+  - type: checkboxes
+    id: lang
+    attributes:
+      label: Language
+      options:
+        - label: py
+        - label: ts
+        - label: go
+        - label: rust
+        - label: other
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: |
+        One sentence. Capital letter, period at the end, 160 characters max.
+        No emoji, no em dashes, no marketing copy.
+      placeholder: Pulls lost-pet posts from scattered local sources into one live map for a neighbourhood.
+    validations:
+      required: true
+
+  - type: input
+    id: monid
+    attributes:
+      label: Monid endpoints used
+      description: Comma separated. Whatever the project actually calls.
+      placeholder: search, scrape, enrichment
+    validations:
+      required: true
+
+  - type: input
+    id: cost
+    attributes:
+      label: Cost per run
+      description: >
+        Optional but this is the most read field on the list. Your real Monid spend for one
+        complete run, from your bill. Format like $0.15/lead or $0.33/video.
+      placeholder: $0.15/lead
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: This project genuinely calls Monid, and it is visible in the source or I can confirm it here.
+          required: true
+        - label: It is at least 14 days old with commits past day one, or has 100+ stars, or it is a working hosted product.
+          required: true
+        - label: I read CONTRIBUTING.md and my description follows the format.
+          required: true

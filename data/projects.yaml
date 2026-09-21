@@ -1,0 +1,695 @@
+# The single source of truth for awesome-monid.
+# README.md is GENERATED from this file. Run `npm run build` after editing.
+#
+# Outside developers, as a rule. Our own repos are rejected by the build unless
+# the maintainer puts one on the allowlist in scripts/build.mjs, which currently
+# holds Jasper0122/agent-seo-kit. Keep that list short: the page is worth reading
+# because nearly all of it is other people's work.
+#
+# Fields
+#   id          kebab-case, unique, never reused
+#   name        display name, no marketing suffixes
+#   url         the thing a reader should open first (live app, or repo)
+#   repo        owner/name on GitHub, or "" if closed source
+#   author      person or org, as they want to be credited
+#   category    an id from data/categories.yaml
+#   kind        hosted | oss | skill | writeup   (one or more)
+#   lang        py | ts | go | rust | other      (one or more, "" if n/a)
+#   cost        self-reported Monid spend per run, e.g. "$0.15/lead". "" if unknown
+#   monid       Monid endpoints or capability areas used, if known
+#   evidence    how we know it uses Monid, see EVIDENCE in scripts/build.mjs
+#   description ONE sentence, ends with a period, no sales language, no emoji
+#   created     repo creation date, for the age rule
+#   added       YYYY-MM-DD this entry landed here
+#   verified    true once a maintainer confirmed the link works and Monid is used
+#
+# This block came from a 2026-09-18 sweep: GitHub repo search on four queries,
+# then every README graded for hard evidence.
+# Entries with verified: false still need a human to open the link and read past
+# the README.
+
+- id: hermes-web-search-plus
+  name: Hermes Web Search Plus
+  url: https://websearchplus.xyz
+  repo: robbyczgw-cla/hermes-web-search-plus
+  author: "@robbyczgw-cla"
+  category: framework-integrations
+  kind: [hosted, oss]
+  lang: [py]
+  cost: ""
+  monid: [search]
+  evidence: api-key
+  description: Gives a Hermes agent real sources instead of invented ones, with Monid as one search backend.
+  created: 2026-03-17
+  added: 2026-09-18
+  verified: true
+
+- id: medical-mcp
+  name: Medical MCP
+  url: https://github.com/JamesANZ/medical-mcp
+  repo: JamesANZ/medical-mcp
+  author: "@JamesANZ"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [research-papers]
+  evidence: api-key
+  description: Answers medical questions from authoritative sources and pulls academic papers through Monid.
+  created: 2025-07-14
+  added: 2026-09-18
+  verified: true
+
+- id: hermes-monid-websearch
+  name: Hermes Monid Websearch
+  url: https://github.com/ashafizullah/hermes-monid-websearch
+  repo: ashafizullah/hermes-monid-websearch
+  author: "@ashafizullah"
+  category: framework-integrations
+  kind: [oss, skill]
+  lang: [py]
+  cost: "$0/call"
+  monid: [search, fetch]
+  evidence: api-url
+  description: Adds web search and fetch to a Hermes agent through Monid, on the free tier.
+  created: 2026-08-27
+  added: 2026-09-18
+  verified: true
+
+- id: web-search-plus-mcp
+  name: Web Search Plus MCP
+  url: https://websearchplus.xyz
+  repo: robbyczgw-cla/web-search-plus-mcp
+  author: "@robbyczgw-cla"
+  category: skills-mcp-plugins
+  kind: [hosted, oss]
+  lang: [py]
+  cost: ""
+  monid: [search]
+  evidence: api-key
+  description: Fans one query across fifteen search and fetch sources, Monid among them.
+  created: 2026-03-13
+  added: 2026-09-18
+  verified: true
+
+- id: monid-mcp
+  name: Monid MCP
+  url: https://github.com/ashafizullah/monid-mcp
+  repo: ashafizullah/monid-mcp
+  author: "@ashafizullah"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [py]
+  cost: "$0/call"
+  monid: [search, fetch]
+  evidence: api-url
+  description: Exposes Monid web search and fetch to any MCP client.
+  created: 2026-08-29
+  added: 2026-09-18
+  verified: true
+
+- id: monid-client
+  name: monid-client
+  url: https://github.com/FeiyouG/monid-client
+  repo: FeiyouG/monid-client
+  author: "@FeiyouG"
+  category: framework-integrations
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: []
+  evidence: api-url
+  description: Community-written CLI and SDKs for the Monid API, the earliest outside client we found.
+  created: 2026-03-17
+  added: 2026-09-18
+  verified: true
+
+- id: orrery
+  name: Orrery
+  url: https://github.com/FeiyouG/orrery
+  repo: FeiyouG/orrery
+  author: "@FeiyouG"
+  category: research-intel
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [social, search]
+  evidence: api-key
+  description: Renders online discourse about a company or topic as a browsable 3D solar system.
+  created: 2026-07-09
+  added: 2026-09-18
+  verified: true
+
+- id: monid-scraper-tool
+  name: Monid Scraper
+  url: https://github.com/monesh-pixelup/monid-scrapper-tool
+  repo: monesh-pixelup/monid-scrapper-tool
+  author: "@monesh-pixelup"
+  category: social-creator
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [social, search]
+  evidence: api-key
+  description: Turns a plain-English request into an X or Reddit scrape from a small Next.js app.
+  created: 2026-07-23
+  added: 2026-09-18
+  verified: true
+
+- id: raspador-eventos
+  name: Raspador de Eventos
+  url: https://raspador-eventos.vercel.app
+  repo: oextraordimario/raspador_eventos
+  author: "@oextraordimario"
+  category: local-realworld
+  kind: [hosted, oss]
+  lang: [py]
+  cost: ""
+  monid: [scrape]
+  evidence: cli-package
+  description: Unifies Brazilian event listings from Sympla, Ingresse and Shotgun into one agent-queryable base.
+  created: 2026-07-05
+  added: 2026-09-18
+  verified: true
+
+- id: ugckit
+  name: UGCKit
+  url: https://github.com/suparahul/ugckit
+  repo: suparahul/ugckit
+  author: "@suparahul"
+  category: generative-media
+  kind: [oss, skill]
+  lang: [other]
+  cost: ""
+  monid: [video, voice]
+  evidence: cli-package
+  description: Reference video in, recreation out, driven by an agent with ten skills and a local UI.
+  created: 2026-09-03
+  added: 2026-09-18
+  verified: true
+
+- id: dossier
+  name: Dossier
+  url: https://dossier-navy.vercel.app
+  repo: Tushar-Bhowal/dossier
+  author: "@Tushar-Bhowal"
+  category: research-intel
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: ""
+  monid: [search, scrape]
+  evidence: readme-link
+  description: Builds an interview prep kit from a job description and a company URL, down to a day-by-day schedule.
+  created: 2026-09-11
+  added: 2026-09-18
+  verified: false
+
+- id: vectis-agent
+  name: Vectis Agent
+  url: https://vectis-agent.vercel.app
+  repo: HakimOuah/vectis-agent
+  author: "@HakimOuah"
+  category: sales-leadgen
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: ""
+  monid: [enrichment, search]
+  evidence: author-stated
+  description: Sponsorship research tools that retrieve evidence through the reader's own Monid account.
+  created: 2026-09-10
+  added: 2026-09-18
+  verified: false
+
+- id: gis-feasibility-search
+  name: Land Feasibility GIS Search
+  url: https://github.com/Skatelo/gis-feasibility-search
+  repo: Skatelo/gis-feasibility-search
+  author: "@Skatelo"
+  category: local-realworld
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [search]
+  evidence: api-key
+  description: Screens real estate feasibility across parcel GIS for a hundred North Carolina counties.
+  created: 2026-06-06
+  added: 2026-09-18
+  verified: true
+
+- id: socap-lens
+  name: SoCap Lens
+  url: https://github.com/yashbudhia/socap-lens
+  repo: yashbudhia/socap-lens
+  author: "@yashbudhia"
+  category: social-creator
+  kind: [oss]
+  lang: [other]
+  cost: ""
+  monid: [social]
+  evidence: api-key
+  description: Tracks every public Social Capital launch, its hero post, and the creator wave around it.
+  created: 2026-09-15
+  added: 2026-09-18
+  verified: false
+
+- id: qcom-scraping
+  name: Dark Store Radar
+  url: https://github.com/nighomni123/Qcom-scraping
+  repo: nighomni123/Qcom-scraping
+  author: "@nighomni123"
+  category: commerce-pricing
+  kind: [oss]
+  lang: [other]
+  cost: ""
+  monid: [marketplace, scrape]
+  evidence: cli-command
+  description: Cross-platform dark-store intelligence built on product embeddings and a demand pressure index.
+  created: 2026-09-05
+  added: 2026-09-18
+  verified: false
+
+- id: ratina
+  name: Ratina
+  url: https://github.com/Flow-with-blessing/Ratina
+  repo: Flow-with-blessing/Ratina
+  author: "@Flow-with-blessing"
+  category: commerce-pricing
+  kind: [oss]
+  lang: [ts]
+  cost: "$0.018/investigation"
+  monid: [reviews, marketplace]
+  evidence: api-key
+  description: Finds the failure patterns hiding in Amazon product reviews, priced per investigation.
+  created: 2026-09-09
+  added: 2026-09-18
+  verified: true
+
+- id: jp-gacha-monitor
+  name: JP Gacha Monitor
+  url: https://github.com/yumuyou/jp-gacha-monitor
+  repo: yumuyou/jp-gacha-monitor
+  author: "@yumuyou"
+  category: research-intel
+  kind: [oss]
+  lang: [py]
+  cost: "$0.04/run"
+  monid: [social, search]
+  evidence: cli-package
+  description: Weekly competitor monitor covering twenty-six Japanese gacha titles.
+  created: 2026-08-01
+  added: 2026-09-18
+  verified: true
+
+- id: linkedin-comp-tracker
+  name: LinkedIn Watchlist
+  url: https://linkedin-comp-tracker-kappa.vercel.app
+  repo: heyarjunsh1607/Linkedin-Comp-Tracker
+  author: "@heyarjunsh1607"
+  category: social-creator
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: "$0.23/run"
+  monid: [social]
+  evidence: api-key
+  description: Compares follower growth and posting consistency across a fixed watchlist every week.
+  created: 2026-08-13
+  added: 2026-09-18
+  verified: true
+
+- id: tool-audit
+  name: Tool Audit
+  url: https://twzrd-sol.github.io/tool-audit/
+  repo: twzrd-sol/tool-audit
+  author: "@twzrd-sol"
+  category: skills-mcp-plugins
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: ""
+  monid: [discover, inspect]
+  evidence: api-key
+  description: Gathers vendor evidence through live tool discovery before an agent is allowed to spend.
+  created: 2026-09-11
+  added: 2026-09-18
+  verified: true
+
+- id: scopeblind-skills
+  name: ScopeBlind Skills
+  url: https://github.com/ScopeBlind/skills
+  repo: ScopeBlind/skills
+  author: ScopeBlind
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [discover, run]
+  evidence: cli-command
+  description: Installable agent skills that keep Monid spend inside an explicit budget.
+  created: 2026-09-17
+  added: 2026-09-18
+  verified: false
+
+- id: scroll-world-pro-skill
+  name: Scroll World Pro
+  url: https://tobeworks.de/skills/scroll-world-pro/
+  repo: Tobeworks/scroll-world-pro-skill
+  author: Tobeworks
+  category: generative-media
+  kind: [hosted, oss, skill]
+  lang: [other]
+  cost: ""
+  monid: [image, scrape]
+  evidence: cli-package
+  description: Claude skill that builds a scroll-scrubbed flythrough landing page for any brand.
+  created: 2026-08-30
+  added: 2026-09-18
+  verified: true
+
+- id: databard
+  name: DataBard
+  # databard.thisyearnofear.com serves a certificate for the wrong name, so the
+  # repo is the working link until the author fixes it.
+  url: https://github.com/thisyearnofear/databard
+  repo: thisyearnofear/databard
+  author: "@thisyearnofear"
+  category: generative-media
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [voice]
+  evidence: cli-command
+  description: Turns a data catalog into an interactive podcast.
+  created: 2026-04-17
+  added: 2026-09-18
+  verified: true
+
+- id: ligis
+  name: Ligis
+  url: https://ligis.vercel.app
+  repo: sneldao/ligis
+  author: "@sneldao"
+  category: markets-finance
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: ""
+  monid: [enrichment, risk]
+  evidence: api-key
+  description: Identity and credential layer for agents on Pharos, with a risk check before a payment clears.
+  created: 2026-06-17
+  added: 2026-09-18
+  verified: true
+
+- id: sales-agent-ai
+  name: Enterprise Sales Intelligence Pipeline
+  url: https://github.com/pramod13071626/sales_agent-ai
+  repo: pramod13071626/sales_agent-ai
+  author: "@pramod13071626"
+  category: sales-leadgen
+  kind: [oss]
+  lang: [py]
+  cost: ""
+  monid: [enrichment, search]
+  evidence: api-key
+  description: Maps account firmographics, subsidiaries and a four-tier org hierarchy from multiple sources.
+  created: 2026-08-25
+  added: 2026-09-18
+  verified: true
+
+- id: canon
+  name: Canon
+  url: https://github.com/egobera/Podcast
+  repo: egobera/Podcast
+  author: "@egobera"
+  category: generative-media
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [voice]
+  evidence: api-key
+  description: Production workspace for serialized audio fiction where the script itself is the interface.
+  created: 2026-09-02
+  added: 2026-09-18
+  verified: true
+
+- id: monid-x402
+  name: Monid x402 Spend Gate
+  url: https://github.com/twzrd-sol/monid-x402
+  repo: twzrd-sol/monid-x402
+  author: "@twzrd-sol"
+  category: markets-finance
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [run]
+  evidence: api-url
+  description: Pre-signed spend gate for the x402 run host on Base and Monad.
+  created: 2026-09-12
+  added: 2026-09-18
+  verified: false
+
+- id: investin-news-service
+  name: Investin News Service
+  # The Vercel deployment returns a 500, so the repo is the working link.
+  url: https://github.com/1nsar/investin-com-news-service
+  repo: 1nsar/investin-com-news-service
+  author: "@1nsar"
+  category: markets-finance
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [news, search]
+  evidence: cli-command
+  description: News backend and research archive covering global headlines and prediction markets.
+  created: 2026-08-21
+  added: 2026-09-18
+  verified: true
+
+- id: food-shopping-os
+  name: Food Shopping OS
+  url: https://food-shopping-os.vercel.app
+  repo: henrygoldsmith07-wq/food-shopping-os
+  author: "@henrygoldsmith07-wq"
+  category: commerce-pricing
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: ""
+  monid: [search, scrape]
+  evidence: api-key
+  description: Grocery shopping workflow split out of a larger monorepo.
+  created: 2026-08-21
+  added: 2026-09-18
+  verified: false
+
+- id: wildlife-zoo
+  name: The Wildlife Zoo
+  url: https://zoo-orcin-tau.vercel.app
+  repo: premkumar-ponnada/zoo
+  author: "@premkumar-ponnada"
+  category: generative-media
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: ""
+  monid: []
+  evidence: cli-command
+  description: A scroll-driven camera walk through a miniature clay zoo.
+  created: 2026-09-18
+  added: 2026-09-18
+  verified: false
+
+- id: feishu-mark-agent
+  name: Feishu Mark Agent
+  url: https://github.com/Noah-wang/feishu-mark-agent
+  repo: Noah-wang/feishu-mark-agent
+  author: "@Noah-wang"
+  category: skills-mcp-plugins
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: []
+  evidence: api-key
+  description: Personal agent wired into Feishu.
+  created: 2026-08-28
+  added: 2026-09-18
+  verified: false
+
+- id: hello-cao
+  name: hello-cao
+  url: https://github.com/Noah-wang/hello-cao
+  repo: Noah-wang/hello-cao
+  author: "@Noah-wang"
+  category: skills-mcp-plugins
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: []
+  evidence: api-url
+  description: Minimal Discord chat bot that answers only when it is mentioned.
+  created: 2026-09-08
+  added: 2026-09-18
+  verified: false
+
+- id: video-production-skills
+  name: Video Production Skills
+  url: https://github.com/konradre/video-production-skills
+  repo: konradre/video-production-skills
+  author: "@konradre"
+  category: generative-media
+  kind: [oss, skill]
+  lang: [py]
+  cost: ""
+  monid: [video, image]
+  evidence: cli-package
+  description: Agent skills for making video from generated footage, with a cost gate before each render.
+  created: 2026-09-09
+  added: 2026-09-18
+  verified: true
+
+- id: prospect-brief
+  name: Verified Lead Brief
+  url: https://github.com/sangtrx/hackathon-monid-prospect-brief
+  repo: sangtrx/hackathon-monid-prospect-brief
+  author: "@sangtrx"
+  category: sales-leadgen
+  event: We Kill 2026
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [enrichment, email-verify]
+  evidence: cli-package
+  description: Replaces one Apollo prospect-research workflow with a costed brief per lead.
+  created: 2026-09-05
+  added: 2026-09-18
+  verified: true
+
+- id: postproof
+  name: Postproof
+  url: https://github.com/Deborah4Ever/Postproof
+  repo: Deborah4Ever/Postproof
+  author: "@Deborah4Ever"
+  category: research-intel
+  event: We Kill 2026
+  kind: [oss]
+  lang: [py]
+  cost: ""
+  monid: [enrichment, search]
+  evidence: api-key
+  description: Checks whether a job posting and the person behind it are real before you pitch.
+  created: 2026-09-15
+  added: 2026-09-18
+  verified: false
+
+- id: agentstack
+  name: AgentStack
+  url: https://agentstack-web-flame.vercel.app
+  repo: tharolankit19-create/agentstack
+  author: "@tharolankit19-create"
+  category: skills-mcp-plugins
+  event: We Kill 2026
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: ""
+  monid: [discover, run]
+  evidence: cli-command
+  description: Deploys one scheduled agent per SaaS job a customer pays for, each on its own URL.
+  created: 2026-08-01
+  added: 2026-09-18
+  verified: true
+
+- id: scoutkill
+  name: ScoutKill
+  url: https://github.com/arjunkshah12345-hash/scoutkill
+  repo: arjunkshah12345-hash/scoutkill
+  author: "@arjunkshah12345-hash"
+  category: research-intel
+  event: We Kill 2026
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [discover, enrichment]
+  evidence: api-key
+  description: Assembles startup intel for agents through runtime tool discovery.
+  created: 2026-09-02
+  added: 2026-09-18
+  verified: true
+
+# --- added by the 2026-09-21 incremental sweep ---------------------------------
+
+- id: zbs-researcher
+  name: ZBS Researcher
+  url: https://github.com/zbs-gg/zbs-researcher
+  repo: zbs-gg/zbs-researcher
+  author: "@zbs-gg"
+  category: research-intel
+  kind: [oss, skill]
+  lang: [py]
+  cost: ""
+  monid: [social, search]
+  evidence: api-key
+  description: Plan-first research plugin that collects reactions from real humans across several platforms.
+  created: 2026-07-17
+  added: 2026-09-21
+  verified: true
+
+- id: campco
+  name: Campco
+  url: https://github.com/Yurika-Kan/chatathon
+  repo: Yurika-Kan/chatathon
+  author: "@Yurika-Kan"
+  category: marketing-seo-geo
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [search, enrichment]
+  evidence: cli-command
+  description: Runs the organic content loop end to end, from competitor research through publishing and A/B tests.
+  event: AINU Chatathon 2026
+  created: 2026-09-19
+  added: 2026-09-21
+  verified: false
+
+- id: pi-tiny-search
+  name: pi-tiny-search
+  url: https://github.com/DevMortimer/pi-tiny-search
+  repo: DevMortimer/pi-tiny-search
+  author: "@DevMortimer"
+  category: framework-integrations
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [search, fetch]
+  evidence: author-stated
+  description: Instant web search and page fetch for Pi agents, with no browser and no model summarisation.
+  created: 2026-09-19
+  added: 2026-09-21
+  verified: false
+
+- id: noom
+  name: noom
+  url: https://github.com/benjee-inc/yard
+  repo: benjee-inc/yard
+  author: benjee
+  category: markets-finance
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [run]
+  evidence: author-stated
+  description: On-chain company factory whose treasury pays for its agents' model and tool calls.
+  created: 2026-09-20
+  added: 2026-09-21
+  verified: false
+
+- id: agent-seo-kit
+  name: agent-seo-kit
+  url: https://github.com/Jasper0122/agent-seo-kit
+  repo: Jasper0122/agent-seo-kit
+  author: "@Jasper0122"
+  category: marketing-seo-geo
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [search, scrape, rank-data]
+  evidence: cli-package
+  description: Four Claude Code skills that run a search pipeline from keyword intake to backlink outreach.
+  created: 2026-08-21
+  added: 2026-09-21
+  verified: true

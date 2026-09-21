@@ -1,0 +1,18 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  readme-is-generated:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      # Validates every entry in data/ and fails if README.md was edited by hand
+      # or left stale after a data change.
+      - run: node scripts/build.mjs --check

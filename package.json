@@ -1,0 +1,16 @@
+{
+  "name": "awesome-monid",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Curated list of services built on Monid.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "lint": "npx --yes awesome-lint || echo 'awesome-lint reported issues, see above'",
+    "build:demo": "node scripts/build.mjs --demo",
+    "preview": "node scripts/preview.mjs",
+    "preview:demo": "node scripts/build.mjs --demo && node scripts/preview.mjs README.demo.md"
+  },
+  "license": "CC0-1.0"
+}

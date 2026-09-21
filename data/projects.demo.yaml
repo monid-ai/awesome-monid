@@ -1,0 +1,123 @@
+# FICTIONAL entries, used only by `npm run build:demo` to preview a populated list
+# and to exercise the renderer. Never merged into projects.yaml, never published.
+# Every link here points at example.com on purpose.
+
+- id: demo-funding-signal-brief
+  name: Funding Signal Brief
+  url: https://example.com/funding-brief
+  repo: example-org/funding-brief
+  author: Example Builder
+  category: sales-leadgen
+  kind: [hosted, oss]
+  lang: [py]
+  cost: "$0.21/lead"
+  monid: [search, enrichment, news]
+  evidence: author-stated
+  description: Turns a company domain into a funding-signal brief with every source attached.
+  added: 2026-09-18
+  verified: true
+
+- id: demo-quiet-hiring
+  name: Quiet Hiring
+  url: https://example.com/quiet-hiring
+  repo: ""
+  author: Example Builder
+  category: sales-leadgen
+  kind: [hosted]
+  lang: [ts]
+  cost: "$0.04/role"
+  monid: [social, search]
+  evidence: author-stated
+  description: Surfaces roles posted from founder accounts before they reach any job board.
+  added: 2026-09-12
+  verified: true
+
+- id: demo-teardown-bot
+  name: Teardown Bot
+  url: https://example.com/teardown
+  repo: example-org/teardown-bot
+  author: Example Builder
+  category: research-intel
+  kind: [oss]
+  lang: [ts]
+  cost: "$0.06/company"
+  monid: [scrape, enrichment, reviews]
+  evidence: author-stated
+  description: Builds a competitor profile from pricing pages, reviews and job posts in one pass.
+  added: 2026-09-09
+  verified: true
+
+- id: demo-answer-watch
+  name: Answer Watch
+  url: https://example.com/answer-watch
+  repo: example-org/answer-watch
+  author: Example Builder
+  category: marketing-seo-geo
+  kind: [oss, skill]
+  lang: [py]
+  cost: "$0.9333/cycle"
+  monid: [search, scrape]
+  evidence: author-stated
+  description: Tracks whether a brand gets cited in AI answers and logs which page earned it.
+  added: 2026-09-05
+  verified: true
+
+- id: demo-shelf-price
+  name: Shelf Price
+  url: https://example.com/shelf-price
+  repo: ""
+  author: Example Builder
+  category: commerce-pricing
+  kind: [hosted]
+  lang: [go]
+  cost: "$0.034/listing"
+  monid: [marketplace, reviews]
+  evidence: author-stated
+  description: Watches a marketplace listing for price, rating and review-velocity changes.
+  added: 2026-08-30
+  verified: true
+
+- id: demo-faceless
+  name: Faceless Reel Factory
+  url: https://example.com/faceless
+  repo: example-org/faceless-reel
+  author: Example Builder
+  category: generative-media
+  kind: [oss]
+  lang: [ts]
+  cost: "$0.33/video"
+  monid: [trends, voice, video]
+  evidence: author-stated
+  description: Picks a trending topic, writes the script, and renders a narrated vertical video.
+  added: 2026-08-24
+  verified: true
+
+- id: demo-n8n-node
+  name: Monid node for n8n
+  url: https://example.com/n8n-monid
+  repo: example-org/n8n-nodes-monid
+  author: Example Builder
+  category: framework-integrations
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [discover, run]
+  evidence: author-stated
+  description: Community node that exposes tool discovery and runs inside an n8n workflow.
+  added: 2026-08-19
+  verified: true
+
+- id: demo-writeup
+  name: Replacing a $15k data contract in a weekend
+  url: https://example.com/writeup
+  repo: ""
+  author: Example Builder
+  category: tutorials-writeups
+  kind: [writeup]
+  lang: []
+  cost: "$1.12/run"
+  monid: [enrichment, search]
+  evidence: author-stated
+  description: Walks through swapping a seat-based data vendor for per-call tools, with the bill shown.
+  added: 2026-08-15
+  verified: true

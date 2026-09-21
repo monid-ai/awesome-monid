@@ -1,0 +1,78 @@
+name: submission
+
+# Turns a submission issue into a pull request. Maintainers still review and
+# merge: this only removes the typing, not the judgement.
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  to-pull-request:
+    if: contains(github.event.issue.labels.*.name, 'submission')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Parse the form
+        id: parse
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          set +e
+          out=$(node scripts/issue-to-entry.mjs 2>&1)
+          code=$?
+          echo "$out"
+          {
+            echo "report<<REPORT"
+            echo "$out"
+            echo "REPORT"
+          } >> "$GITHUB_OUTPUT"
+          exit $code
+
+      - name: Regenerate README
+        if: success()
+        run: node scripts/build.mjs
+
+      - name: Open the pull request
+        if: success()
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: submission/${{ github.event.issue.number }}
+          base: main
+          commit-message: "add ${{ github.event.issue.title }} (#${{ github.event.issue.number }})"
+          title: "Add submission from #${{ github.event.issue.number }}"
+          body: |
+            Generated from #${{ github.event.issue.number }}, submitted by @${{ github.event.issue.user.login }}.
+
+            Maintainer checklist before merging:
+            - [ ] The link opens and the thing works
+            - [ ] Monid is actually called, not just mentioned
+            - [ ] The cost figure is plausible for the endpoints listed
+            - [ ] Category and description follow CONTRIBUTING.md
+            - [ ] Flip `verified: true` in `data/projects.yaml`
+
+            Closes #${{ github.event.issue.number }}
+
+      - name: Explain what to fix
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const report = process.env.REPORT || 'The submission could not be parsed.';
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: report + '\n\nEdit the issue and this check runs again automatically.',
+            });
+        env:
+          REPORT: ${{ steps.parse.outputs.report }}

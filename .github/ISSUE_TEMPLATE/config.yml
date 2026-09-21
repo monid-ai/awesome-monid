@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Something is wrong with a listed project
+    url: https://github.com/monid-ai/awesome-monid/issues/new?labels=maintenance&title=%5Bfix%5D+
+    about: Dead link, wrong description, project no longer uses Monid, or a takedown request.
+  - name: Question about Monid itself
+    url: https://monid.ai/docs
+    about: This repo is only the list. Product questions belong in the docs or with support.

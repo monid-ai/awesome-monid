@@ -693,3 +693,21 @@
   created: 2026-08-21
   added: 2026-09-21
   verified: true
+
+# --- first outside submission, from issue #1 ----------------------------------
+
+- id: free-financial-datasets
+  name: Free Financial Datasets
+  url: https://www.financialdatasets.rip/
+  repo: BeLazy167/freefinancialdataset
+  author: "@BeLazy167"
+  category: markets-finance
+  kind: [hosted, oss]
+  lang: [go]
+  cost: ""
+  monid: [run, runs]
+  evidence: api-url
+  description: Drop-in Financial Datasets API replacement with the same routes, MCP tools and response schemas.
+  created: 2026-09-04
+  added: 2026-09-23
+  verified: true

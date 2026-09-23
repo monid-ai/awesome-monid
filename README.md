@@ -23,7 +23,7 @@ the number, the entry shows what one run costs them.
 
 <div align="center">
 
-![projects](https://img.shields.io/badge/projects-41-0016D7?style=flat-square) ![categories](https://img.shields.io/badge/categories-10-0016D7?style=flat-square) ![with a real price tag](https://img.shields.io/badge/with%20a%20real%20price%20tag-5-0016D7?style=flat-square) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+![projects](https://img.shields.io/badge/projects-42-0016D7?style=flat-square) ![categories](https://img.shields.io/badge/categories-10-0016D7?style=flat-square) ![with a real price tag](https://img.shields.io/badge/with%20a%20real%20price%20tag-5-0016D7?style=flat-square) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 </div>
 
@@ -32,7 +32,7 @@ the number, the entry shows what one run costs them.
 <table>
   <tr><td><a href="#-research--intel">🔎 Research &amp; Intel</a> <sub>6</sub></td><td><a href="#-sales--lead-gen">🎯 Sales &amp; Lead Gen</a> <sub>3</sub></td><td><a href="#-marketing-seo--geo">📈 Marketing, SEO &amp; GEO</a> <sub>2</sub></td></tr>
   <tr><td><a href="#-commerce--pricing">🛒 Commerce &amp; Pricing</a> <sub>3</sub></td><td><a href="#-social--creator">📱 Social &amp; Creator</a> <sub>3</sub></td><td><a href="#-generative-media">🎬 Generative Media</a> <sub>6</sub></td></tr>
-  <tr><td><a href="#-markets--finance">💹 Markets &amp; Finance</a> <sub>4</sub></td><td><a href="#-local--real-world">🗺️ Local &amp; Real-world</a> <sub>2</sub></td><td><a href="#-agent-skills-mcp--plugins">🧩 Agent Skills, MCP &amp; Plugins</a> <sub>8</sub></td></tr>
+  <tr><td><a href="#-markets--finance">💹 Markets &amp; Finance</a> <sub>5</sub></td><td><a href="#-local--real-world">🗺️ Local &amp; Real-world</a> <sub>2</sub></td><td><a href="#-agent-skills-mcp--plugins">🧩 Agent Skills, MCP &amp; Plugins</a> <sub>8</sub></td></tr>
   <tr><td><a href="#-framework-integrations">🔌 Framework Integrations</a> <sub>4</sub></td></tr>
 </table>
 
@@ -107,6 +107,7 @@ the number, the entry shows what one run costs them.
 
 <sub>Prediction markets, trading bots, alternative data.</sub>
 
+- [Free Financial Datasets](https://www.financialdatasets.rip/) - Drop-in Financial Datasets API replacement with the same routes, MCP tools and response schemas. ([Source Code](https://github.com/BeLazy167/freefinancialdataset)) `hosted` `Go`
 - [Investin News Service](https://github.com/1nsar/investin-com-news-service) - News backend and research archive covering global headlines and prediction markets. `TypeScript`
 - [Ligis](https://ligis.vercel.app) - Identity and credential layer for agents on Pharos, with a risk check before a payment clears. ([Source Code](https://github.com/sneldao/ligis)) `hosted` `TypeScript`
 - [Monid x402 Spend Gate](https://github.com/twzrd-sol/monid-x402) - Pre-signed spend gate for the x402 run host on Base and Monad. `TypeScript`

@@ -308,7 +308,7 @@ function build() {
     renderCategorised(projects, categories, {
       empty:
         'Nothing here yet. If you shipped something on Monid, ' +
-        '[submit it](https://github.com/monid-ai/awesome-monid/issues/new?template=submit-project.yml) ' +
+        '[submit it](CONTRIBUTING.md#how-to-submit) ' +
         'and be the first entry on this list.',
     }),
   ].join('\n');

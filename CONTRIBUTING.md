@@ -4,14 +4,38 @@ Thanks for adding to the list. Read this once, it is short.
 
 ## How to submit
 
-**Use the [submission form](https://github.com/monid-ai/awesome-monid/issues/new?template=submit-project.yml).**
-A workflow validates the fields, writes the entry into `data/projects.yaml` and opens the pull
-request for you.
+**Open a pull request that adds one entry to [`data/projects.yaml`](data/projects.yaml).**
 
-Please do not hand-write a pull request against `README.md`. Everything between the
-`BEGIN GENERATED` and `END GENERATED` markers is produced by `scripts/build.mjs` and your change
-would be erased on the next build. Editing `data/projects.yaml` directly in a pull request is fine
-if you prefer that, as long as you run `npm run build` and commit the regenerated README.
+1. Fork the repo.
+2. Append your entry to `data/projects.yaml`, using the template below.
+3. Run `npm run build`. That regenerates `README.md` from the data file. CI fails if you skip it.
+4. Commit both files and open the pull request. One project per pull request.
+
+```yaml
+- id: your-project          # kebab-case, unique
+  name: Your Project        # display name, no marketing suffix
+  url: https://example.com  # what a reader should open first
+  repo: owner/name          # "" if closed source
+  author: "@yourhandle"
+  category: markets-finance # an id from data/categories.yaml
+  kind: [hosted, oss]       # hosted | oss | skill | writeup
+  lang: [go]                # py | ts | go | rust | other
+  cost: "$0.15/lead"        # your real Monid spend for one run, "" if you would rather not say
+  monid: [run, runs]        # endpoints or capability areas used
+  evidence: api-key         # how a reader can re-check the Monid call, see below
+  description: One sentence that ends with a period.
+  created: 2026-09-04       # repo creation date
+  added: 2026-09-23         # the day you open the pull request
+```
+
+Leave `verified` out of your entry. A maintainer sets it after opening the link and confirming the
+Monid call.
+
+`evidence` is how anyone reading the list can re-check your claim. Pick the one that fits:
+`api-url`, `api-key`, `cli-package`, `cli-command`, `rest-v1`, `readme-link`, `author-stated`.
+
+Do not hand-edit `README.md`. Everything between the `BEGIN GENERATED` and `END GENERATED` markers
+is produced by `scripts/build.mjs`, and an edit there would be erased on the next build.
 
 You may submit a project you did not build. Credit the actual author in the `author` field.
 
@@ -46,8 +70,8 @@ actually in the stack before it is listed.
 - **Cost**: optional but strongly encouraged. Your real Monid spend for one complete run, for
   example `$0.15/lead` or `$0.33/video`. Take it from your bill, not from a guess. This is the
   single most useful column on the list and readers do check it.
-- **Category**: pick one from `data/categories.yaml`. If nothing fits, say so in the issue rather
-  than forcing it, and we will discuss adding a category.
+- **Category**: pick one from `data/categories.yaml`. If nothing fits, say so in the pull request
+  rather than forcing it, and we will discuss adding a category.
 - **Kind and language**: these print as backtick tags on your entry, like `hosted` `Python`. Pick `oss` for open source even though it prints nothing, the Source Code link carries that.
 
 ## Removal

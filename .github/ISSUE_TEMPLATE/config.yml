@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Submit a project
+    url: https://github.com/monid-ai/awesome-monid/blob/main/CONTRIBUTING.md#how-to-submit
+    about: Submissions go through a pull request that adds one entry to data/projects.yaml.
   - name: Something is wrong with a listed project
     url: https://github.com/monid-ai/awesome-monid/issues/new?labels=maintenance&title=%5Bfix%5D+
     about: Dead link, wrong description, project no longer uses Monid, or a takedown request.

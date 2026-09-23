@@ -7,7 +7,7 @@
 
 <br>
 
-[Submit a project](https://github.com/monid-ai/awesome-monid/issues/new?template=submit-project.yml) &nbsp;·&nbsp;
+[Submit a project](CONTRIBUTING.md#how-to-submit) &nbsp;·&nbsp;
 [Monid docs](https://monid.ai/docs)
 
 </div>
@@ -153,10 +153,10 @@ the number, the entry shows what one run costs them.
 
 ## Contributing
 
-Open an [issue with the submission form](https://github.com/monid-ai/awesome-monid/issues/new?template=submit-project.yml).
-A bot checks the fields and opens the pull request for you. Please do not hand-write pull requests
-against `README.md`: everything between the generated markers comes from
-[`data/projects.yaml`](data/projects.yaml) and your edit would be overwritten on the next build.
+Add one entry to [`data/projects.yaml`](data/projects.yaml), run `npm run build`, and open a pull
+request with both files. [CONTRIBUTING.md](CONTRIBUTING.md#how-to-submit) has the entry template and
+the rules. Please do not hand-edit `README.md`: everything between the generated markers comes from
+the data file and your edit would be overwritten on the next build.
 
 Listed projects are welcome to put this in their own README:
 

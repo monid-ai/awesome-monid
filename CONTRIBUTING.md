@@ -4,14 +4,57 @@ Thanks for adding to the list. Read this once, it is short.
 
 ## How to submit
 
-**Use the [submission form](https://github.com/monid-ai/awesome-monid/issues/new?template=submit-project.yml).**
-A workflow validates the fields, writes the entry into `data/projects.yaml` and opens the pull
-request for you.
+**Open a pull request that adds one entry to [`data/projects.yaml`](data/projects.yaml).**
 
-Please do not hand-write a pull request against `README.md`. Everything between the
-`BEGIN GENERATED` and `END GENERATED` markers is produced by `scripts/build.mjs` and your change
-would be erased on the next build. Editing `data/projects.yaml` directly in a pull request is fine
-if you prefer that, as long as you run `npm run build` and commit the regenerated README.
+1. Fork the repo.
+2. Append your entry to `data/projects.yaml`, using the template below.
+3. Run `npm run build`. That regenerates `README.md` from the data file. CI fails if you skip it.
+4. Commit both files and open the pull request. One project per pull request.
+
+```yaml
+- id: your-project
+  name: Your Project
+  url: https://example.com
+  repo: owner/name
+  author: "@yourhandle"
+  category: markets-finance
+  kind: [hosted, oss]
+  lang: [go]
+  cost: "$0.15/lead"
+  monid: [run, runs]
+  evidence: api-url
+  description: One sentence that ends with a period.
+  created: 2026-09-04
+  added: 2026-09-23
+```
+
+Copy that block as it stands. The reader in `scripts/build.mjs` is a small hand-rolled one: it
+skips a line that starts with `#`, but it does not strip a comment that trails a value, so a
+`# note` after any field breaks the build.
+
+What each field takes:
+
+- `id` kebab-case, unique, never reused
+- `name` display name, no marketing suffix
+- `url` what a reader should open first, the live app or the repo
+- `repo` `owner/name` on GitHub, or `""` if closed source
+- `author` how you want to be credited
+- `category` an id from [`data/categories.yaml`](data/categories.yaml)
+- `kind` one or more of `hosted`, `oss`, `skill`, `writeup`
+- `lang` one or more of `py`, `ts`, `go`, `rust`, `other`, or `[]` if none applies
+- `cost` your real Monid spend for one run, `""` if you would rather not say
+- `monid` the endpoints or capability areas the project calls
+- `evidence` how a reader can re-check that call, one of `api-url`, `api-key`, `cli-package`,
+  `cli-command`, `rest-v1`, `readme-link`, `author-stated`
+- `description` one sentence, ends with a period, 160 characters max
+- `created` the repo creation date
+- `added` the day you open the pull request
+
+Leave `verified` out of your entry. A maintainer sets it after opening the link and confirming the
+Monid call.
+
+Do not hand-edit `README.md`. Everything between the `BEGIN GENERATED` and `END GENERATED` markers
+is produced by `scripts/build.mjs`, and an edit there would be erased on the next build.
 
 You may submit a project you did not build. Credit the actual author in the `author` field.
 
@@ -46,8 +89,8 @@ actually in the stack before it is listed.
 - **Cost**: optional but strongly encouraged. Your real Monid spend for one complete run, for
   example `$0.15/lead` or `$0.33/video`. Take it from your bill, not from a guess. This is the
   single most useful column on the list and readers do check it.
-- **Category**: pick one from `data/categories.yaml`. If nothing fits, say so in the issue rather
-  than forcing it, and we will discuss adding a category.
+- **Category**: pick one from `data/categories.yaml`. If nothing fits, say so in the pull request
+  rather than forcing it, and we will discuss adding a category.
 - **Kind and language**: these print as backtick tags on your entry, like `hosted` `Python`. Pick `oss` for open source even though it prints nothing, the Source Code link carries that.
 
 ## Removal

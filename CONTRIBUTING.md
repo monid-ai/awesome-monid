@@ -12,27 +12,46 @@ Thanks for adding to the list. Read this once, it is short.
 4. Commit both files and open the pull request. One project per pull request.
 
 ```yaml
-- id: your-project          # kebab-case, unique
-  name: Your Project        # display name, no marketing suffix
-  url: https://example.com  # what a reader should open first
-  repo: owner/name          # "" if closed source
+- id: your-project
+  name: Your Project
+  url: https://example.com
+  repo: owner/name
   author: "@yourhandle"
-  category: markets-finance # an id from data/categories.yaml
-  kind: [hosted, oss]       # hosted | oss | skill | writeup
-  lang: [go]                # py | ts | go | rust | other
-  cost: "$0.15/lead"        # your real Monid spend for one run, "" if you would rather not say
-  monid: [run, runs]        # endpoints or capability areas used
-  evidence: api-key         # how a reader can re-check the Monid call, see below
+  category: markets-finance
+  kind: [hosted, oss]
+  lang: [go]
+  cost: "$0.15/lead"
+  monid: [run, runs]
+  evidence: api-url
   description: One sentence that ends with a period.
-  created: 2026-09-04       # repo creation date
-  added: 2026-09-23         # the day you open the pull request
+  created: 2026-09-04
+  added: 2026-09-23
 ```
+
+Copy that block as it stands. The reader in `scripts/build.mjs` is a small hand-rolled one: it
+skips a line that starts with `#`, but it does not strip a comment that trails a value, so a
+`# note` after any field breaks the build.
+
+What each field takes:
+
+- `id` kebab-case, unique, never reused
+- `name` display name, no marketing suffix
+- `url` what a reader should open first, the live app or the repo
+- `repo` `owner/name` on GitHub, or `""` if closed source
+- `author` how you want to be credited
+- `category` an id from [`data/categories.yaml`](data/categories.yaml)
+- `kind` one or more of `hosted`, `oss`, `skill`, `writeup`
+- `lang` one or more of `py`, `ts`, `go`, `rust`, `other`, or `[]` if none applies
+- `cost` your real Monid spend for one run, `""` if you would rather not say
+- `monid` the endpoints or capability areas the project calls
+- `evidence` how a reader can re-check that call, one of `api-url`, `api-key`, `cli-package`,
+  `cli-command`, `rest-v1`, `readme-link`, `author-stated`
+- `description` one sentence, ends with a period, 160 characters max
+- `created` the repo creation date
+- `added` the day you open the pull request
 
 Leave `verified` out of your entry. A maintainer sets it after opening the link and confirming the
 Monid call.
-
-`evidence` is how anyone reading the list can re-check your claim. Pick the one that fits:
-`api-url`, `api-key`, `cli-package`, `cli-command`, `rest-v1`, `readme-link`, `author-stated`.
 
 Do not hand-edit `README.md`. Everything between the `BEGIN GENERATED` and `END GENERATED` markers
 is produced by `scripts/build.mjs`, and an edit there would be erased on the next build.

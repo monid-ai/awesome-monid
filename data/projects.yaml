@@ -662,22 +662,6 @@
   added: 2026-09-21
   verified: false
 
-- id: noom
-  name: noom
-  url: https://github.com/benjee-inc/yard
-  repo: benjee-inc/yard
-  author: benjee
-  category: markets-finance
-  kind: [oss]
-  lang: [ts]
-  cost: ""
-  monid: [run]
-  evidence: author-stated
-  description: On-chain company factory whose treasury pays for its agents' model and tool calls.
-  created: 2026-09-20
-  added: 2026-09-21
-  verified: false
-
 - id: agent-seo-kit
   name: agent-seo-kit
   url: https://github.com/Jasper0122/agent-seo-kit
@@ -710,4 +694,508 @@
   description: Drop-in Financial Datasets API replacement with the same routes, MCP tools and response schemas.
   created: 2026-09-04
   added: 2026-09-23
+  verified: true
+
+# --- 2026-09-28 sweep: GitHub code search on api.monid.ai, MONID_API_KEY,
+# "monid run", @monid-ai/cli, plus a repo search on "monid", then every hit
+# read past the README. Repos that only mention Monid, mirror our own skill,
+# course homework, and one repo with a live key committed were left out.
+
+- id: polymarket-bot
+  name: Polymarket Bot
+  url: https://github.com/MrFadiAi/Polymarket-bot
+  repo: MrFadiAi/Polymarket-bot
+  author: "@MrFadiAi"
+  category: markets-finance
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [polymarket-leaderboard]
+  evidence: api-url
+  description: Four-strategy Polymarket trading bot whose smart-money filter pulls per-wallet win rate and profit factor through Monid.
+  created: 2026-01-11
+  added: 2026-09-28
+  verified: true
+
+- id: okou
+  name: Okou
+  url: https://www.okou.ai
+  repo: okou-ai/okou
+  author: Okou
+  category: social-creator
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: ""
+  monid: [instagram, tiktok, youtube, x, threads, xiaohongshu, wechat]
+  evidence: api-url
+  description: AI teammate for Slack and the web whose social search jobs pull public posts, comments and transcripts from eight platforms through Monid.
+  created: 2025-11-14
+  added: 2026-09-28
+  verified: true
+
+- id: openmonitor
+  name: OpenMonitor
+  url: https://github.com/diggerhq/openmonitor
+  repo: diggerhq/openmonitor
+  author: Digger
+  category: research-intel
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [search, social]
+  evidence: api-url
+  description: Scheduled web monitor that runs saved watches through Monid or twelve other search APIs and posts new hits to a webhook or Slack.
+  created: 2026-09-05
+  added: 2026-09-28
+  verified: true
+
+- id: regimes-probe
+  name: regimes-probe
+  url: https://github.com/yoheinakajima/regimes-probe
+  repo: yoheinakajima/regimes-probe
+  author: "@yoheinakajima"
+  category: framework-integrations
+  kind: [oss]
+  lang: [py]
+  cost: ""
+  monid: [discover, inspect, run]
+  evidence: api-url
+  description: Web-search agent harness that learns its tool-routing policy with a contextual bandit, with Monid discover, inspect and run as optional arms.
+  created: 2026-06-07
+  added: 2026-09-28
+  verified: true
+
+- id: jev-monid-poc
+  name: Jev + Monid POC
+  url: https://github.com/sprah/jev-monid-poc
+  repo: sprah/jev-monid-poc
+  author: "@sprah"
+  category: framework-integrations
+  kind: [oss, writeup]
+  lang: [ts]
+  cost: "$0.01/call"
+  monid: [wellfound, levels-fyi, nasdaq, lmarena, discover]
+  evidence: api-url
+  description: Four Node scripts that gate paid Monid calls behind Jev typed decisions, with a relevance guardrail, an endpoint router and budget caps.
+  created: 2026-09-25
+  added: 2026-09-28
+  verified: true
+
+- id: docxology-monid-gateway
+  name: Monid search gateway
+  url: https://github.com/docxology/template/tree/main/infrastructure/search/monid
+  repo: docxology/template
+  author: docxology
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [py]
+  cost: ""
+  monid: [discover, inspect, run, balance]
+  evidence: api-key
+  description: Python client, CLI and SKILL.md for Monid discover, inspect, run and balance inside a reproducible research template, with a pricing table.
+  created: 2025-08-18
+  added: 2026-09-28
+  verified: true
+
+- id: sinal-lab
+  name: Sinal.lab
+  url: https://sinal.tech
+  repo: fabianocruz/sinal-lab
+  author: "@fabianocruz"
+  category: research-intel
+  kind: [hosted, oss]
+  lang: [py, ts]
+  cost: ""
+  monid: [x, youtube-comments]
+  evidence: api-url
+  description: Agent-written newsletter on the LATAM tech ecosystem that collects X and YouTube signals through Monid scrapers, with data provenance kept.
+  created: 2026-02-17
+  added: 2026-09-28
+  verified: true
+
+- id: pi-news-agent
+  name: Pi News Agent
+  url: https://github.com/xihuishawpy/news_report
+  repo: xihuishawpy/news_report
+  author: "@xihuishawpy"
+  category: research-intel
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [wechat-search]
+  evidence: api-url
+  description: Local news-monitoring agent that patrols fixed sources, pulls WeChat official-account articles via Monid and drafts an editable Word report.
+  created: 2026-08-28
+  added: 2026-09-28
+  verified: true
+
+- id: datapulse-intel
+  name: DataPulse Intelligence
+  url: https://qoxu.github.io/datapulse-intel/
+  repo: Qoxu/datapulse-intel
+  author: "@Qoxu"
+  category: commerce-pricing
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: ""
+  monid: [search, amazon-search, facebook-ads-library]
+  evidence: cli-command
+  description: Collects competitor Facebook ads, Amazon product trends and web search with the Monid CLI and compiles them into standalone HTML reports.
+  created: 2026-09-19
+  added: 2026-09-28
+  verified: true
+
+- id: gtm-skills
+  name: GTM Skills
+  url: https://github.com/eliasstravik/gtm-skills
+  repo: eliasstravik/gtm-skills
+  author: "@eliasstravik"
+  category: sales-leadgen
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [people-enrichment, company-enrichment, mcp]
+  evidence: api-key
+  description: Agent skills that keep ICPs and personas in a git workspace and enrich people and companies through Monid under per-run spend caps.
+  created: 2026-06-29
+  added: 2026-09-28
+  verified: true
+
+- id: zero-human-company
+  name: Zero Human Company
+  url: https://github.com/Jacky040124/zero-human-company
+  repo: Jacky040124/zero-human-company
+  author: "@Jacky040124"
+  category: sales-leadgen
+  event: Zero Human Company Hackathon 2026
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [apollo-company-search]
+  evidence: rest-v1
+  description: Agent-run export sales company that finds buyers through Monid, ranks contacts, negotiates under policy gates and closes with a Stripe payment.
+  created: 2026-08-15
+  added: 2026-09-28
+  verified: true
+
+- id: opencompany
+  name: opencompany
+  url: https://opencompany.cloud
+  repo: useopencompany/opencompany
+  author: opencompany
+  category: framework-integrations
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: ""
+  monid: [x, linkedin, people, seo, youtube-transcripts]
+  evidence: api-url
+  description: AI workspace with chat, durable workflows and integrations whose managed social, lead and SEO capabilities run and are priced through Monid.
+  created: 2026-05-20
+  added: 2026-09-28
+  verified: true
+
+- id: hivemindos
+  name: HivemindOS
+  url: https://github.com/LiamVisionary/hivemindos
+  repo: LiamVisionary/hivemindos
+  author: "@LiamVisionary"
+  category: framework-integrations
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [discover, inspect, run, balance]
+  evidence: api-url
+  description: Local-first control room for agent fleets that adds price-confirmed Monid discover, inspect and run actions to every connected agent over MCP.
+  created: 2026-05-18
+  added: 2026-09-28
+  verified: true
+
+- id: visionclaw-agent
+  name: VisionClaw Agent
+  url: https://agenticcorporation.net
+  repo: Huskyauto/VisionClaw-Agent-Public-Release
+  author: "@Huskyauto"
+  category: framework-integrations
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: ""
+  monid: [discover, inspect, run, search]
+  evidence: api-url
+  description: Self-hosted multi-tenant agent workspace whose personas browse a curated Monid catalog, then discover, inspect and run endpoints.
+  created: 2026-04-15
+  added: 2026-09-28
+  verified: true
+
+- id: goaimoat-decision-maker-mcp
+  name: GoAIMoat Decision Maker Lookup MCP
+  url: https://goaimoat.com/mcp-catalog.html
+  repo: jayniebingyu-cyber/goaimoat-decision-maker-lookup-mcp
+  author: GoAIMoat
+  category: skills-mcp-plugins
+  kind: [hosted, oss, skill]
+  lang: [py]
+  cost: ""
+  monid: [hunter, contactout, email-verify]
+  evidence: cli-command
+  description: MCP server that finds decision makers at a company and reveals or verifies their work email through Monid, hosted or self-run via Docker.
+  created: 2026-09-25
+  added: 2026-09-28
+  verified: true
+
+- id: goaimoat-web-scrape-mcp
+  name: GoAIMoat Web Scrape MCP
+  url: https://goaimoat.com/mcp-catalog.html
+  repo: jayniebingyu-cyber/goaimoat-web-scrape-mcp
+  author: GoAIMoat
+  category: skills-mcp-plugins
+  kind: [hosted, oss, skill]
+  lang: [py]
+  cost: ""
+  monid: [scrape, crawl]
+  evidence: cli-command
+  description: MCP server that turns a URL into clean Markdown or crawls a whole site through Monid, hosted or self-run via Docker.
+  created: 2026-09-25
+  added: 2026-09-28
+  verified: true
+
+- id: vc-analyst
+  name: VC Analyst
+  url: https://github.com/ayushgautam-dev/vc-analyst
+  repo: ayushgautam-dev/vc-analyst
+  author: "@ayushgautam-dev"
+  category: research-intel
+  kind: [oss]
+  lang: [py, ts]
+  cost: ""
+  monid: [search, fetch, linkedin]
+  evidence: api-url
+  description: Shared deal-flow pod for venture teams that turns founder emails into thesis-scored deal cards, with Monid for web research and LinkedIn data.
+  created: 2026-09-21
+  added: 2026-09-28
+  verified: true
+
+- id: grantry
+  name: grantry
+  url: https://github.com/gentityapp/grantry
+  repo: gentityapp/grantry
+  author: Gentity
+  category: skills-mcp-plugins
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [discover, inspect, run, runs]
+  evidence: api-url
+  description: Permission gateway for agents that stores a Monid key once and exposes discover, inspect and run as audited MCP tools to the agents you grant.
+  created: 2026-09-17
+  added: 2026-09-28
+  verified: true
+
+- id: proviso
+  name: Proviso
+  url: https://proviso.site
+  repo: itublockchain/proviso
+  author: ITU Blockchain
+  category: commerce-pricing
+  event: ETHGlobal Tokyo 2026
+  kind: [hosted, oss]
+  lang: [ts, other]
+  cost: ""
+  monid: [google-shopping, amazon]
+  evidence: api-url
+  description: AI shopping agent that compares live store prices through Monid and buys from your own wallet under ENS policies with World ID approval.
+  created: 2026-09-26
+  added: 2026-09-28
+  verified: true
+
+- id: web-search-plus-plugin
+  name: Web Search Plus Plugin
+  url: https://github.com/robbyczgw-cla/web-search-plus-plugin
+  repo: robbyczgw-cla/web-search-plus-plugin
+  author: "@robbyczgw-cla"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [search]
+  evidence: api-url
+  description: OpenClaw plugin that routes web search across thirteen providers, including Octen source search through Monid with freshness and domain filters.
+  created: 2026-02-19
+  added: 2026-09-28
+  verified: true
+
+- id: crabcode
+  name: Crabcode
+  url: https://crabcode.rs
+  repo: Blankeos/crabcode
+  author: "@Blankeos"
+  category: framework-integrations
+  kind: [hosted, oss]
+  lang: [rust]
+  cost: ""
+  monid: [search]
+  evidence: api-url
+  description: Rust terminal coding agent whose websearch tool can run TinyFish search through Monid with a single API key.
+  created: 2026-01-23
+  added: 2026-09-28
+  verified: true
+
+- id: pi-web-search
+  name: pi-web-search
+  url: https://github.com/TianZuo555/pi-extensions/tree/main/packages/pi-web-search
+  repo: TianZuo555/pi-extensions
+  author: "@TianZuo555"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [ts]
+  cost: "$0/call"
+  monid: [search, fetch, balance]
+  evidence: api-url
+  description: Web search and fetch extension for the pi coding agent with Monid as one of seven fallback providers and a wallet balance readout.
+  created: 2026-07-21
+  added: 2026-09-28
+  verified: true
+
+- id: oto-connectors
+  name: Oto Connectors
+  url: https://github.com/otomata-tech/connectors
+  repo: otomata-tech/connectors
+  author: Otomata
+  category: framework-integrations
+  kind: [oss]
+  lang: [py]
+  cost: ""
+  monid: [discover, inspect, run]
+  evidence: api-url
+  description: Python connector library for the Oto agent stack that ships a typed Monid client covering discover, inspect, run and run polling.
+  created: 2026-06-11
+  added: 2026-09-28
+  verified: true
+
+- id: deep-research-skill
+  name: deep-research
+  url: https://github.com/ravidsrk/agent-skills/tree/main/skills/deep-research
+  repo: ravidsrk/agent-skills
+  author: "@ravidsrk"
+  category: research-intel
+  kind: [oss, skill]
+  lang: [py]
+  cost: "$0.10-0.20/run"
+  monid: [x, reddit, youtube-transcripts, exa, hackernews, github, polymarket]
+  evidence: cli-command
+  description: Claude Code skill that fans one topic out across X, Reddit, HN, GitHub, Polymarket, YouTube and Exa through Monid and returns quotable evidence.
+  created: 2026-06-21
+  added: 2026-09-28
+  verified: true
+
+- id: eve-agents
+  name: eve-agents
+  url: https://github.com/ravidsrk/eve-agents
+  repo: ravidsrk/eve-agents
+  author: "@ravidsrk"
+  category: starters-templates
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [discover, inspect, run, balance]
+  evidence: api-url
+  description: Fifty Vercel eve agent templates, ten of them calling Monid tools through a shared client with per-call and total budget caps.
+  created: 2026-06-18
+  added: 2026-09-28
+  verified: true
+
+- id: curta
+  name: Curta
+  url: https://curta-psi.vercel.app
+  repo: edrodrigues/Curta
+  author: "@edrodrigues"
+  category: generative-media
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: ""
+  monid: [video]
+  evidence: api-url
+  description: Portuguese-language web app that turns a script or site link into a 30 or 60 second explainer video, generating the clips through Monid.
+  created: 2026-08-01
+  added: 2026-09-28
+  verified: true
+
+- id: magicbox
+  name: MagicBox
+  url: https://github.com/nhancio/magicboxai-contentengine
+  repo: nhancio/magicboxai-contentengine
+  author: "@nhancio"
+  category: marketing-seo-geo
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [instagram-reels]
+  evidence: api-url
+  description: Marketing content engine that pulls trending Instagram reels through Monid, adapts them to a brand with Gemini and renders the videos.
+  created: 2026-09-02
+  added: 2026-09-28
+  verified: true
+
+- id: edith
+  name: Edith
+  url: https://github.com/techwarq/Edith
+  repo: techwarq/Edith
+  author: "@techwarq"
+  category: framework-integrations
+  kind: [oss]
+  lang: [py]
+  cost: ""
+  monid: [discover, inspect, run]
+  evidence: cli-command
+  description: Personal AI agent with durable memory and autonomous job and LinkedIn pipelines that exposes Monid discover, inspect and run as LLM tools.
+  created: 2026-07-29
+  added: 2026-09-28
+  verified: true
+
+- id: chisha-liuyao
+  name: 吃啥六爻
+  url: https://tianxuancai.opendeploy.site
+  repo: Keith9922/chisha_liuyao
+  author: "@Keith9922"
+  category: local-realworld
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: "$0.015/search"
+  monid: [xiaohongshu, google-maps]
+  evidence: api-url
+  description: I Ching restaurant picker that casts a hexagram, finds nearby restaurants and shows Xiaohongshu reviews fetched through Monid.
+  created: 2026-06-20
+  added: 2026-09-28
+  verified: true
+
+- id: hen
+  name: HEN
+  url: https://hen-experience-tokyo.vercel.app
+  repo: RyoSAKu610/HEN-Human-experience-network-
+  author: "@RyoSAKu610"
+  category: framework-integrations
+  event: ETHGlobal Tokyo 2026
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: ""
+  monid: [discover, inspect, run]
+  evidence: api-url
+  description: Consent-gated human memory network where agents license lived experience with World ID and x402, then act on it through Monid tools.
+  created: 2026-09-26
+  added: 2026-09-28
+  verified: true
+
+- id: jev-vtuber-ime
+  name: jev-vtuber-ime-core
+  url: https://jev-vtuber-ime-demo.hisuikoh.workers.dev
+  repo: HisuiKoh/jev-vtuber-ime-core
+  author: "@HisuiKoh"
+  category: social-creator
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: "$0/call"
+  monid: [search]
+  evidence: api-url
+  description: Resolves a VTuber name between its reading and written form from web search evidence via Monid and Jev, with no dictionary data.
+  created: 2026-09-19
+  added: 2026-09-28
   verified: true

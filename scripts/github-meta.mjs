@@ -5,11 +5,13 @@
 //   GITHUB_TOKEN=... node scripts/github-meta.mjs   (what the showcase workflow runs)
 //   node scripts/github-meta.mjs                     (falls back to `gh api`, logged in)
 //
-// The file is what monid.ai/built-with ranks its leaderboard on, so it keeps
-// ONE previous reading per repo: when a repo's last reading is six or more
-// days old it rolls into `prev` before the new one is written. "Rising" on
-// the showcase is stars minus prev.stars over that window. Nothing else is
-// kept, a curated list is not a metrics store.
+// The file is what monid.ai/built-with ranks its leaderboard on:
+//   stars        the vote ("Most starred")
+//   commits30d   commits on the default branch in the last 30 days ("Most active")
+//   prev.stars   ONE previous reading per repo, rolled when the last reading is
+//                six or more days old; "Rising" is stars minus prev.stars
+// Nothing else is kept, a curated list is not a metrics store. Visits from
+// the showcase page itself live in data/visits.json (see visits()).
 //
 // Zero dependencies on purpose, same as build.mjs.
 
@@ -32,19 +34,29 @@ const repos = [...new Set(
 
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
 
-async function read(repo) {
+async function api(path) {
   if (token) {
-    const res = await fetch(`https://api.github.com/repos/${repo}`, {
+    const res = await fetch(`https://api.github.com${path}`, {
       headers: { Authorization: `Bearer ${token}`, 'User-Agent': 'awesome-monid', Accept: 'application/vnd.github+json' },
     });
     if (!res.ok) return null;
     return res.json();
   }
   try {
-    return JSON.parse(execFileSync('gh', ['api', `repos/${repo}`], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }));
+    return JSON.parse(execFileSync('gh', ['api', path], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }));
   } catch {
     return null;
   }
+}
+
+const read = (repo) => api(`/repos/${repo}`);
+
+// Commits in the last 30 days, capped at 100 (one page): past that the
+// number stops meaning anything on a leaderboard of mostly small repos.
+async function commits30d(repo) {
+  const since = new Date(Date.now() - 30 * 86400000).toISOString();
+  const list = await api(`/repos/${repo}/commits?since=${since}&per_page=100`);
+  return Array.isArray(list) ? list.length : null;
 }
 
 const prior = existsSync(OUT) ? JSON.parse(readFileSync(OUT, 'utf8')) : {};
@@ -65,6 +77,8 @@ for (const repo of repos) {
   }
   const entry = {
     stars: r.stargazers_count,
+    forks: r.forks_count,
+    commits30d: await commits30d(repo),
     pushed: (r.pushed_at || '').slice(0, 10),
     lang: r.language || '',
     // The owner's avatar as a direct avatars.githubusercontent.com URL: it
@@ -83,3 +97,35 @@ for (const repo of repos) {
 
 writeFileSync(OUT, JSON.stringify(next, null, 2) + '\n');
 console.log(`data/github.json: ${Object.keys(next).length} repos read, ${missing} not found.`);
+
+// ── Visits from the showcase page ────────────────────────────────────
+// monid.ai/built-with fires a PostHog event `built_with_project_click`
+// (property `project_id`) whenever a reader opens a project from the page.
+// With POSTHOG_API_KEY (+ POSTHOG_PROJECT_ID) set, the last seven days of
+// those clicks are written to data/visits.json; without the key the file
+// is left alone and the showcase hides its "Most visited" tab.
+async function visits() {
+  const key = process.env.POSTHOG_API_KEY;
+  const project = process.env.POSTHOG_PROJECT_ID;
+  if (!key || !project) return;
+  const host = process.env.POSTHOG_HOST || 'https://us.posthog.com';
+  const query =
+    "SELECT properties.project_id AS id, count() AS n FROM events " +
+    "WHERE event = 'built_with_project_click' AND timestamp > now() - INTERVAL 7 DAY " +
+    "GROUP BY id ORDER BY n DESC LIMIT 500";
+  const res = await fetch(`${host}/api/projects/${project}/query/`, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ query: { kind: 'HogQLQuery', query } }),
+  });
+  if (!res.ok) {
+    console.error(`visits: PostHog answered ${res.status}, data/visits.json left as is.`);
+    return;
+  }
+  const data = await res.json();
+  const out = { checked: today, days: 7, visits: {} };
+  for (const [id, n] of data.results || []) if (id) out.visits[id] = n;
+  writeFileSync(join(ROOT, 'data/visits.json'), JSON.stringify(out, null, 2) + '\n');
+  console.log(`data/visits.json: ${Object.keys(out.visits).length} projects visited in the last 7 days.`);
+}
+await visits();

@@ -29,6 +29,10 @@ jobs:
       - name: Read stars, last push and language from GitHub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional: a PostHog personal API key with query:read on the
+          # monid.ai project turns on the showcase's "Most visited" tab.
+          POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
+          POSTHOG_PROJECT_ID: ${{ secrets.POSTHOG_PROJECT_ID }}
         run: node scripts/github-meta.mjs
       - name: Rebuild README.md and data/built-with.json
         run: node scripts/build.mjs
@@ -37,6 +41,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/github.json data/built-with.json README.md
+          [ -f data/visits.json ] && git add data/visits.json
           git diff --cached --quiet && echo "nothing changed" && exit 0
           git commit -m "showcase: refresh GitHub metadata ($(date -u +%F))"
           git push

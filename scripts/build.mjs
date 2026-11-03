@@ -359,6 +359,8 @@ function writeShowcase(projects, categories) {
   const metaPath = join(ROOT, 'data/github.json');
   const meta = existsSync(metaPath) ? JSON.parse(readFileSync(metaPath, 'utf8')) : {};
   const checked = Object.values(meta).map((m) => m.checked).filter(Boolean).sort().pop() || '';
+  const visitsPath = join(ROOT, 'data/visits.json');
+  const visits = existsSync(visitsPath) ? JSON.parse(readFileSync(visitsPath, 'utf8')) : null;
 
   const rows = projects.map((p) => {
     const gh = p.repo ? meta[p.repo] : null;
@@ -378,6 +380,9 @@ function writeShowcase(projects, categories) {
       monid: asArray(p.monid),
       description: p.description,
       stars: gh && !gh.missing ? gh.stars : null,
+      forks: gh && !gh.missing ? gh.forks ?? null : null,
+      commits30d: gh && !gh.missing ? gh.commits30d ?? null : null,
+      visits7d: visits ? visits.visits[p.id] ?? 0 : null,
       starsPrev: gh && gh.prev ? gh.prev.stars : null,
       starsPrevAt: gh && gh.prev ? gh.prev.checked : '',
       pushed: gh ? gh.pushed : '',
@@ -391,6 +396,7 @@ function writeShowcase(projects, categories) {
   const out = {
     source: 'https://github.com/monid-ai/awesome-monid',
     githubChecked: checked,
+    visitsChecked: visits ? visits.checked : '',
     categories: categories.map((c) => ({ id: c.id, title: c.title, blurb: c.blurb })),
     projects: rows,
   };

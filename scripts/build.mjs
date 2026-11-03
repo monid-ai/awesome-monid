@@ -370,6 +370,7 @@ function writeShowcase(projects, categories) {
       repo: p.repo || '',
       author: p.author,
       owner: p.repo ? p.repo.split('/')[0] : '',
+      avatar: (gh && gh.avatar) || '',
       category: p.category,
       kind: asArray(p.kind),
       lang: (gh && gh.lang) || LANG[asArray(p.lang)[0]] || '',

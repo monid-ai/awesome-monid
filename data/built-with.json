@@ -71,6 +71,7 @@
       "repo": "robbyczgw-cla/hermes-web-search-plus",
       "author": "@robbyczgw-cla",
       "owner": "robbyczgw-cla",
+      "avatar": "https://avatars.githubusercontent.com/u/239660374?v=4",
       "category": "framework-integrations",
       "kind": [
         "hosted",
@@ -98,6 +99,7 @@
       "repo": "JamesANZ/medical-mcp",
       "author": "@JamesANZ",
       "owner": "JamesANZ",
+      "avatar": "https://avatars.githubusercontent.com/u/16630514?v=4",
       "category": "skills-mcp-plugins",
       "kind": [
         "oss",
@@ -125,6 +127,7 @@
       "repo": "ashafizullah/hermes-monid-websearch",
       "author": "@ashafizullah",
       "owner": "ashafizullah",
+      "avatar": "https://avatars.githubusercontent.com/u/29304713?v=4",
       "category": "framework-integrations",
       "kind": [
         "oss",
@@ -153,6 +156,7 @@
       "repo": "robbyczgw-cla/web-search-plus-mcp",
       "author": "@robbyczgw-cla",
       "owner": "robbyczgw-cla",
+      "avatar": "https://avatars.githubusercontent.com/u/239660374?v=4",
       "category": "skills-mcp-plugins",
       "kind": [
         "hosted",
@@ -180,6 +184,7 @@
       "repo": "ashafizullah/monid-mcp",
       "author": "@ashafizullah",
       "owner": "ashafizullah",
+      "avatar": "https://avatars.githubusercontent.com/u/29304713?v=4",
       "category": "skills-mcp-plugins",
       "kind": [
         "oss",
@@ -208,6 +213,7 @@
       "repo": "FeiyouG/monid-client",
       "author": "@FeiyouG",
       "owner": "FeiyouG",
+      "avatar": "https://avatars.githubusercontent.com/u/33943746?v=4",
       "category": "framework-integrations",
       "kind": [
         "oss"
@@ -232,6 +238,7 @@
       "repo": "FeiyouG/orrery",
       "author": "@FeiyouG",
       "owner": "FeiyouG",
+      "avatar": "https://avatars.githubusercontent.com/u/33943746?v=4",
       "category": "research-intel",
       "kind": [
         "oss"
@@ -259,6 +266,7 @@
       "repo": "monesh-pixelup/monid-scrapper-tool",
       "author": "@monesh-pixelup",
       "owner": "monesh-pixelup",
+      "avatar": "https://avatars.githubusercontent.com/u/304814259?v=4",
       "category": "social-creator",
       "kind": [
         "oss"
@@ -286,6 +294,7 @@
       "repo": "oextraordimario/raspador_eventos",
       "author": "@oextraordimario",
       "owner": "oextraordimario",
+      "avatar": "https://avatars.githubusercontent.com/u/46465405?v=4",
       "category": "local-realworld",
       "kind": [
         "hosted",
@@ -313,6 +322,7 @@
       "repo": "suparahul/ugckit",
       "author": "@suparahul",
       "owner": "suparahul",
+      "avatar": "https://avatars.githubusercontent.com/u/213215179?v=4",
       "category": "generative-media",
       "kind": [
         "oss",
@@ -341,6 +351,7 @@
       "repo": "Tushar-Bhowal/dossier",
       "author": "@Tushar-Bhowal",
       "owner": "Tushar-Bhowal",
+      "avatar": "https://avatars.githubusercontent.com/u/233734644?v=4",
       "category": "research-intel",
       "kind": [
         "hosted",
@@ -369,6 +380,7 @@
       "repo": "HakimOuah/vectis-agent",
       "author": "@HakimOuah",
       "owner": "HakimOuah",
+      "avatar": "",
       "category": "sales-leadgen",
       "kind": [
         "hosted",
@@ -397,6 +409,7 @@
       "repo": "Skatelo/gis-feasibility-search",
       "author": "@Skatelo",
       "owner": "Skatelo",
+      "avatar": "https://avatars.githubusercontent.com/u/68418085?v=4",
       "category": "local-realworld",
       "kind": [
         "oss"
@@ -423,6 +436,7 @@
       "repo": "yashbudhia/socap-lens",
       "author": "@yashbudhia",
       "owner": "yashbudhia",
+      "avatar": "https://avatars.githubusercontent.com/u/142312760?v=4",
       "category": "social-creator",
       "kind": [
         "oss"
@@ -449,6 +463,7 @@
       "repo": "nighomni123/Qcom-scraping",
       "author": "@nighomni123",
       "owner": "nighomni123",
+      "avatar": "https://avatars.githubusercontent.com/u/232404413?v=4",
       "category": "commerce-pricing",
       "kind": [
         "oss"
@@ -476,6 +491,7 @@
       "repo": "Flow-with-blessing/Ratina",
       "author": "@Flow-with-blessing",
       "owner": "Flow-with-blessing",
+      "avatar": "https://avatars.githubusercontent.com/u/273104706?v=4",
       "category": "commerce-pricing",
       "kind": [
         "oss"
@@ -503,6 +519,7 @@
       "repo": "yumuyou/jp-gacha-monitor",
       "author": "@yumuyou",
       "owner": "yumuyou",
+      "avatar": "https://avatars.githubusercontent.com/u/201202896?v=4",
       "category": "research-intel",
       "kind": [
         "oss"
@@ -530,6 +547,7 @@
       "repo": "heyarjunsh1607/Linkedin-Comp-Tracker",
       "author": "@heyarjunsh1607",
       "owner": "heyarjunsh1607",
+      "avatar": "https://avatars.githubusercontent.com/u/316722053?v=4",
       "category": "social-creator",
       "kind": [
         "hosted",
@@ -557,6 +575,7 @@
       "repo": "twzrd-sol/tool-audit",
       "author": "@twzrd-sol",
       "owner": "twzrd-sol",
+      "avatar": "",
       "category": "skills-mcp-plugins",
       "kind": [
         "hosted",
@@ -585,6 +604,7 @@
       "repo": "ScopeBlind/skills",
       "author": "ScopeBlind",
       "owner": "ScopeBlind",
+      "avatar": "https://avatars.githubusercontent.com/u/271959651?v=4",
       "category": "skills-mcp-plugins",
       "kind": [
         "oss",
@@ -613,6 +633,7 @@
       "repo": "Tobeworks/scroll-world-pro-skill",
       "author": "Tobeworks",
       "owner": "Tobeworks",
+      "avatar": "https://avatars.githubusercontent.com/u/52962149?v=4",
       "category": "generative-media",
       "kind": [
         "hosted",
@@ -642,6 +663,7 @@
       "repo": "thisyearnofear/databard",
       "author": "@thisyearnofear",
       "owner": "thisyearnofear",
+      "avatar": "https://avatars.githubusercontent.com/u/74209106?v=4",
       "category": "generative-media",
       "kind": [
         "oss"
@@ -668,6 +690,7 @@
       "repo": "sneldao/ligis",
       "author": "@sneldao",
       "owner": "sneldao",
+      "avatar": "https://avatars.githubusercontent.com/u/206023603?v=4",
       "category": "markets-finance",
       "kind": [
         "hosted",
@@ -696,6 +719,7 @@
       "repo": "pramod13071626/sales_agent-ai",
       "author": "@pramod13071626",
       "owner": "pramod13071626",
+      "avatar": "https://avatars.githubusercontent.com/u/249769092?v=4",
       "category": "sales-leadgen",
       "kind": [
         "oss"
@@ -723,6 +747,7 @@
       "repo": "egobera/Podcast",
       "author": "@egobera",
       "owner": "egobera",
+      "avatar": "https://avatars.githubusercontent.com/u/83339624?v=4",
       "category": "generative-media",
       "kind": [
         "oss"
@@ -749,6 +774,7 @@
       "repo": "twzrd-sol/monid-x402",
       "author": "@twzrd-sol",
       "owner": "twzrd-sol",
+      "avatar": "",
       "category": "markets-finance",
       "kind": [
         "oss"
@@ -775,6 +801,7 @@
       "repo": "1nsar/investin-com-news-service",
       "author": "@1nsar",
       "owner": "1nsar",
+      "avatar": "https://avatars.githubusercontent.com/u/74408950?v=4",
       "category": "markets-finance",
       "kind": [
         "oss"
@@ -802,6 +829,7 @@
       "repo": "henrygoldsmith07-wq/food-shopping-os",
       "author": "@henrygoldsmith07-wq",
       "owner": "henrygoldsmith07-wq",
+      "avatar": "https://avatars.githubusercontent.com/u/297416545?v=4",
       "category": "commerce-pricing",
       "kind": [
         "hosted",
@@ -830,6 +858,7 @@
       "repo": "premkumar-ponnada/zoo",
       "author": "@premkumar-ponnada",
       "owner": "premkumar-ponnada",
+      "avatar": "https://avatars.githubusercontent.com/u/216035486?v=4",
       "category": "generative-media",
       "kind": [
         "hosted",
@@ -855,6 +884,7 @@
       "repo": "Noah-wang/feishu-mark-agent",
       "author": "@Noah-wang",
       "owner": "Noah-wang",
+      "avatar": "https://avatars.githubusercontent.com/u/53558856?v=4",
       "category": "skills-mcp-plugins",
       "kind": [
         "oss"
@@ -879,6 +909,7 @@
       "repo": "Noah-wang/hello-cao",
       "author": "@Noah-wang",
       "owner": "Noah-wang",
+      "avatar": "https://avatars.githubusercontent.com/u/53558856?v=4",
       "category": "skills-mcp-plugins",
       "kind": [
         "oss"
@@ -903,6 +934,7 @@
       "repo": "konradre/video-production-skills",
       "author": "@konradre",
       "owner": "konradre",
+      "avatar": "https://avatars.githubusercontent.com/u/29267068?v=4",
       "category": "generative-media",
       "kind": [
         "oss",
@@ -931,6 +963,7 @@
       "repo": "sangtrx/hackathon-monid-prospect-brief",
       "author": "@sangtrx",
       "owner": "sangtrx",
+      "avatar": "https://avatars.githubusercontent.com/u/45520864?v=4",
       "category": "sales-leadgen",
       "kind": [
         "oss"
@@ -958,6 +991,7 @@
       "repo": "Deborah4Ever/Postproof",
       "author": "@Deborah4Ever",
       "owner": "Deborah4Ever",
+      "avatar": "https://avatars.githubusercontent.com/u/329722214?v=4",
       "category": "research-intel",
       "kind": [
         "oss"
@@ -985,6 +1019,7 @@
       "repo": "tharolankit19-create/agentstack",
       "author": "@tharolankit19-create",
       "owner": "tharolankit19-create",
+      "avatar": "https://avatars.githubusercontent.com/u/251552166?v=4",
       "category": "skills-mcp-plugins",
       "kind": [
         "hosted",
@@ -1013,6 +1048,7 @@
       "repo": "arjunkshah12345-hash/scoutkill",
       "author": "@arjunkshah12345-hash",
       "owner": "arjunkshah12345-hash",
+      "avatar": "https://avatars.githubusercontent.com/u/298151270?v=4",
       "category": "research-intel",
       "kind": [
         "oss"
@@ -1040,6 +1076,7 @@
       "repo": "zbs-gg/zbs-researcher",
       "author": "@zbs-gg",
       "owner": "zbs-gg",
+      "avatar": "https://avatars.githubusercontent.com/u/283121663?v=4",
       "category": "research-intel",
       "kind": [
         "oss",
@@ -1068,6 +1105,7 @@
       "repo": "Yurika-Kan/chatathon",
       "author": "@Yurika-Kan",
       "owner": "Yurika-Kan",
+      "avatar": "https://avatars.githubusercontent.com/u/148014074?v=4",
       "category": "marketing-seo-geo",
       "kind": [
         "oss"
@@ -1095,6 +1133,7 @@
       "repo": "DevMortimer/pi-tiny-search",
       "author": "@DevMortimer",
       "owner": "DevMortimer",
+      "avatar": "https://avatars.githubusercontent.com/u/161127243?v=4",
       "category": "framework-integrations",
       "kind": [
         "oss",
@@ -1123,6 +1162,7 @@
       "repo": "Jasper0122/agent-seo-kit",
       "author": "@Jasper0122",
       "owner": "Jasper0122",
+      "avatar": "https://avatars.githubusercontent.com/u/139950656?v=4",
       "category": "marketing-seo-geo",
       "kind": [
         "oss",
@@ -1152,6 +1192,7 @@
       "repo": "BeLazy167/freefinancialdataset",
       "author": "@BeLazy167",
       "owner": "BeLazy167",
+      "avatar": "https://avatars.githubusercontent.com/u/66153057?v=4",
       "category": "markets-finance",
       "kind": [
         "hosted",
@@ -1180,6 +1221,7 @@
       "repo": "MrFadiAi/Polymarket-bot",
       "author": "@MrFadiAi",
       "owner": "MrFadiAi",
+      "avatar": "",
       "category": "markets-finance",
       "kind": [
         "oss"
@@ -1206,6 +1248,7 @@
       "repo": "okou-ai/okou",
       "author": "Okou",
       "owner": "okou-ai",
+      "avatar": "https://avatars.githubusercontent.com/u/242540347?v=4",
       "category": "social-creator",
       "kind": [
         "hosted",
@@ -1239,6 +1282,7 @@
       "repo": "diggerhq/openmonitor",
       "author": "Digger",
       "owner": "diggerhq",
+      "avatar": "https://avatars.githubusercontent.com/u/71334590?v=4",
       "category": "research-intel",
       "kind": [
         "oss"
@@ -1266,6 +1310,7 @@
       "repo": "yoheinakajima/regimes-probe",
       "author": "@yoheinakajima",
       "owner": "yoheinakajima",
+      "avatar": "https://avatars.githubusercontent.com/u/1701418?v=4",
       "category": "framework-integrations",
       "kind": [
         "oss"
@@ -1294,6 +1339,7 @@
       "repo": "sprah/jev-monid-poc",
       "author": "@sprah",
       "owner": "sprah",
+      "avatar": "https://avatars.githubusercontent.com/u/9334813?v=4",
       "category": "framework-integrations",
       "kind": [
         "oss",
@@ -1325,6 +1371,7 @@
       "repo": "docxology/template",
       "author": "docxology",
       "owner": "docxology",
+      "avatar": "https://avatars.githubusercontent.com/u/6911384?v=4",
       "category": "skills-mcp-plugins",
       "kind": [
         "oss",
@@ -1355,6 +1402,7 @@
       "repo": "fabianocruz/sinal-lab",
       "author": "@fabianocruz",
       "owner": "fabianocruz",
+      "avatar": "https://avatars.githubusercontent.com/u/243534?v=4",
       "category": "research-intel",
       "kind": [
         "hosted",
@@ -1383,6 +1431,7 @@
       "repo": "xihuishawpy/news_report",
       "author": "@xihuishawpy",
       "owner": "xihuishawpy",
+      "avatar": "https://avatars.githubusercontent.com/u/25117244?v=4",
       "category": "research-intel",
       "kind": [
         "oss"
@@ -1409,6 +1458,7 @@
       "repo": "Qoxu/datapulse-intel",
       "author": "@Qoxu",
       "owner": "Qoxu",
+      "avatar": "https://avatars.githubusercontent.com/u/295814885?v=4",
       "category": "commerce-pricing",
       "kind": [
         "hosted",
@@ -1438,6 +1488,7 @@
       "repo": "eliasstravik/gtm-skills",
       "author": "@eliasstravik",
       "owner": "eliasstravik",
+      "avatar": "https://avatars.githubusercontent.com/u/218792529?v=4",
       "category": "sales-leadgen",
       "kind": [
         "oss",
@@ -1467,6 +1518,7 @@
       "repo": "Jacky040124/zero-human-company",
       "author": "@Jacky040124",
       "owner": "Jacky040124",
+      "avatar": "https://avatars.githubusercontent.com/u/70379051?v=4",
       "category": "sales-leadgen",
       "kind": [
         "oss"
@@ -1493,6 +1545,7 @@
       "repo": "useopencompany/opencompany",
       "author": "opencompany",
       "owner": "useopencompany",
+      "avatar": "https://avatars.githubusercontent.com/u/262109464?v=4",
       "category": "framework-integrations",
       "kind": [
         "hosted",
@@ -1524,6 +1577,7 @@
       "repo": "LiamVisionary/hivemindos",
       "author": "@LiamVisionary",
       "owner": "LiamVisionary",
+      "avatar": "https://avatars.githubusercontent.com/u/102138294?v=4",
       "category": "framework-integrations",
       "kind": [
         "oss"
@@ -1553,6 +1607,7 @@
       "repo": "Huskyauto/VisionClaw-Agent-Public-Release",
       "author": "@Huskyauto",
       "owner": "Huskyauto",
+      "avatar": "https://avatars.githubusercontent.com/u/165963751?v=4",
       "category": "framework-integrations",
       "kind": [
         "hosted",
@@ -1583,6 +1638,7 @@
       "repo": "jayniebingyu-cyber/goaimoat-decision-maker-lookup-mcp",
       "author": "GoAIMoat",
       "owner": "jayniebingyu-cyber",
+      "avatar": "https://avatars.githubusercontent.com/u/291551439?v=4",
       "category": "skills-mcp-plugins",
       "kind": [
         "hosted",
@@ -1613,6 +1669,7 @@
       "repo": "jayniebingyu-cyber/goaimoat-web-scrape-mcp",
       "author": "GoAIMoat",
       "owner": "jayniebingyu-cyber",
+      "avatar": "https://avatars.githubusercontent.com/u/291551439?v=4",
       "category": "skills-mcp-plugins",
       "kind": [
         "hosted",
@@ -1642,6 +1699,7 @@
       "repo": "ayushgautam-dev/vc-analyst",
       "author": "@ayushgautam-dev",
       "owner": "ayushgautam-dev",
+      "avatar": "https://avatars.githubusercontent.com/u/80264697?v=4",
       "category": "research-intel",
       "kind": [
         "oss"
@@ -1670,6 +1728,7 @@
       "repo": "gentityapp/grantry",
       "author": "Gentity",
       "owner": "gentityapp",
+      "avatar": "https://avatars.githubusercontent.com/u/285288728?v=4",
       "category": "skills-mcp-plugins",
       "kind": [
         "oss"
@@ -1699,6 +1758,7 @@
       "repo": "itublockchain/proviso",
       "author": "ITU Blockchain",
       "owner": "itublockchain",
+      "avatar": "https://avatars.githubusercontent.com/u/81096421?v=4",
       "category": "commerce-pricing",
       "kind": [
         "hosted",
@@ -1727,6 +1787,7 @@
       "repo": "robbyczgw-cla/web-search-plus-plugin",
       "author": "@robbyczgw-cla",
       "owner": "robbyczgw-cla",
+      "avatar": "https://avatars.githubusercontent.com/u/239660374?v=4",
       "category": "skills-mcp-plugins",
       "kind": [
         "oss",
@@ -1754,6 +1815,7 @@
       "repo": "Blankeos/crabcode",
       "author": "@Blankeos",
       "owner": "Blankeos",
+      "avatar": "https://avatars.githubusercontent.com/u/38070918?v=4",
       "category": "framework-integrations",
       "kind": [
         "hosted",
@@ -1781,6 +1843,7 @@
       "repo": "TianZuo555/pi-extensions",
       "author": "@TianZuo555",
       "owner": "TianZuo555",
+      "avatar": "https://avatars.githubusercontent.com/u/31202736?v=4",
       "category": "skills-mcp-plugins",
       "kind": [
         "oss",
@@ -1810,6 +1873,7 @@
       "repo": "otomata-tech/connectors",
       "author": "Otomata",
       "owner": "otomata-tech",
+      "avatar": "https://avatars.githubusercontent.com/u/280029837?v=4",
       "category": "framework-integrations",
       "kind": [
         "oss"
@@ -1838,6 +1902,7 @@
       "repo": "ravidsrk/agent-skills",
       "author": "@ravidsrk",
       "owner": "ravidsrk",
+      "avatar": "https://avatars.githubusercontent.com/u/529352?v=4",
       "category": "research-intel",
       "kind": [
         "oss",
@@ -1871,6 +1936,7 @@
       "repo": "ravidsrk/eve-agents",
       "author": "@ravidsrk",
       "owner": "ravidsrk",
+      "avatar": "https://avatars.githubusercontent.com/u/529352?v=4",
       "category": "starters-templates",
       "kind": [
         "oss"
@@ -1900,6 +1966,7 @@
       "repo": "edrodrigues/Curta",
       "author": "@edrodrigues",
       "owner": "edrodrigues",
+      "avatar": "https://avatars.githubusercontent.com/u/8801224?v=4",
       "category": "generative-media",
       "kind": [
         "hosted",
@@ -1927,6 +1994,7 @@
       "repo": "nhancio/magicboxai-contentengine",
       "author": "@nhancio",
       "owner": "nhancio",
+      "avatar": "https://avatars.githubusercontent.com/u/177383350?v=4",
       "category": "marketing-seo-geo",
       "kind": [
         "oss"
@@ -1953,6 +2021,7 @@
       "repo": "techwarq/Edith",
       "author": "@techwarq",
       "owner": "techwarq",
+      "avatar": "https://avatars.githubusercontent.com/u/102250604?v=4",
       "category": "framework-integrations",
       "kind": [
         "oss"
@@ -1981,6 +2050,7 @@
       "repo": "Keith9922/chisha_liuyao",
       "author": "@Keith9922",
       "owner": "Keith9922",
+      "avatar": "https://avatars.githubusercontent.com/u/115618980?v=4",
       "category": "local-realworld",
       "kind": [
         "hosted",
@@ -2009,6 +2079,7 @@
       "repo": "RyoSAKu610/HEN-Human-experience-network-",
       "author": "@RyoSAKu610",
       "owner": "RyoSAKu610",
+      "avatar": "https://avatars.githubusercontent.com/u/80048317?v=4",
       "category": "framework-integrations",
       "kind": [
         "hosted",
@@ -2038,6 +2109,7 @@
       "repo": "HisuiKoh/jev-vtuber-ime-core",
       "author": "@HisuiKoh",
       "owner": "HisuiKoh",
+      "avatar": "https://avatars.githubusercontent.com/u/63396222?v=4",
       "category": "social-creator",
       "kind": [
         "hosted",

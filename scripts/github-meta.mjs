@@ -67,6 +67,10 @@ for (const repo of repos) {
     stars: r.stargazers_count,
     pushed: (r.pushed_at || '').slice(0, 10),
     lang: r.language || '',
+    // The owner's avatar as a direct avatars.githubusercontent.com URL: it
+    // answers with CORS *, so the showcase can draw it on a canvas. The
+    // github.com/<login>.png shortcut redirects first and cannot be used.
+    avatar: (r.owner && r.owner.avatar_url) || '',
     checked: today,
   };
   if (old && old.checked && !old.missing && days(old.checked, today) >= ROLL_DAYS) {

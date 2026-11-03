@@ -6,7 +6,7 @@
 //
 // Zero dependencies on purpose: a contributor can run this with a bare Node.
 
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -156,6 +156,9 @@ function validate(projects, categories) {
     if (p.url && !/^https?:\/\/\S+$/.test(p.url)) bad('url must be an absolute http(s) URL');
     if (p.repo && !/^[\w.-]+\/[\w.-]+$/.test(p.repo)) bad('repo must be "owner/name"');
     if (p.added && !/^\d{4}-\d{2}-\d{2}$/.test(p.added)) bad('added must be YYYY-MM-DD');
+    // Maintainer-only: the handful of live apps monid.ai/built-with opens with.
+    if (p.featured !== undefined && typeof p.featured !== 'boolean') bad('featured must be true or false');
+    if (p.featured && !asArray(p.kind).includes('hosted')) bad('only a hosted app can be featured');
 
     const d = p.description;
     if (typeof d === 'string' && d) {
@@ -337,10 +340,61 @@ function build() {
 
   const used = new Set(projects.map((p) => p.category)).size;
   writeFileSync(target, next, 'utf8');
+  if (!demo) writeShowcase(projects, categories);
   console.log(
     `Wrote ${demo ? 'README.demo.md' : 'README.md'}: ${projects.length} entries ` +
     `across ${used} of ${categories.length} categories.`,
   );
+}
+
+/* ------------------------------------------------------------------ *
+ * Showcase export                                                     *
+ * ------------------------------------------------------------------ */
+// data/built-with.json is what monid.ai/built-with reads, straight from this
+// repo's main branch. Same entries as the README, joined with the GitHub
+// numbers in data/github.json (written by scripts/github-meta.mjs, refreshed
+// daily by the showcase workflow). Deterministic for a given pair of inputs,
+// so a contributor's local build and CI agree byte for byte.
+function writeShowcase(projects, categories) {
+  const metaPath = join(ROOT, 'data/github.json');
+  const meta = existsSync(metaPath) ? JSON.parse(readFileSync(metaPath, 'utf8')) : {};
+  const checked = Object.values(meta).map((m) => m.checked).filter(Boolean).sort().pop() || '';
+
+  const rows = projects.map((p) => {
+    const gh = p.repo ? meta[p.repo] : null;
+    const hosted = asArray(p.kind).includes('hosted') && !/github\.com/.test(p.url);
+    return {
+      id: p.id,
+      name: p.name,
+      url: p.url,
+      repo: p.repo || '',
+      author: p.author,
+      owner: p.repo ? p.repo.split('/')[0] : '',
+      category: p.category,
+      kind: asArray(p.kind),
+      lang: (gh && gh.lang) || LANG[asArray(p.lang)[0]] || '',
+      cost: p.cost || '',
+      monid: asArray(p.monid),
+      description: p.description,
+      stars: gh && !gh.missing ? gh.stars : null,
+      starsPrev: gh && gh.prev ? gh.prev.stars : null,
+      starsPrevAt: gh && gh.prev ? gh.prev.checked : '',
+      pushed: gh ? gh.pushed : '',
+      hosted,
+      featured: p.featured === true,
+      added: p.added,
+      verified: p.verified === true,
+    };
+  });
+
+  const out = {
+    source: 'https://github.com/monid-ai/awesome-monid',
+    githubChecked: checked,
+    categories: categories.map((c) => ({ id: c.id, title: c.title, blurb: c.blurb })),
+    projects: rows,
+  };
+  writeFileSync(join(ROOT, 'data/built-with.json'), JSON.stringify(out, null, 2) + '\n', 'utf8');
+  console.log(`Wrote data/built-with.json: ${rows.length} entries, GitHub numbers as of ${checked || 'never'}.`);
 }
 
 build();

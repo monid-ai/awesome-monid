@@ -51,7 +51,19 @@ What each field takes:
 - `added` the day you open the pull request
 
 Leave `verified` out of your entry. A maintainer sets it after opening the link and confirming the
-Monid call.
+Monid call. Same for `featured`: a maintainer flips it on the few live apps that open
+[monid.ai/built-with](https://monid.ai/built-with).
+
+## After it merges
+
+Your entry is on [monid.ai/built-with](https://monid.ai/built-with) within minutes. The page reads
+[`data/built-with.json`](data/built-with.json) straight from this repo, nothing to deploy. Its
+leaderboard ranks entries by GitHub stars, last push and stars gained over the week, read once a day
+by the showcase workflow into [`data/github.json`](data/github.json). A star on your repo is the
+vote; there is no separate upvote.
+
+Hosted apps get a homepage screenshot on the page the next time it is built. Until then the card
+shows your GitHub avatar.
 
 Do not hand-edit `README.md`. Everything between the `BEGIN GENERATED` and `END GENERATED` markers
 is produced by `scripts/build.mjs`, and an edit there would be erased on the next build.

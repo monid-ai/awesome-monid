@@ -1,0 +1,2062 @@
+{
+  "source": "https://github.com/monid-ai/awesome-monid",
+  "githubChecked": "2026-11-03",
+  "categories": [
+    {
+      "id": "research-intel",
+      "title": "Research & Intel",
+      "blurb": "Company and people profiles, due diligence, competitor and news monitoring."
+    },
+    {
+      "id": "sales-leadgen",
+      "title": "Sales & Lead Gen",
+      "blurb": "Finding, enriching, scoring and reaching prospects."
+    },
+    {
+      "id": "marketing-seo-geo",
+      "title": "Marketing, SEO & GEO",
+      "blurb": "Content pipelines, rank tracking, and visibility inside AI answers."
+    },
+    {
+      "id": "commerce-pricing",
+      "title": "Commerce & Pricing",
+      "blurb": "Marketplace data, price tracking, review and listing analysis."
+    },
+    {
+      "id": "social-creator",
+      "title": "Social & Creator",
+      "blurb": "Topic discovery, outlier analysis, account and campaign operations."
+    },
+    {
+      "id": "generative-media",
+      "title": "Generative Media",
+      "blurb": "Video, image, voice and 3D pipelines driven by an agent."
+    },
+    {
+      "id": "markets-finance",
+      "title": "Markets & Finance",
+      "blurb": "Prediction markets, trading bots, alternative data."
+    },
+    {
+      "id": "local-realworld",
+      "title": "Local & Real-world",
+      "blurb": "Maps, travel, mobility, and anything anchored to a physical place."
+    },
+    {
+      "id": "skills-mcp-plugins",
+      "title": "Agent Skills, MCP & Plugins",
+      "blurb": "Claude skills, MCP servers, IDE and editor plugins that expose Monid."
+    },
+    {
+      "id": "framework-integrations",
+      "title": "Framework Integrations",
+      "blurb": "Adapters and providers wiring Monid into another agent framework."
+    },
+    {
+      "id": "starters-templates",
+      "title": "Starters & Templates",
+      "blurb": "Clone-and-run projects meant to be forked."
+    },
+    {
+      "id": "tutorials-writeups",
+      "title": "Tutorials & Write-ups",
+      "blurb": "Posts, videos and teardowns that show how something was built."
+    }
+  ],
+  "projects": [
+    {
+      "id": "hermes-web-search-plus",
+      "name": "Hermes Web Search Plus",
+      "url": "https://websearchplus.xyz",
+      "repo": "robbyczgw-cla/hermes-web-search-plus",
+      "author": "@robbyczgw-cla",
+      "owner": "robbyczgw-cla",
+      "category": "framework-integrations",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "Python",
+      "cost": "",
+      "monid": [
+        "search"
+      ],
+      "description": "Gives a Hermes agent real sources instead of invented ones, with Monid as one search backend.",
+      "stars": 439,
+      "starsPrev": 427,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-31",
+      "hosted": true,
+      "featured": true,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "medical-mcp",
+      "name": "Medical MCP",
+      "url": "https://github.com/JamesANZ/medical-mcp",
+      "repo": "JamesANZ/medical-mcp",
+      "author": "@JamesANZ",
+      "owner": "JamesANZ",
+      "category": "skills-mcp-plugins",
+      "kind": [
+        "oss",
+        "skill"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "research-papers"
+      ],
+      "description": "Answers medical questions from authoritative sources and pulls academic papers through Monid.",
+      "stars": 120,
+      "starsPrev": 116,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-15",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "hermes-monid-websearch",
+      "name": "Hermes Monid Websearch",
+      "url": "https://github.com/ashafizullah/hermes-monid-websearch",
+      "repo": "ashafizullah/hermes-monid-websearch",
+      "author": "@ashafizullah",
+      "owner": "ashafizullah",
+      "category": "framework-integrations",
+      "kind": [
+        "oss",
+        "skill"
+      ],
+      "lang": "Python",
+      "cost": "$0/call",
+      "monid": [
+        "search",
+        "fetch"
+      ],
+      "description": "Adds web search and fetch to a Hermes agent through Monid, on the free tier.",
+      "stars": 22,
+      "starsPrev": 21,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-08-29",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "web-search-plus-mcp",
+      "name": "Web Search Plus MCP",
+      "url": "https://websearchplus.xyz",
+      "repo": "robbyczgw-cla/web-search-plus-mcp",
+      "author": "@robbyczgw-cla",
+      "owner": "robbyczgw-cla",
+      "category": "skills-mcp-plugins",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "Python",
+      "cost": "",
+      "monid": [
+        "search"
+      ],
+      "description": "Fans one query across fifteen search and fetch sources, Monid among them.",
+      "stars": 5,
+      "starsPrev": 5,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-31",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "monid-mcp",
+      "name": "Monid MCP",
+      "url": "https://github.com/ashafizullah/monid-mcp",
+      "repo": "ashafizullah/monid-mcp",
+      "author": "@ashafizullah",
+      "owner": "ashafizullah",
+      "category": "skills-mcp-plugins",
+      "kind": [
+        "oss",
+        "skill"
+      ],
+      "lang": "Python",
+      "cost": "$0/call",
+      "monid": [
+        "search",
+        "fetch"
+      ],
+      "description": "Exposes Monid web search and fetch to any MCP client.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-08-29",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "monid-client",
+      "name": "monid-client",
+      "url": "https://github.com/FeiyouG/monid-client",
+      "repo": "FeiyouG/monid-client",
+      "author": "@FeiyouG",
+      "owner": "FeiyouG",
+      "category": "framework-integrations",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [],
+      "description": "Community-written CLI and SDKs for the Monid API, the earliest outside client we found.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-04-05",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "orrery",
+      "name": "Orrery",
+      "url": "https://github.com/FeiyouG/orrery",
+      "repo": "FeiyouG/orrery",
+      "author": "@FeiyouG",
+      "owner": "FeiyouG",
+      "category": "research-intel",
+      "kind": [
+        "oss"
+      ],
+      "lang": "JavaScript",
+      "cost": "",
+      "monid": [
+        "social",
+        "search"
+      ],
+      "description": "Renders online discourse about a company or topic as a browsable 3D solar system.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-07-10",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "monid-scraper-tool",
+      "name": "Monid Scraper",
+      "url": "https://github.com/monesh-pixelup/monid-scrapper-tool",
+      "repo": "monesh-pixelup/monid-scrapper-tool",
+      "author": "@monesh-pixelup",
+      "owner": "monesh-pixelup",
+      "category": "social-creator",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "social",
+        "search"
+      ],
+      "description": "Turns a plain-English request into an X or Reddit scrape from a small Next.js app.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-07-23",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "raspador-eventos",
+      "name": "Raspador de Eventos",
+      "url": "https://raspador-eventos.vercel.app",
+      "repo": "oextraordimario/raspador_eventos",
+      "author": "@oextraordimario",
+      "owner": "oextraordimario",
+      "category": "local-realworld",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "Python",
+      "cost": "",
+      "monid": [
+        "scrape"
+      ],
+      "description": "Unifies Brazilian event listings from Sympla, Ingresse and Shotgun into one agent-queryable base.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-19",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "ugckit",
+      "name": "UGCKit",
+      "url": "https://github.com/suparahul/ugckit",
+      "repo": "suparahul/ugckit",
+      "author": "@suparahul",
+      "owner": "suparahul",
+      "category": "generative-media",
+      "kind": [
+        "oss",
+        "skill"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "video",
+        "voice"
+      ],
+      "description": "Reference video in, recreation out, driven by an agent with ten skills and a local UI.",
+      "stars": 1,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-22",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "dossier",
+      "name": "Dossier",
+      "url": "https://dossier-navy.vercel.app",
+      "repo": "Tushar-Bhowal/dossier",
+      "author": "@Tushar-Bhowal",
+      "owner": "Tushar-Bhowal",
+      "category": "research-intel",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "search",
+        "scrape"
+      ],
+      "description": "Builds an interview prep kit from a job description and a company URL, down to a day-by-day schedule.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-08",
+      "hosted": true,
+      "featured": true,
+      "added": "2026-09-18",
+      "verified": false
+    },
+    {
+      "id": "vectis-agent",
+      "name": "Vectis Agent",
+      "url": "https://vectis-agent.vercel.app",
+      "repo": "HakimOuah/vectis-agent",
+      "author": "@HakimOuah",
+      "owner": "HakimOuah",
+      "category": "sales-leadgen",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "enrichment",
+        "search"
+      ],
+      "description": "Sponsorship research tools that retrieve evidence through the reader's own Monid account.",
+      "stars": null,
+      "starsPrev": null,
+      "starsPrevAt": "",
+      "pushed": "",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": false
+    },
+    {
+      "id": "gis-feasibility-search",
+      "name": "Land Feasibility GIS Search",
+      "url": "https://github.com/Skatelo/gis-feasibility-search",
+      "repo": "Skatelo/gis-feasibility-search",
+      "author": "@Skatelo",
+      "owner": "Skatelo",
+      "category": "local-realworld",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "search"
+      ],
+      "description": "Screens real estate feasibility across parcel GIS for a hundred North Carolina counties.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-18",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "socap-lens",
+      "name": "SoCap Lens",
+      "url": "https://github.com/yashbudhia/socap-lens",
+      "repo": "yashbudhia/socap-lens",
+      "author": "@yashbudhia",
+      "owner": "yashbudhia",
+      "category": "social-creator",
+      "kind": [
+        "oss"
+      ],
+      "lang": "HTML",
+      "cost": "",
+      "monid": [
+        "social"
+      ],
+      "description": "Tracks every public Social Capital launch, its hero post, and the creator wave around it.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-15",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": false
+    },
+    {
+      "id": "qcom-scraping",
+      "name": "Dark Store Radar",
+      "url": "https://github.com/nighomni123/Qcom-scraping",
+      "repo": "nighomni123/Qcom-scraping",
+      "author": "@nighomni123",
+      "owner": "nighomni123",
+      "category": "commerce-pricing",
+      "kind": [
+        "oss"
+      ],
+      "lang": "HTML",
+      "cost": "",
+      "monid": [
+        "marketplace",
+        "scrape"
+      ],
+      "description": "Cross-platform dark-store intelligence built on product embeddings and a demand pressure index.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-15",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": false
+    },
+    {
+      "id": "ratina",
+      "name": "Ratina",
+      "url": "https://github.com/Flow-with-blessing/Ratina",
+      "repo": "Flow-with-blessing/Ratina",
+      "author": "@Flow-with-blessing",
+      "owner": "Flow-with-blessing",
+      "category": "commerce-pricing",
+      "kind": [
+        "oss"
+      ],
+      "lang": "JavaScript",
+      "cost": "$0.018/investigation",
+      "monid": [
+        "reviews",
+        "marketplace"
+      ],
+      "description": "Finds the failure patterns hiding in Amazon product reviews, priced per investigation.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-10",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "jp-gacha-monitor",
+      "name": "JP Gacha Monitor",
+      "url": "https://github.com/yumuyou/jp-gacha-monitor",
+      "repo": "yumuyou/jp-gacha-monitor",
+      "author": "@yumuyou",
+      "owner": "yumuyou",
+      "category": "research-intel",
+      "kind": [
+        "oss"
+      ],
+      "lang": "Python",
+      "cost": "$0.04/run",
+      "monid": [
+        "social",
+        "search"
+      ],
+      "description": "Weekly competitor monitor covering twenty-six Japanese gacha titles.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-08-24",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "linkedin-comp-tracker",
+      "name": "LinkedIn Watchlist",
+      "url": "https://linkedin-comp-tracker-kappa.vercel.app",
+      "repo": "heyarjunsh1607/Linkedin-Comp-Tracker",
+      "author": "@heyarjunsh1607",
+      "owner": "heyarjunsh1607",
+      "category": "social-creator",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "$0.23/run",
+      "monid": [
+        "social"
+      ],
+      "description": "Compares follower growth and posting consistency across a fixed watchlist every week.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-08-13",
+      "hosted": true,
+      "featured": true,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "tool-audit",
+      "name": "Tool Audit",
+      "url": "https://twzrd-sol.github.io/tool-audit/",
+      "repo": "twzrd-sol/tool-audit",
+      "author": "@twzrd-sol",
+      "owner": "twzrd-sol",
+      "category": "skills-mcp-plugins",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "discover",
+        "inspect"
+      ],
+      "description": "Gathers vendor evidence through live tool discovery before an agent is allowed to spend.",
+      "stars": null,
+      "starsPrev": null,
+      "starsPrevAt": "",
+      "pushed": "",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "scopeblind-skills",
+      "name": "ScopeBlind Skills",
+      "url": "https://github.com/ScopeBlind/skills",
+      "repo": "ScopeBlind/skills",
+      "author": "ScopeBlind",
+      "owner": "ScopeBlind",
+      "category": "skills-mcp-plugins",
+      "kind": [
+        "oss",
+        "skill"
+      ],
+      "lang": "Python",
+      "cost": "",
+      "monid": [
+        "discover",
+        "run"
+      ],
+      "description": "Installable agent skills that keep Monid spend inside an explicit budget.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-22",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": false
+    },
+    {
+      "id": "scroll-world-pro-skill",
+      "name": "Scroll World Pro",
+      "url": "https://tobeworks.de/skills/scroll-world-pro/",
+      "repo": "Tobeworks/scroll-world-pro-skill",
+      "author": "Tobeworks",
+      "owner": "Tobeworks",
+      "category": "generative-media",
+      "kind": [
+        "hosted",
+        "oss",
+        "skill"
+      ],
+      "lang": "Shell",
+      "cost": "",
+      "monid": [
+        "image",
+        "scrape"
+      ],
+      "description": "Claude skill that builds a scroll-scrubbed flythrough landing page for any brand.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-08-30",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "databard",
+      "name": "DataBard",
+      "url": "https://github.com/thisyearnofear/databard",
+      "repo": "thisyearnofear/databard",
+      "author": "@thisyearnofear",
+      "owner": "thisyearnofear",
+      "category": "generative-media",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "voice"
+      ],
+      "description": "Turns a data catalog into an interactive podcast.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-23",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "ligis",
+      "name": "Ligis",
+      "url": "https://ligis.vercel.app",
+      "repo": "sneldao/ligis",
+      "author": "@sneldao",
+      "owner": "sneldao",
+      "category": "markets-finance",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "enrichment",
+        "risk"
+      ],
+      "description": "Identity and credential layer for agents on Pharos, with a risk check before a payment clears.",
+      "stars": 2,
+      "starsPrev": 2,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-28",
+      "hosted": true,
+      "featured": true,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "sales-agent-ai",
+      "name": "Enterprise Sales Intelligence Pipeline",
+      "url": "https://github.com/pramod13071626/sales_agent-ai",
+      "repo": "pramod13071626/sales_agent-ai",
+      "author": "@pramod13071626",
+      "owner": "pramod13071626",
+      "category": "sales-leadgen",
+      "kind": [
+        "oss"
+      ],
+      "lang": "Python",
+      "cost": "",
+      "monid": [
+        "enrichment",
+        "search"
+      ],
+      "description": "Maps account firmographics, subsidiaries and a four-tier org hierarchy from multiple sources.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-11-03",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "canon",
+      "name": "Canon",
+      "url": "https://github.com/egobera/Podcast",
+      "repo": "egobera/Podcast",
+      "author": "@egobera",
+      "owner": "egobera",
+      "category": "generative-media",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "voice"
+      ],
+      "description": "Production workspace for serialized audio fiction where the script itself is the interface.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-26",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "monid-x402",
+      "name": "Monid x402 Spend Gate",
+      "url": "https://github.com/twzrd-sol/monid-x402",
+      "repo": "twzrd-sol/monid-x402",
+      "author": "@twzrd-sol",
+      "owner": "twzrd-sol",
+      "category": "markets-finance",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "run"
+      ],
+      "description": "Pre-signed spend gate for the x402 run host on Base and Monad.",
+      "stars": null,
+      "starsPrev": null,
+      "starsPrevAt": "",
+      "pushed": "",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": false
+    },
+    {
+      "id": "investin-news-service",
+      "name": "Investin News Service",
+      "url": "https://github.com/1nsar/investin-com-news-service",
+      "repo": "1nsar/investin-com-news-service",
+      "author": "@1nsar",
+      "owner": "1nsar",
+      "category": "markets-finance",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "news",
+        "search"
+      ],
+      "description": "News backend and research archive covering global headlines and prediction markets.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-17",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "food-shopping-os",
+      "name": "Food Shopping OS",
+      "url": "https://food-shopping-os.vercel.app",
+      "repo": "henrygoldsmith07-wq/food-shopping-os",
+      "author": "@henrygoldsmith07-wq",
+      "owner": "henrygoldsmith07-wq",
+      "category": "commerce-pricing",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "JavaScript",
+      "cost": "",
+      "monid": [
+        "search",
+        "scrape"
+      ],
+      "description": "Grocery shopping workflow split out of a larger monorepo.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-31",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": false
+    },
+    {
+      "id": "wildlife-zoo",
+      "name": "The Wildlife Zoo",
+      "url": "https://zoo-orcin-tau.vercel.app",
+      "repo": "premkumar-ponnada/zoo",
+      "author": "@premkumar-ponnada",
+      "owner": "premkumar-ponnada",
+      "category": "generative-media",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "JavaScript",
+      "cost": "",
+      "monid": [],
+      "description": "A scroll-driven camera walk through a miniature clay zoo.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-21",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": false
+    },
+    {
+      "id": "feishu-mark-agent",
+      "name": "Feishu Mark Agent",
+      "url": "https://github.com/Noah-wang/feishu-mark-agent",
+      "repo": "Noah-wang/feishu-mark-agent",
+      "author": "@Noah-wang",
+      "owner": "Noah-wang",
+      "category": "skills-mcp-plugins",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [],
+      "description": "Personal agent wired into Feishu.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-11",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": false
+    },
+    {
+      "id": "hello-cao",
+      "name": "hello-cao",
+      "url": "https://github.com/Noah-wang/hello-cao",
+      "repo": "Noah-wang/hello-cao",
+      "author": "@Noah-wang",
+      "owner": "Noah-wang",
+      "category": "skills-mcp-plugins",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [],
+      "description": "Minimal Discord chat bot that answers only when it is mentioned.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-09",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": false
+    },
+    {
+      "id": "video-production-skills",
+      "name": "Video Production Skills",
+      "url": "https://github.com/konradre/video-production-skills",
+      "repo": "konradre/video-production-skills",
+      "author": "@konradre",
+      "owner": "konradre",
+      "category": "generative-media",
+      "kind": [
+        "oss",
+        "skill"
+      ],
+      "lang": "Python",
+      "cost": "",
+      "monid": [
+        "video",
+        "image"
+      ],
+      "description": "Agent skills for making video from generated footage, with a cost gate before each render.",
+      "stars": 7,
+      "starsPrev": 7,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-29",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "prospect-brief",
+      "name": "Verified Lead Brief",
+      "url": "https://github.com/sangtrx/hackathon-monid-prospect-brief",
+      "repo": "sangtrx/hackathon-monid-prospect-brief",
+      "author": "@sangtrx",
+      "owner": "sangtrx",
+      "category": "sales-leadgen",
+      "kind": [
+        "oss"
+      ],
+      "lang": "JavaScript",
+      "cost": "",
+      "monid": [
+        "enrichment",
+        "email-verify"
+      ],
+      "description": "Replaces one Apollo prospect-research workflow with a costed brief per lead.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-04",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "postproof",
+      "name": "Postproof",
+      "url": "https://github.com/Deborah4Ever/Postproof",
+      "repo": "Deborah4Ever/Postproof",
+      "author": "@Deborah4Ever",
+      "owner": "Deborah4Ever",
+      "category": "research-intel",
+      "kind": [
+        "oss"
+      ],
+      "lang": "Python",
+      "cost": "",
+      "monid": [
+        "enrichment",
+        "search"
+      ],
+      "description": "Checks whether a job posting and the person behind it are real before you pitch.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-03",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": false
+    },
+    {
+      "id": "agentstack",
+      "name": "AgentStack",
+      "url": "https://agentstack-web-flame.vercel.app",
+      "repo": "tharolankit19-create/agentstack",
+      "author": "@tharolankit19-create",
+      "owner": "tharolankit19-create",
+      "category": "skills-mcp-plugins",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "discover",
+        "run"
+      ],
+      "description": "Deploys one scheduled agent per SaaS job a customer pays for, each on its own URL.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-25",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "scoutkill",
+      "name": "ScoutKill",
+      "url": "https://github.com/arjunkshah12345-hash/scoutkill",
+      "repo": "arjunkshah12345-hash/scoutkill",
+      "author": "@arjunkshah12345-hash",
+      "owner": "arjunkshah12345-hash",
+      "category": "research-intel",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "discover",
+        "enrichment"
+      ],
+      "description": "Assembles startup intel for agents through runtime tool discovery.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-02",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-18",
+      "verified": true
+    },
+    {
+      "id": "zbs-researcher",
+      "name": "ZBS Researcher",
+      "url": "https://github.com/zbs-gg/zbs-researcher",
+      "repo": "zbs-gg/zbs-researcher",
+      "author": "@zbs-gg",
+      "owner": "zbs-gg",
+      "category": "research-intel",
+      "kind": [
+        "oss",
+        "skill"
+      ],
+      "lang": "Python",
+      "cost": "",
+      "monid": [
+        "social",
+        "search"
+      ],
+      "description": "Plan-first research plugin that collects reactions from real humans across several platforms.",
+      "stars": 4,
+      "starsPrev": 4,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-19",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-21",
+      "verified": true
+    },
+    {
+      "id": "campco",
+      "name": "Campco",
+      "url": "https://github.com/Yurika-Kan/chatathon",
+      "repo": "Yurika-Kan/chatathon",
+      "author": "@Yurika-Kan",
+      "owner": "Yurika-Kan",
+      "category": "marketing-seo-geo",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "search",
+        "enrichment"
+      ],
+      "description": "Runs the organic content loop end to end, from competitor research through publishing and A/B tests.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-19",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-21",
+      "verified": false
+    },
+    {
+      "id": "pi-tiny-search",
+      "name": "pi-tiny-search",
+      "url": "https://github.com/DevMortimer/pi-tiny-search",
+      "repo": "DevMortimer/pi-tiny-search",
+      "author": "@DevMortimer",
+      "owner": "DevMortimer",
+      "category": "framework-integrations",
+      "kind": [
+        "oss",
+        "skill"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "search",
+        "fetch"
+      ],
+      "description": "Instant web search and page fetch for Pi agents, with no browser and no model summarisation.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-21",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-21",
+      "verified": false
+    },
+    {
+      "id": "agent-seo-kit",
+      "name": "agent-seo-kit",
+      "url": "https://github.com/Jasper0122/agent-seo-kit",
+      "repo": "Jasper0122/agent-seo-kit",
+      "author": "@Jasper0122",
+      "owner": "Jasper0122",
+      "category": "marketing-seo-geo",
+      "kind": [
+        "oss",
+        "skill"
+      ],
+      "lang": "JavaScript",
+      "cost": "",
+      "monid": [
+        "search",
+        "scrape",
+        "rank-data"
+      ],
+      "description": "Four Claude Code skills that run a search pipeline from keyword intake to backlink outreach.",
+      "stars": 8,
+      "starsPrev": 8,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-15",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-21",
+      "verified": true
+    },
+    {
+      "id": "free-financial-datasets",
+      "name": "Free Financial Datasets",
+      "url": "https://www.financialdatasets.rip/",
+      "repo": "BeLazy167/freefinancialdataset",
+      "author": "@BeLazy167",
+      "owner": "BeLazy167",
+      "category": "markets-finance",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "Go",
+      "cost": "",
+      "monid": [
+        "run",
+        "runs"
+      ],
+      "description": "Drop-in Financial Datasets API replacement with the same routes, MCP tools and response schemas.",
+      "stars": 4,
+      "starsPrev": 4,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-08",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-23",
+      "verified": true
+    },
+    {
+      "id": "polymarket-bot",
+      "name": "Polymarket Bot",
+      "url": "https://github.com/MrFadiAi/Polymarket-bot",
+      "repo": "MrFadiAi/Polymarket-bot",
+      "author": "@MrFadiAi",
+      "owner": "MrFadiAi",
+      "category": "markets-finance",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "polymarket-leaderboard"
+      ],
+      "description": "Four-strategy Polymarket trading bot whose smart-money filter pulls per-wallet win rate and profit factor through Monid.",
+      "stars": null,
+      "starsPrev": null,
+      "starsPrevAt": "",
+      "pushed": "",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "okou",
+      "name": "Okou",
+      "url": "https://www.okou.ai",
+      "repo": "okou-ai/okou",
+      "author": "Okou",
+      "owner": "okou-ai",
+      "category": "social-creator",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "instagram",
+        "tiktok",
+        "youtube",
+        "x",
+        "threads",
+        "xiaohongshu",
+        "wechat"
+      ],
+      "description": "AI teammate for Slack and the web whose social search jobs pull public posts, comments and transcripts from eight platforms through Monid.",
+      "stars": 1162,
+      "starsPrev": 1157,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-11-03",
+      "hosted": true,
+      "featured": true,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "openmonitor",
+      "name": "OpenMonitor",
+      "url": "https://github.com/diggerhq/openmonitor",
+      "repo": "diggerhq/openmonitor",
+      "author": "Digger",
+      "owner": "diggerhq",
+      "category": "research-intel",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "search",
+        "social"
+      ],
+      "description": "Scheduled web monitor that runs saved watches through Monid or twelve other search APIs and posts new hits to a webhook or Slack.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-05",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "regimes-probe",
+      "name": "regimes-probe",
+      "url": "https://github.com/yoheinakajima/regimes-probe",
+      "repo": "yoheinakajima/regimes-probe",
+      "author": "@yoheinakajima",
+      "owner": "yoheinakajima",
+      "category": "framework-integrations",
+      "kind": [
+        "oss"
+      ],
+      "lang": "Python",
+      "cost": "",
+      "monid": [
+        "discover",
+        "inspect",
+        "run"
+      ],
+      "description": "Web-search agent harness that learns its tool-routing policy with a contextual bandit, with Monid discover, inspect and run as optional arms.",
+      "stars": 2,
+      "starsPrev": 2,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-06-13",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "jev-monid-poc",
+      "name": "Jev + Monid POC",
+      "url": "https://github.com/sprah/jev-monid-poc",
+      "repo": "sprah/jev-monid-poc",
+      "author": "@sprah",
+      "owner": "sprah",
+      "category": "framework-integrations",
+      "kind": [
+        "oss",
+        "writeup"
+      ],
+      "lang": "JavaScript",
+      "cost": "$0.01/call",
+      "monid": [
+        "wellfound",
+        "levels-fyi",
+        "nasdaq",
+        "lmarena",
+        "discover"
+      ],
+      "description": "Four Node scripts that gate paid Monid calls behind Jev typed decisions, with a relevance guardrail, an endpoint router and budget caps.",
+      "stars": 1,
+      "starsPrev": 1,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-26",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "docxology-monid-gateway",
+      "name": "Monid search gateway",
+      "url": "https://github.com/docxology/template/tree/main/infrastructure/search/monid",
+      "repo": "docxology/template",
+      "author": "docxology",
+      "owner": "docxology",
+      "category": "skills-mcp-plugins",
+      "kind": [
+        "oss",
+        "skill"
+      ],
+      "lang": "Python",
+      "cost": "",
+      "monid": [
+        "discover",
+        "inspect",
+        "run",
+        "balance"
+      ],
+      "description": "Python client, CLI and SKILL.md for Monid discover, inspect, run and balance inside a reproducible research template, with a pricing table.",
+      "stars": 21,
+      "starsPrev": 20,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-11-03",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "sinal-lab",
+      "name": "Sinal.lab",
+      "url": "https://sinal.tech",
+      "repo": "fabianocruz/sinal-lab",
+      "author": "@fabianocruz",
+      "owner": "fabianocruz",
+      "category": "research-intel",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "Python",
+      "cost": "",
+      "monid": [
+        "x",
+        "youtube-comments"
+      ],
+      "description": "Agent-written newsletter on the LATAM tech ecosystem that collects X and YouTube signals through Monid scrapers, with data provenance kept.",
+      "stars": 3,
+      "starsPrev": 3,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-23",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "pi-news-agent",
+      "name": "Pi News Agent",
+      "url": "https://github.com/xihuishawpy/news_report",
+      "repo": "xihuishawpy/news_report",
+      "author": "@xihuishawpy",
+      "owner": "xihuishawpy",
+      "category": "research-intel",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "wechat-search"
+      ],
+      "description": "Local news-monitoring agent that patrols fixed sources, pulls WeChat official-account articles via Monid and drafts an editable Word report.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-08-28",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "datapulse-intel",
+      "name": "DataPulse Intelligence",
+      "url": "https://qoxu.github.io/datapulse-intel/",
+      "repo": "Qoxu/datapulse-intel",
+      "author": "@Qoxu",
+      "owner": "Qoxu",
+      "category": "commerce-pricing",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "HTML",
+      "cost": "",
+      "monid": [
+        "search",
+        "amazon-search",
+        "facebook-ads-library"
+      ],
+      "description": "Collects competitor Facebook ads, Amazon product trends and web search with the Monid CLI and compiles them into standalone HTML reports.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-19",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "gtm-skills",
+      "name": "GTM Skills",
+      "url": "https://github.com/eliasstravik/gtm-skills",
+      "repo": "eliasstravik/gtm-skills",
+      "author": "@eliasstravik",
+      "owner": "eliasstravik",
+      "category": "sales-leadgen",
+      "kind": [
+        "oss",
+        "skill"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "people-enrichment",
+        "company-enrichment",
+        "mcp"
+      ],
+      "description": "Agent skills that keep ICPs and personas in a git workspace and enrich people and companies through Monid under per-run spend caps.",
+      "stars": 24,
+      "starsPrev": 18,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-15",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "zero-human-company",
+      "name": "Zero Human Company",
+      "url": "https://github.com/Jacky040124/zero-human-company",
+      "repo": "Jacky040124/zero-human-company",
+      "author": "@Jacky040124",
+      "owner": "Jacky040124",
+      "category": "sales-leadgen",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "apollo-company-search"
+      ],
+      "description": "Agent-run export sales company that finds buyers through Monid, ranks contacts, negotiates under policy gates and closes with a Stripe payment.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-08-16",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "opencompany",
+      "name": "opencompany",
+      "url": "https://opencompany.cloud",
+      "repo": "useopencompany/opencompany",
+      "author": "opencompany",
+      "owner": "useopencompany",
+      "category": "framework-integrations",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "x",
+        "linkedin",
+        "people",
+        "seo",
+        "youtube-transcripts"
+      ],
+      "description": "AI workspace with chat, durable workflows and integrations whose managed social, lead and SEO capabilities run and are priced through Monid.",
+      "stars": 13,
+      "starsPrev": 13,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-11-02",
+      "hosted": true,
+      "featured": true,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "hivemindos",
+      "name": "HivemindOS",
+      "url": "https://github.com/LiamVisionary/hivemindos",
+      "repo": "LiamVisionary/hivemindos",
+      "author": "@LiamVisionary",
+      "owner": "LiamVisionary",
+      "category": "framework-integrations",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "discover",
+        "inspect",
+        "run",
+        "balance"
+      ],
+      "description": "Local-first control room for agent fleets that adds price-confirmed Monid discover, inspect and run actions to every connected agent over MCP.",
+      "stars": 13,
+      "starsPrev": 12,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-27",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "visionclaw-agent",
+      "name": "VisionClaw Agent",
+      "url": "https://agenticcorporation.net",
+      "repo": "Huskyauto/VisionClaw-Agent-Public-Release",
+      "author": "@Huskyauto",
+      "owner": "Huskyauto",
+      "category": "framework-integrations",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "discover",
+        "inspect",
+        "run",
+        "search"
+      ],
+      "description": "Self-hosted multi-tenant agent workspace whose personas browse a curated Monid catalog, then discover, inspect and run endpoints.",
+      "stars": 26,
+      "starsPrev": 26,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-11-01",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "goaimoat-decision-maker-mcp",
+      "name": "GoAIMoat Decision Maker Lookup MCP",
+      "url": "https://goaimoat.com/mcp-catalog.html",
+      "repo": "jayniebingyu-cyber/goaimoat-decision-maker-lookup-mcp",
+      "author": "GoAIMoat",
+      "owner": "jayniebingyu-cyber",
+      "category": "skills-mcp-plugins",
+      "kind": [
+        "hosted",
+        "oss",
+        "skill"
+      ],
+      "lang": "Python",
+      "cost": "",
+      "monid": [
+        "hunter",
+        "contactout",
+        "email-verify"
+      ],
+      "description": "MCP server that finds decision makers at a company and reveals or verifies their work email through Monid, hosted or self-run via Docker.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-26",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "goaimoat-web-scrape-mcp",
+      "name": "GoAIMoat Web Scrape MCP",
+      "url": "https://goaimoat.com/mcp-catalog.html",
+      "repo": "jayniebingyu-cyber/goaimoat-web-scrape-mcp",
+      "author": "GoAIMoat",
+      "owner": "jayniebingyu-cyber",
+      "category": "skills-mcp-plugins",
+      "kind": [
+        "hosted",
+        "oss",
+        "skill"
+      ],
+      "lang": "Python",
+      "cost": "",
+      "monid": [
+        "scrape",
+        "crawl"
+      ],
+      "description": "MCP server that turns a URL into clean Markdown or crawls a whole site through Monid, hosted or self-run via Docker.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-25",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "vc-analyst",
+      "name": "VC Analyst",
+      "url": "https://github.com/ayushgautam-dev/vc-analyst",
+      "repo": "ayushgautam-dev/vc-analyst",
+      "author": "@ayushgautam-dev",
+      "owner": "ayushgautam-dev",
+      "category": "research-intel",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "search",
+        "fetch",
+        "linkedin"
+      ],
+      "description": "Shared deal-flow pod for venture teams that turns founder emails into thesis-scored deal cards, with Monid for web research and LinkedIn data.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-21",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "grantry",
+      "name": "grantry",
+      "url": "https://github.com/gentityapp/grantry",
+      "repo": "gentityapp/grantry",
+      "author": "Gentity",
+      "owner": "gentityapp",
+      "category": "skills-mcp-plugins",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "discover",
+        "inspect",
+        "run",
+        "runs"
+      ],
+      "description": "Permission gateway for agents that stores a Monid key once and exposes discover, inspect and run as audited MCP tools to the agents you grant.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-14",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "proviso",
+      "name": "Proviso",
+      "url": "https://proviso.site",
+      "repo": "itublockchain/proviso",
+      "author": "ITU Blockchain",
+      "owner": "itublockchain",
+      "category": "commerce-pricing",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "Swift",
+      "cost": "",
+      "monid": [
+        "google-shopping",
+        "amazon"
+      ],
+      "description": "AI shopping agent that compares live store prices through Monid and buys from your own wallet under ENS policies with World ID approval.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-27",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "web-search-plus-plugin",
+      "name": "Web Search Plus Plugin",
+      "url": "https://github.com/robbyczgw-cla/web-search-plus-plugin",
+      "repo": "robbyczgw-cla/web-search-plus-plugin",
+      "author": "@robbyczgw-cla",
+      "owner": "robbyczgw-cla",
+      "category": "skills-mcp-plugins",
+      "kind": [
+        "oss",
+        "skill"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "search"
+      ],
+      "description": "OpenClaw plugin that routes web search across thirteen providers, including Octen source search through Monid with freshness and domain filters.",
+      "stars": 101,
+      "starsPrev": 101,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-10",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "crabcode",
+      "name": "Crabcode",
+      "url": "https://crabcode.rs",
+      "repo": "Blankeos/crabcode",
+      "author": "@Blankeos",
+      "owner": "Blankeos",
+      "category": "framework-integrations",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "Rust",
+      "cost": "",
+      "monid": [
+        "search"
+      ],
+      "description": "Rust terminal coding agent whose websearch tool can run TinyFish search through Monid with a single API key.",
+      "stars": 65,
+      "starsPrev": 61,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-11-02",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "pi-web-search",
+      "name": "pi-web-search",
+      "url": "https://github.com/TianZuo555/pi-extensions/tree/main/packages/pi-web-search",
+      "repo": "TianZuo555/pi-extensions",
+      "author": "@TianZuo555",
+      "owner": "TianZuo555",
+      "category": "skills-mcp-plugins",
+      "kind": [
+        "oss",
+        "skill"
+      ],
+      "lang": "TypeScript",
+      "cost": "$0/call",
+      "monid": [
+        "search",
+        "fetch",
+        "balance"
+      ],
+      "description": "Web search and fetch extension for the pi coding agent with Monid as one of seven fallback providers and a wallet balance readout.",
+      "stars": 22,
+      "starsPrev": 20,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-11-03",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "oto-connectors",
+      "name": "Oto Connectors",
+      "url": "https://github.com/otomata-tech/connectors",
+      "repo": "otomata-tech/connectors",
+      "author": "Otomata",
+      "owner": "otomata-tech",
+      "category": "framework-integrations",
+      "kind": [
+        "oss"
+      ],
+      "lang": "Python",
+      "cost": "",
+      "monid": [
+        "discover",
+        "inspect",
+        "run"
+      ],
+      "description": "Python connector library for the Oto agent stack that ships a typed Monid client covering discover, inspect, run and run polling.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-29",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "deep-research-skill",
+      "name": "deep-research",
+      "url": "https://github.com/ravidsrk/agent-skills/tree/main/skills/deep-research",
+      "repo": "ravidsrk/agent-skills",
+      "author": "@ravidsrk",
+      "owner": "ravidsrk",
+      "category": "research-intel",
+      "kind": [
+        "oss",
+        "skill"
+      ],
+      "lang": "Shell",
+      "cost": "$0.10-0.20/run",
+      "monid": [
+        "x",
+        "reddit",
+        "youtube-transcripts",
+        "exa",
+        "hackernews",
+        "github",
+        "polymarket"
+      ],
+      "description": "Claude Code skill that fans one topic out across X, Reddit, HN, GitHub, Polymarket, YouTube and Exa through Monid and returns quotable evidence.",
+      "stars": 1,
+      "starsPrev": 1,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-23",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "eve-agents",
+      "name": "eve-agents",
+      "url": "https://github.com/ravidsrk/eve-agents",
+      "repo": "ravidsrk/eve-agents",
+      "author": "@ravidsrk",
+      "owner": "ravidsrk",
+      "category": "starters-templates",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "discover",
+        "inspect",
+        "run",
+        "balance"
+      ],
+      "description": "Fifty Vercel eve agent templates, ten of them calling Monid tools through a shared client with per-call and total budget caps.",
+      "stars": 2,
+      "starsPrev": 2,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-08-03",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "curta",
+      "name": "Curta",
+      "url": "https://curta-psi.vercel.app",
+      "repo": "edrodrigues/Curta",
+      "author": "@edrodrigues",
+      "owner": "edrodrigues",
+      "category": "generative-media",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "HTML",
+      "cost": "",
+      "monid": [
+        "video"
+      ],
+      "description": "Portuguese-language web app that turns a script or site link into a 30 or 60 second explainer video, generating the clips through Monid.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-08-02",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "magicbox",
+      "name": "MagicBox",
+      "url": "https://github.com/nhancio/magicboxai-contentengine",
+      "repo": "nhancio/magicboxai-contentengine",
+      "author": "@nhancio",
+      "owner": "nhancio",
+      "category": "marketing-seo-geo",
+      "kind": [
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "instagram-reels"
+      ],
+      "description": "Marketing content engine that pulls trending Instagram reels through Monid, adapts them to a brand with Gemini and renders the videos.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-05",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "edith",
+      "name": "Edith",
+      "url": "https://github.com/techwarq/Edith",
+      "repo": "techwarq/Edith",
+      "author": "@techwarq",
+      "owner": "techwarq",
+      "category": "framework-integrations",
+      "kind": [
+        "oss"
+      ],
+      "lang": "Python",
+      "cost": "",
+      "monid": [
+        "discover",
+        "inspect",
+        "run"
+      ],
+      "description": "Personal AI agent with durable memory and autonomous job and LinkedIn pipelines that exposes Monid discover, inspect and run as LLM tools.",
+      "stars": 1,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-10-19",
+      "hosted": false,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "chisha-liuyao",
+      "name": "吃啥六爻",
+      "url": "https://tianxuancai.opendeploy.site",
+      "repo": "Keith9922/chisha_liuyao",
+      "author": "@Keith9922",
+      "owner": "Keith9922",
+      "category": "local-realworld",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "$0.015/search",
+      "monid": [
+        "xiaohongshu",
+        "google-maps"
+      ],
+      "description": "I Ching restaurant picker that casts a hexagram, finds nearby restaurants and shows Xiaohongshu reviews fetched through Monid.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-06-20",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "hen",
+      "name": "HEN",
+      "url": "https://hen-experience-tokyo.vercel.app",
+      "repo": "RyoSAKu610/HEN-Human-experience-network-",
+      "author": "@RyoSAKu610",
+      "owner": "RyoSAKu610",
+      "category": "framework-integrations",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "",
+      "monid": [
+        "discover",
+        "inspect",
+        "run"
+      ],
+      "description": "Consent-gated human memory network where agents license lived experience with World ID and x402, then act on it through Monid tools.",
+      "stars": 0,
+      "starsPrev": 0,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-28",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    },
+    {
+      "id": "jev-vtuber-ime",
+      "name": "jev-vtuber-ime-core",
+      "url": "https://jev-vtuber-ime-demo.hisuikoh.workers.dev",
+      "repo": "HisuiKoh/jev-vtuber-ime-core",
+      "author": "@HisuiKoh",
+      "owner": "HisuiKoh",
+      "category": "social-creator",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": "TypeScript",
+      "cost": "$0/call",
+      "monid": [
+        "search"
+      ],
+      "description": "Resolves a VTuber name between its reading and written form from web search evidence via Monid and Jev, with no dictionary data.",
+      "stars": 1,
+      "starsPrev": 1,
+      "starsPrevAt": "2026-10-13",
+      "pushed": "2026-09-21",
+      "hosted": true,
+      "featured": false,
+      "added": "2026-09-28",
+      "verified": true
+    }
+  ]
+}

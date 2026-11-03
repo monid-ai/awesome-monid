@@ -1,0 +1,682 @@
+{
+  "robbyczgw-cla/hermes-web-search-plus": {
+    "stars": 439,
+    "pushed": "2026-10-31",
+    "lang": "Python",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 427,
+      "checked": "2026-10-13"
+    }
+  },
+  "JamesANZ/medical-mcp": {
+    "stars": 120,
+    "pushed": "2026-10-15",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 116,
+      "checked": "2026-10-13"
+    }
+  },
+  "ashafizullah/hermes-monid-websearch": {
+    "stars": 22,
+    "pushed": "2026-08-29",
+    "lang": "Python",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 21,
+      "checked": "2026-10-13"
+    }
+  },
+  "robbyczgw-cla/web-search-plus-mcp": {
+    "stars": 5,
+    "pushed": "2026-10-31",
+    "lang": "Python",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 5,
+      "checked": "2026-10-13"
+    }
+  },
+  "ashafizullah/monid-mcp": {
+    "stars": 0,
+    "pushed": "2026-08-29",
+    "lang": "Python",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "FeiyouG/monid-client": {
+    "stars": 0,
+    "pushed": "2026-04-05",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "FeiyouG/orrery": {
+    "stars": 0,
+    "pushed": "2026-07-10",
+    "lang": "JavaScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "monesh-pixelup/monid-scrapper-tool": {
+    "stars": 0,
+    "pushed": "2026-07-23",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "oextraordimario/raspador_eventos": {
+    "stars": 0,
+    "pushed": "2026-09-19",
+    "lang": "Python",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "suparahul/ugckit": {
+    "stars": 1,
+    "pushed": "2026-10-22",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Tushar-Bhowal/dossier": {
+    "stars": 0,
+    "pushed": "2026-10-08",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Skatelo/gis-feasibility-search": {
+    "stars": 0,
+    "pushed": "2026-10-18",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "yashbudhia/socap-lens": {
+    "stars": 0,
+    "pushed": "2026-09-15",
+    "lang": "HTML",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "nighomni123/Qcom-scraping": {
+    "stars": 0,
+    "pushed": "2026-09-15",
+    "lang": "HTML",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Flow-with-blessing/Ratina": {
+    "stars": 0,
+    "pushed": "2026-09-10",
+    "lang": "JavaScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "yumuyou/jp-gacha-monitor": {
+    "stars": 0,
+    "pushed": "2026-08-24",
+    "lang": "Python",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "heyarjunsh1607/Linkedin-Comp-Tracker": {
+    "stars": 0,
+    "pushed": "2026-08-13",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "ScopeBlind/skills": {
+    "stars": 0,
+    "pushed": "2026-10-22",
+    "lang": "Python",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Tobeworks/scroll-world-pro-skill": {
+    "stars": 0,
+    "pushed": "2026-08-30",
+    "lang": "Shell",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "thisyearnofear/databard": {
+    "stars": 0,
+    "pushed": "2026-10-23",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "sneldao/ligis": {
+    "stars": 2,
+    "pushed": "2026-10-28",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 2,
+      "checked": "2026-10-13"
+    }
+  },
+  "pramod13071626/sales_agent-ai": {
+    "stars": 0,
+    "pushed": "2026-11-03",
+    "lang": "Python",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "egobera/Podcast": {
+    "stars": 0,
+    "pushed": "2026-09-26",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "1nsar/investin-com-news-service": {
+    "stars": 0,
+    "pushed": "2026-09-17",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "henrygoldsmith07-wq/food-shopping-os": {
+    "stars": 0,
+    "pushed": "2026-10-31",
+    "lang": "JavaScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "premkumar-ponnada/zoo": {
+    "stars": 0,
+    "pushed": "2026-09-21",
+    "lang": "JavaScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Noah-wang/feishu-mark-agent": {
+    "stars": 0,
+    "pushed": "2026-09-11",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Noah-wang/hello-cao": {
+    "stars": 0,
+    "pushed": "2026-09-09",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "konradre/video-production-skills": {
+    "stars": 7,
+    "pushed": "2026-10-29",
+    "lang": "Python",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 7,
+      "checked": "2026-10-13"
+    }
+  },
+  "sangtrx/hackathon-monid-prospect-brief": {
+    "stars": 0,
+    "pushed": "2026-10-04",
+    "lang": "JavaScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Deborah4Ever/Postproof": {
+    "stars": 0,
+    "pushed": "2026-10-03",
+    "lang": "Python",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "tharolankit19-create/agentstack": {
+    "stars": 0,
+    "pushed": "2026-10-25",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "arjunkshah12345-hash/scoutkill": {
+    "stars": 0,
+    "pushed": "2026-09-02",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "zbs-gg/zbs-researcher": {
+    "stars": 4,
+    "pushed": "2026-09-19",
+    "lang": "Python",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 4,
+      "checked": "2026-10-13"
+    }
+  },
+  "Yurika-Kan/chatathon": {
+    "stars": 0,
+    "pushed": "2026-09-19",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "DevMortimer/pi-tiny-search": {
+    "stars": 0,
+    "pushed": "2026-10-21",
+    "lang": "",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Jasper0122/agent-seo-kit": {
+    "stars": 8,
+    "pushed": "2026-09-15",
+    "lang": "JavaScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 8,
+      "checked": "2026-10-13"
+    }
+  },
+  "BeLazy167/freefinancialdataset": {
+    "stars": 4,
+    "pushed": "2026-09-08",
+    "lang": "Go",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 4,
+      "checked": "2026-10-13"
+    }
+  },
+  "okou-ai/okou": {
+    "stars": 1162,
+    "pushed": "2026-11-03",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 1157,
+      "checked": "2026-10-13"
+    }
+  },
+  "diggerhq/openmonitor": {
+    "stars": 0,
+    "pushed": "2026-09-05",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "yoheinakajima/regimes-probe": {
+    "stars": 2,
+    "pushed": "2026-06-13",
+    "lang": "Python",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 2,
+      "checked": "2026-10-13"
+    }
+  },
+  "sprah/jev-monid-poc": {
+    "stars": 1,
+    "pushed": "2026-09-26",
+    "lang": "JavaScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 1,
+      "checked": "2026-10-13"
+    }
+  },
+  "docxology/template": {
+    "stars": 21,
+    "pushed": "2026-11-03",
+    "lang": "Python",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 20,
+      "checked": "2026-10-13"
+    }
+  },
+  "fabianocruz/sinal-lab": {
+    "stars": 3,
+    "pushed": "2026-09-23",
+    "lang": "Python",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 3,
+      "checked": "2026-10-13"
+    }
+  },
+  "xihuishawpy/news_report": {
+    "stars": 0,
+    "pushed": "2026-08-28",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Qoxu/datapulse-intel": {
+    "stars": 0,
+    "pushed": "2026-09-19",
+    "lang": "HTML",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "eliasstravik/gtm-skills": {
+    "stars": 24,
+    "pushed": "2026-10-15",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 18,
+      "checked": "2026-10-13"
+    }
+  },
+  "Jacky040124/zero-human-company": {
+    "stars": 0,
+    "pushed": "2026-08-16",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "useopencompany/opencompany": {
+    "stars": 13,
+    "pushed": "2026-11-02",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 13,
+      "checked": "2026-10-13"
+    }
+  },
+  "LiamVisionary/hivemindos": {
+    "stars": 13,
+    "pushed": "2026-10-27",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 12,
+      "checked": "2026-10-13"
+    }
+  },
+  "Huskyauto/VisionClaw-Agent-Public-Release": {
+    "stars": 26,
+    "pushed": "2026-11-01",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 26,
+      "checked": "2026-10-13"
+    }
+  },
+  "jayniebingyu-cyber/goaimoat-decision-maker-lookup-mcp": {
+    "stars": 0,
+    "pushed": "2026-09-26",
+    "lang": "Python",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "jayniebingyu-cyber/goaimoat-web-scrape-mcp": {
+    "stars": 0,
+    "pushed": "2026-09-25",
+    "lang": "Python",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "ayushgautam-dev/vc-analyst": {
+    "stars": 0,
+    "pushed": "2026-09-21",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "gentityapp/grantry": {
+    "stars": 0,
+    "pushed": "2026-10-14",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "itublockchain/proviso": {
+    "stars": 0,
+    "pushed": "2026-09-27",
+    "lang": "Swift",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "robbyczgw-cla/web-search-plus-plugin": {
+    "stars": 101,
+    "pushed": "2026-10-10",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 101,
+      "checked": "2026-10-13"
+    }
+  },
+  "Blankeos/crabcode": {
+    "stars": 65,
+    "pushed": "2026-11-02",
+    "lang": "Rust",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 61,
+      "checked": "2026-10-13"
+    }
+  },
+  "TianZuo555/pi-extensions": {
+    "stars": 22,
+    "pushed": "2026-11-03",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 20,
+      "checked": "2026-10-13"
+    }
+  },
+  "otomata-tech/connectors": {
+    "stars": 0,
+    "pushed": "2026-10-29",
+    "lang": "Python",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "ravidsrk/agent-skills": {
+    "stars": 1,
+    "pushed": "2026-10-23",
+    "lang": "Shell",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 1,
+      "checked": "2026-10-13"
+    }
+  },
+  "ravidsrk/eve-agents": {
+    "stars": 2,
+    "pushed": "2026-08-03",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 2,
+      "checked": "2026-10-13"
+    }
+  },
+  "edrodrigues/Curta": {
+    "stars": 0,
+    "pushed": "2026-08-02",
+    "lang": "HTML",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "nhancio/magicboxai-contentengine": {
+    "stars": 0,
+    "pushed": "2026-09-05",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "techwarq/Edith": {
+    "stars": 1,
+    "pushed": "2026-10-19",
+    "lang": "Python",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Keith9922/chisha_liuyao": {
+    "stars": 0,
+    "pushed": "2026-06-20",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "RyoSAKu610/HEN-Human-experience-network-": {
+    "stars": 0,
+    "pushed": "2026-09-28",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "HisuiKoh/jev-vtuber-ime-core": {
+    "stars": 1,
+    "pushed": "2026-09-21",
+    "lang": "TypeScript",
+    "checked": "2026-11-03",
+    "prev": {
+      "stars": 1,
+      "checked": "2026-10-13"
+    }
+  }
+}

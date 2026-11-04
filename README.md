@@ -143,7 +143,7 @@ the number, the entry shows what one run costs them.
 <sub>Claude skills, MCP servers, IDE and editor plugins that expose Monid.</sub>
 
 - [AgentStack](https://agentstack-web-flame.vercel.app) - Deploys one scheduled agent per SaaS job a customer pays for, each on its own URL. ([Source Code](https://github.com/tharolankit19-create/agentstack)) `hosted` `TypeScript` `We Kill 2026`
-- [Edge](https://getedge.cc) - Finds the best public agent skill for a task and loads it, and runs live data tools for agents through Monid discover, inspect and run. `hosted` `TypeScript`
+- [Edge](https://getedge.cc) - Ranks public agent skills for a task and loads the chosen one, and runs live data tools for agents through Monid discover, inspect and run. `hosted` `TypeScript`
 - [Feishu Mark Agent](https://github.com/Noah-wang/feishu-mark-agent) - Personal agent wired into Feishu. `TypeScript`
 - [GoAIMoat Decision Maker Lookup MCP](https://goaimoat.com/mcp-catalog.html) - MCP server that finds decision makers at a company and reveals or verifies their work email through Monid, hosted or self-run via Docker. ([Source Code](https://github.com/jayniebingyu-cyber/goaimoat-decision-maker-lookup-mcp)) `hosted` `skill` `Python`
 - [GoAIMoat Web Scrape MCP](https://goaimoat.com/mcp-catalog.html) - MCP server that turns a URL into clean Markdown or crawls a whole site through Monid, hosted or self-run via Docker. ([Source Code](https://github.com/jayniebingyu-cyber/goaimoat-web-scrape-mcp)) `hosted` `skill` `Python`

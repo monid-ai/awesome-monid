@@ -23,7 +23,7 @@ the number, the entry shows what one run costs them.
 
 <div align="center">
 
-![projects](https://img.shields.io/badge/projects-72-0016D7?style=flat-square) ![categories](https://img.shields.io/badge/categories-11-0016D7?style=flat-square) ![with a real price tag](https://img.shields.io/badge/with%20a%20real%20price%20tag-10-0016D7?style=flat-square) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+![projects](https://img.shields.io/badge/projects-73-0016D7?style=flat-square) ![categories](https://img.shields.io/badge/categories-11-0016D7?style=flat-square) ![with a real price tag](https://img.shields.io/badge/with%20a%20real%20price%20tag-10-0016D7?style=flat-square) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 </div>
 
@@ -32,7 +32,7 @@ the number, the entry shows what one run costs them.
 <table>
   <tr><td><a href="#-research--intel">🔎 Research &amp; Intel</a> <sub>11</sub></td><td><a href="#-sales--lead-gen">🎯 Sales &amp; Lead Gen</a> <sub>5</sub></td><td><a href="#-marketing-seo--geo">📈 Marketing, SEO &amp; GEO</a> <sub>3</sub></td></tr>
   <tr><td><a href="#-commerce--pricing">🛒 Commerce &amp; Pricing</a> <sub>5</sub></td><td><a href="#-social--creator">📱 Social &amp; Creator</a> <sub>5</sub></td><td><a href="#-generative-media">🎬 Generative Media</a> <sub>7</sub></td></tr>
-  <tr><td><a href="#-markets--finance">💹 Markets &amp; Finance</a> <sub>5</sub></td><td><a href="#-local--real-world">🗺️ Local &amp; Real-world</a> <sub>3</sub></td><td><a href="#-agent-skills-mcp--plugins">🧩 Agent Skills, MCP &amp; Plugins</a> <sub>14</sub></td></tr>
+  <tr><td><a href="#-markets--finance">💹 Markets &amp; Finance</a> <sub>5</sub></td><td><a href="#-local--real-world">🗺️ Local &amp; Real-world</a> <sub>3</sub></td><td><a href="#-agent-skills-mcp--plugins">🧩 Agent Skills, MCP &amp; Plugins</a> <sub>15</sub></td></tr>
   <tr><td><a href="#-framework-integrations">🔌 Framework Integrations</a> <sub>13</sub></td><td><a href="#-starters--templates">🧰 Starters &amp; Templates</a> <sub>1</sub></td></tr>
 </table>
 
@@ -143,6 +143,7 @@ the number, the entry shows what one run costs them.
 <sub>Claude skills, MCP servers, IDE and editor plugins that expose Monid.</sub>
 
 - [AgentStack](https://agentstack-web-flame.vercel.app) - Deploys one scheduled agent per SaaS job a customer pays for, each on its own URL. ([Source Code](https://github.com/tharolankit19-create/agentstack)) `hosted` `TypeScript` `We Kill 2026`
+- [Edge](https://getedge.cc) - Ranks public agent skills for a task and loads the chosen one, and runs live data tools for agents through Monid discover, inspect and run. `hosted` `TypeScript`
 - [Feishu Mark Agent](https://github.com/Noah-wang/feishu-mark-agent) - Personal agent wired into Feishu. `TypeScript`
 - [GoAIMoat Decision Maker Lookup MCP](https://goaimoat.com/mcp-catalog.html) - MCP server that finds decision makers at a company and reveals or verifies their work email through Monid, hosted or self-run via Docker. ([Source Code](https://github.com/jayniebingyu-cyber/goaimoat-decision-maker-lookup-mcp)) `hosted` `skill` `Python`
 - [GoAIMoat Web Scrape MCP](https://goaimoat.com/mcp-catalog.html) - MCP server that turns a URL into clean Markdown or crawls a whole site through Monid, hosted or self-run via Docker. ([Source Code](https://github.com/jayniebingyu-cyber/goaimoat-web-scrape-mcp)) `hosted` `skill` `Python`

@@ -7,7 +7,9 @@
 //
 // The file is what monid.ai/built-with ranks its leaderboard on:
 //   stars        the vote ("Most starred")
-//   commits30d   commits on the default branch in the last 30 days ("Most active")
+//   commits30d   commits on the default branch in the last 30 days (read but not
+//                ranked on: a "Most active" tab was tried and dropped, commits
+//                say nothing about use)
 //   prev.stars   ONE previous reading per repo, rolled when the last reading is
 //                six or more days old; "Rising" is stars minus prev.stars
 // Nothing else is kept, a curated list is not a metrics store. Visits from

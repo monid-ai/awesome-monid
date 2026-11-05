@@ -1,16 +1,16 @@
 name: showcase
 
-# Keeps data/built-with.json fresh for monid.ai/built-with. The page reads that
-# one file straight from this repo, so a merged entry is on the site within
-# minutes and the star counts behind its leaderboard move once a day without
-# anyone deploying anything.
+# Keeps data/built-with.json fresh for the Built with Monid page. The page
+# reads that one file straight from this repo, so a merged entry is on the
+# site within minutes, and the star counts behind its leaderboard move every
+# three days without anyone deploying anything.
 
 on:
   push:
     branches: [main]
-    paths: ["data/**", "scripts/**"]
+    paths: ["data/projects.yaml", "data/categories.yaml", "scripts/**"]
   schedule:
-    - cron: "41 5 * * *"
+    - cron: "41 5 */3 * *"
   workflow_dispatch:
 
 permissions:

@@ -60,7 +60,7 @@ Your entry is on [monid.ai/built-with](https://monid.ai/built-with) within minut
 [`data/built-with.json`](data/built-with.json) straight from this repo, nothing to deploy. Its
 leaderboard ranks entries by GitHub stars (the vote; there is no separate upvote), by stars gained
 over the week, and, once the page has collected them, by how often readers opened the project from
-the page in the last week. The GitHub numbers are read once a day by the showcase workflow into
+the page in the last week. The GitHub numbers are read every three days by the showcase workflow into
 [`data/github.json`](data/github.json); the visits come from the page's own analytics into
 [`data/visits.json`](data/visits.json).
 
@@ -106,6 +106,13 @@ actually in the stack before it is listed.
 - **Category**: pick one from `data/categories.yaml`. If nothing fits, say so in the pull request
   rather than forcing it, and we will discuss adding a category.
 - **Kind and language**: these print as backtick tags on your entry, like `hosted` `Python`. Pick `oss` for open source even though it prints nothing, the Source Code link carries that.
+
+## The sweep
+
+You do not have to submit at all. Every three days a workflow searches GitHub for repos that call
+Monid, grades the new ones against the rules above, and opens one pull request with its picks
+(see [`tools/sweep`](tools/sweep/README.md)). A maintainer still opens every link before merging.
+If the sweep got your project wrong, edit the entry in that pull request or open your own.
 
 ## Removal
 

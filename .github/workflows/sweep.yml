@@ -35,7 +35,7 @@ jobs:
       - run: npm ci
         working-directory: tools/sweep
       - name: Start from the grading state on showcase-data
-        run: scripts/pull-data.sh data/sweep/state.json
+        run: bash scripts/pull-data.sh data/sweep/state.json
       - name: Sweep GitHub and open the pull request
         working-directory: tools/sweep
         env:
@@ -51,4 +51,4 @@ jobs:
       - name: Keep the grading state on showcase-data
         if: ${{ !inputs.dry_run }}
         run: |
-          scripts/publish-data.sh "sweep: grading state ($(date -u +%F))" data/sweep/state.json
+          bash scripts/publish-data.sh "sweep: grading state ($(date -u +%F))" data/sweep/state.json

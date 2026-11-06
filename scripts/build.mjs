@@ -350,10 +350,11 @@ function build() {
 /* ------------------------------------------------------------------ *
  * Showcase export                                                     *
  * ------------------------------------------------------------------ */
-// data/built-with.json is what monid.ai/built-with reads, straight from this
-// repo's main branch. Same entries as the README, joined with the GitHub
-// numbers in data/github.json (written by scripts/github-meta.mjs, refreshed
-// daily by the showcase workflow). Deterministic for a given pair of inputs,
+// data/built-with.json is what monid.ai/built-with reads, from this repo's
+// showcase-data branch (the showcase workflow rebuilds it there after every
+// merge; the copy on main is only the seed). Same entries as the README,
+// joined with the GitHub numbers in data/github.json (written by
+// scripts/github-meta.mjs, refreshed every three days). Deterministic for a given pair of inputs,
 // so a contributor's local build and CI agree byte for byte.
 function writeShowcase(projects, categories) {
   const metaPath = join(ROOT, 'data/github.json');

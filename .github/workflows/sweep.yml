@@ -34,6 +34,8 @@ jobs:
           cache-dependency-path: tools/sweep/package-lock.json
       - run: npm ci
         working-directory: tools/sweep
+      - name: Start from the grading state on showcase-data
+        run: scripts/pull-data.sh data/sweep/state.json
       - name: Sweep GitHub and open the pull request
         working-directory: tools/sweep
         env:
@@ -44,13 +46,8 @@ jobs:
           DATA_DIR: ${{ github.workspace }}/data/sweep
           GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
         run: node bin/run.mjs ${{ inputs.dry_run && '--dry-run' || '' }}
-      - name: Keep the grading state on main
+      # main only takes reviewed pull requests, so the state goes to the
+      # unprotected showcase-data branch (see scripts/publish-data.sh).
+      - name: Keep the grading state on showcase-data
         if: ${{ !inputs.dry_run }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/sweep/state.json
-          git diff --cached --quiet && echo "state unchanged" && exit 0
-          git commit -m "sweep: grading state ($(date -u +%F))"
-          git pull --rebase -q origin main
-          git push
+        run: scripts/publish-data.sh "sweep: grading state ($(date -u +%F))" data/sweep/state.json

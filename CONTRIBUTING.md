@@ -57,7 +57,8 @@ Monid call. Same for `featured`: a maintainer flips it on the few live apps that
 ## After it merges
 
 Your entry is on [monid.ai/built-with](https://monid.ai/built-with) within minutes. The page reads
-[`data/built-with.json`](data/built-with.json) straight from this repo, nothing to deploy. Its
+[`data/built-with.json`](../../tree/showcase-data/data/built-with.json) from this repo's `showcase-data` branch, which a
+workflow rewrites after every merge, nothing to deploy. Its
 leaderboard ranks entries by GitHub stars (the vote; there is no separate upvote), by stars gained
 over the week, and, once the page has collected them, by how often readers opened the project from
 the page in the last week. The GitHub numbers are read every three days by the showcase workflow into

@@ -1,9 +1,13 @@
 name: showcase
 
 # Keeps data/built-with.json fresh for the Built with Monid page. The page
-# reads that one file straight from this repo, so a merged entry is on the
-# site within minutes, and the star counts behind its leaderboard move every
-# three days without anyone deploying anything.
+# reads that one file from this repo's showcase-data branch, so a merged
+# entry is on the site within minutes, and the star counts behind its
+# leaderboard move every three days without anyone deploying anything.
+#
+# Why a branch of its own: main only takes reviewed pull requests, so the
+# bot cannot commit there. Everything it rewrites goes to showcase-data via
+# scripts/publish-data.sh; the copies on main are just the seed.
 
 on:
   push:
@@ -18,14 +22,14 @@ permissions:
 
 jobs:
   refresh:
-    # The commit this job makes is itself a push to main; do not chase it.
-    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Start from the previous reading on showcase-data
+        run: scripts/pull-data.sh data/github.json data/visits.json
       - name: Read stars, last push and language from GitHub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -36,12 +40,5 @@ jobs:
         run: node scripts/github-meta.mjs
       - name: Rebuild README.md and data/built-with.json
         run: node scripts/build.mjs
-      - name: Commit if anything moved
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/github.json data/built-with.json README.md
-          [ -f data/visits.json ] && git add data/visits.json
-          git diff --cached --quiet && echo "nothing changed" && exit 0
-          git commit -m "showcase: refresh GitHub metadata ($(date -u +%F))"
-          git push
+      - name: Publish to the showcase-data branch
+        run: scripts/publish-data.sh "showcase: refresh GitHub metadata ($(date -u +%F))" data/github.json data/built-with.json data/visits.json

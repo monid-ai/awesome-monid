@@ -1,0 +1,886 @@
+{
+  "robbyczgw-cla/hermes-web-search-plus": {
+    "stars": 441,
+    "forks": 36,
+    "commits30d": 15,
+    "pushed": "2026-10-31",
+    "lang": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/239660374?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 427,
+      "checked": "2026-10-13"
+    }
+  },
+  "JamesANZ/medical-mcp": {
+    "stars": 120,
+    "forks": 37,
+    "commits30d": 1,
+    "pushed": "2026-10-15",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/16630514?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 116,
+      "checked": "2026-10-13"
+    }
+  },
+  "ashafizullah/hermes-monid-websearch": {
+    "stars": 22,
+    "forks": 2,
+    "commits30d": 0,
+    "pushed": "2026-08-29",
+    "lang": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/29304713?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 21,
+      "checked": "2026-10-13"
+    }
+  },
+  "robbyczgw-cla/web-search-plus-mcp": {
+    "stars": 5,
+    "forks": 4,
+    "commits30d": 9,
+    "pushed": "2026-10-31",
+    "lang": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/239660374?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 5,
+      "checked": "2026-10-13"
+    }
+  },
+  "ashafizullah/monid-mcp": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-08-29",
+    "lang": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/29304713?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "FeiyouG/monid-client": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-04-05",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/33943746?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "FeiyouG/orrery": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-07-10",
+    "lang": "JavaScript",
+    "avatar": "https://avatars.githubusercontent.com/u/33943746?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "monesh-pixelup/monid-scrapper-tool": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-07-23",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/304814259?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "oextraordimario/raspador_eventos": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-19",
+    "lang": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/46465405?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "suparahul/ugckit": {
+    "stars": 1,
+    "forks": 1,
+    "commits30d": 51,
+    "pushed": "2026-10-22",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/213215179?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Tushar-Bhowal/dossier": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 10,
+    "pushed": "2026-11-05",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/233734644?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Skatelo/gis-feasibility-search": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 1,
+    "pushed": "2026-10-18",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/68418085?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "yashbudhia/socap-lens": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-15",
+    "lang": "HTML",
+    "avatar": "https://avatars.githubusercontent.com/u/142312760?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "nighomni123/Qcom-scraping": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-15",
+    "lang": "HTML",
+    "avatar": "https://avatars.githubusercontent.com/u/232404413?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Flow-with-blessing/Ratina": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-10",
+    "lang": "JavaScript",
+    "avatar": "https://avatars.githubusercontent.com/u/273104706?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "yumuyou/jp-gacha-monitor": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-08-24",
+    "lang": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/201202896?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "heyarjunsh1607/Linkedin-Comp-Tracker": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-08-13",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/316722053?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "ScopeBlind/skills": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 1,
+    "pushed": "2026-10-22",
+    "lang": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/271959651?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Tobeworks/scroll-world-pro-skill": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-08-30",
+    "lang": "Shell",
+    "avatar": "https://avatars.githubusercontent.com/u/52962149?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "thisyearnofear/databard": {
+    "stars": 0,
+    "forks": 1,
+    "commits30d": 33,
+    "pushed": "2026-11-06",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/74209106?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "sneldao/ligis": {
+    "stars": 2,
+    "forks": 0,
+    "commits30d": 89,
+    "pushed": "2026-10-28",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/206023603?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 2,
+      "checked": "2026-10-13"
+    }
+  },
+  "pramod13071626/sales_agent-ai": {
+    "stars": 0,
+    "forks": 1,
+    "commits30d": 100,
+    "pushed": "2026-11-03",
+    "lang": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/249769092?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "egobera/Podcast": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-26",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/83339624?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "1nsar/investin-com-news-service": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-17",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/74408950?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "henrygoldsmith07-wq/food-shopping-os": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 100,
+    "pushed": "2026-11-06",
+    "lang": "JavaScript",
+    "avatar": "https://avatars.githubusercontent.com/u/297416545?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "premkumar-ponnada/zoo": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-21",
+    "lang": "JavaScript",
+    "avatar": "https://avatars.githubusercontent.com/u/216035486?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Noah-wang/feishu-mark-agent": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-11",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/53558856?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Noah-wang/hello-cao": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-09",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/53558856?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "konradre/video-production-skills": {
+    "stars": 7,
+    "forks": 1,
+    "commits30d": 46,
+    "pushed": "2026-10-29",
+    "lang": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/29267068?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 7,
+      "checked": "2026-10-13"
+    }
+  },
+  "sangtrx/hackathon-monid-prospect-brief": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-10-04",
+    "lang": "JavaScript",
+    "avatar": "https://avatars.githubusercontent.com/u/45520864?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Deborah4Ever/Postproof": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-10-03",
+    "lang": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/329722214?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "tharolankit19-create/agentstack": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 15,
+    "pushed": "2026-10-25",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/251552166?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "arjunkshah12345-hash/scoutkill": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-02",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/298151270?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "zbs-gg/zbs-researcher": {
+    "stars": 4,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-19",
+    "lang": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/283121663?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 4,
+      "checked": "2026-10-13"
+    }
+  },
+  "Yurika-Kan/chatathon": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-19",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/148014074?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "DevMortimer/pi-tiny-search": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 1,
+    "pushed": "2026-10-21",
+    "lang": "",
+    "avatar": "https://avatars.githubusercontent.com/u/161127243?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Jasper0122/agent-seo-kit": {
+    "stars": 8,
+    "forks": 2,
+    "commits30d": 0,
+    "pushed": "2026-09-15",
+    "lang": "JavaScript",
+    "avatar": "https://avatars.githubusercontent.com/u/139950656?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 8,
+      "checked": "2026-10-13"
+    }
+  },
+  "BeLazy167/freefinancialdataset": {
+    "stars": 4,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-08",
+    "lang": "Go",
+    "avatar": "https://avatars.githubusercontent.com/u/66153057?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 4,
+      "checked": "2026-10-13"
+    }
+  },
+  "okou-ai/okou": {
+    "stars": 1162,
+    "forks": 74,
+    "commits30d": 100,
+    "pushed": "2026-11-06",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/242540347?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 1157,
+      "checked": "2026-10-13"
+    }
+  },
+  "diggerhq/openmonitor": {
+    "stars": 0,
+    "forks": 1,
+    "commits30d": 0,
+    "pushed": "2026-09-05",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/71334590?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "yoheinakajima/regimes-probe": {
+    "stars": 2,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-06-13",
+    "lang": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/1701418?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 2,
+      "checked": "2026-10-13"
+    }
+  },
+  "sprah/jev-monid-poc": {
+    "stars": 1,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-26",
+    "lang": "JavaScript",
+    "avatar": "https://avatars.githubusercontent.com/u/9334813?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 1,
+      "checked": "2026-10-13"
+    }
+  },
+  "docxology/template": {
+    "stars": 23,
+    "forks": 1,
+    "commits30d": 100,
+    "pushed": "2026-11-06",
+    "lang": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/6911384?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 20,
+      "checked": "2026-10-13"
+    }
+  },
+  "fabianocruz/sinal-lab": {
+    "stars": 3,
+    "forks": 3,
+    "commits30d": 0,
+    "pushed": "2026-09-23",
+    "lang": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/243534?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 3,
+      "checked": "2026-10-13"
+    }
+  },
+  "xihuishawpy/news_report": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-08-28",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/25117244?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Qoxu/datapulse-intel": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-19",
+    "lang": "HTML",
+    "avatar": "https://avatars.githubusercontent.com/u/295814885?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "eliasstravik/gtm-skills": {
+    "stars": 24,
+    "forks": 2,
+    "commits30d": 6,
+    "pushed": "2026-10-15",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/218792529?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 18,
+      "checked": "2026-10-13"
+    }
+  },
+  "Jacky040124/zero-human-company": {
+    "stars": 0,
+    "forks": 1,
+    "commits30d": 0,
+    "pushed": "2026-08-16",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/70379051?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "useopencompany/opencompany": {
+    "stars": 14,
+    "forks": 3,
+    "commits30d": 4,
+    "pushed": "2026-11-02",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/262109464?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 13,
+      "checked": "2026-10-13"
+    }
+  },
+  "LiamVisionary/hivemindos": {
+    "stars": 13,
+    "forks": 4,
+    "commits30d": 0,
+    "pushed": "2026-11-06",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/102138294?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 12,
+      "checked": "2026-10-13"
+    }
+  },
+  "Huskyauto/VisionClaw-Agent-Public-Release": {
+    "stars": 26,
+    "forks": 10,
+    "commits30d": 13,
+    "pushed": "2026-11-06",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/165963751?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 26,
+      "checked": "2026-10-13"
+    }
+  },
+  "jayniebingyu-cyber/goaimoat-decision-maker-lookup-mcp": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-26",
+    "lang": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/291551439?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "jayniebingyu-cyber/goaimoat-web-scrape-mcp": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-25",
+    "lang": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/291551439?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "ayushgautam-dev/vc-analyst": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-21",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/80264697?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "gentityapp/grantry": {
+    "stars": 0,
+    "forks": 1,
+    "commits30d": 1,
+    "pushed": "2026-10-14",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/285288728?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "itublockchain/proviso": {
+    "stars": 0,
+    "forks": 1,
+    "commits30d": 0,
+    "pushed": "2026-09-27",
+    "lang": "Swift",
+    "avatar": "https://avatars.githubusercontent.com/u/81096421?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "robbyczgw-cla/web-search-plus-plugin": {
+    "stars": 101,
+    "forks": 9,
+    "commits30d": 3,
+    "pushed": "2026-10-10",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/239660374?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 101,
+      "checked": "2026-10-13"
+    }
+  },
+  "Blankeos/crabcode": {
+    "stars": 67,
+    "forks": 17,
+    "commits30d": 13,
+    "pushed": "2026-11-04",
+    "lang": "Rust",
+    "avatar": "https://avatars.githubusercontent.com/u/38070918?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 61,
+      "checked": "2026-10-13"
+    }
+  },
+  "TianZuo555/pi-extensions": {
+    "stars": 22,
+    "forks": 9,
+    "commits30d": 76,
+    "pushed": "2026-11-06",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/31202736?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 20,
+      "checked": "2026-10-13"
+    }
+  },
+  "otomata-tech/connectors": {
+    "stars": 0,
+    "forks": 2,
+    "commits30d": 100,
+    "pushed": "2026-11-06",
+    "lang": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/342387914?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "ravidsrk/agent-skills": {
+    "stars": 1,
+    "forks": 0,
+    "commits30d": 100,
+    "pushed": "2026-11-04",
+    "lang": "Shell",
+    "avatar": "https://avatars.githubusercontent.com/u/529352?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 1,
+      "checked": "2026-10-13"
+    }
+  },
+  "ravidsrk/eve-agents": {
+    "stars": 2,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-08-03",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/529352?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 2,
+      "checked": "2026-10-13"
+    }
+  },
+  "edrodrigues/Curta": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-08-02",
+    "lang": "HTML",
+    "avatar": "https://avatars.githubusercontent.com/u/8801224?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "nhancio/magicboxai-contentengine": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-05",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/177383350?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "techwarq/Edith": {
+    "stars": 1,
+    "forks": 0,
+    "commits30d": 11,
+    "pushed": "2026-10-19",
+    "lang": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/102250604?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "Keith9922/chisha_liuyao": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-06-20",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/115618980?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "RyoSAKu610/HEN-Human-experience-network-": {
+    "stars": 0,
+    "forks": 0,
+    "commits30d": 0,
+    "pushed": "2026-09-28",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/80048317?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 0,
+      "checked": "2026-10-13"
+    }
+  },
+  "HisuiKoh/jev-vtuber-ime-core": {
+    "stars": 1,
+    "forks": 1,
+    "commits30d": 0,
+    "pushed": "2026-09-21",
+    "lang": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/63396222?v=4",
+    "checked": "2026-11-06",
+    "prev": {
+      "stars": 1,
+      "checked": "2026-10-13"
+    }
+  }
+}

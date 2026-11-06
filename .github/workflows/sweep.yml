@@ -50,4 +50,5 @@ jobs:
       # unprotected showcase-data branch (see scripts/publish-data.sh).
       - name: Keep the grading state on showcase-data
         if: ${{ !inputs.dry_run }}
-        run: scripts/publish-data.sh "sweep: grading state ($(date -u +%F))" data/sweep/state.json
+        run: |
+          scripts/publish-data.sh "sweep: grading state ($(date -u +%F))" data/sweep/state.json

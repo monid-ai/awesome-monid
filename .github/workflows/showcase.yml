@@ -41,4 +41,5 @@ jobs:
       - name: Rebuild README.md and data/built-with.json
         run: node scripts/build.mjs
       - name: Publish to the showcase-data branch
-        run: scripts/publish-data.sh "showcase: refresh GitHub metadata ($(date -u +%F))" data/github.json data/built-with.json data/visits.json
+        run: |
+          scripts/publish-data.sh "showcase: refresh GitHub metadata ($(date -u +%F))" data/github.json data/built-with.json data/visits.json

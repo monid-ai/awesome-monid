@@ -7,6 +7,7 @@
 
 <br>
 
+[Browse the showcase](https://monid.ai/built-with) &nbsp;·&nbsp;
 [Submit a project](CONTRIBUTING.md#how-to-submit) &nbsp;·&nbsp;
 [Monid docs](https://monid.ai/docs)
 
@@ -17,7 +18,8 @@
 platforms, reviews and market data, and video, image and voice generation.
 
 **This is the open source community list of what people built on it.** Where the builder shared
-the number, the entry shows what one run costs them.
+the number, the entry shows what one run costs them. The same entries, with screenshots and a
+leaderboard, are at [monid.ai/built-with](https://monid.ai/built-with); that page reads this repo.
 
 <!-- BEGIN GENERATED -->
 
@@ -196,9 +198,10 @@ request with both files. [CONTRIBUTING.md](CONTRIBUTING.md#how-to-submit) has th
 the rules. Please do not hand-edit `README.md`: everything between the generated markers comes from
 the data file and your edit would be overwritten on the next build.
 
-Listed projects are welcome to put this in their own README:
+Listed projects are welcome to put either of these in their own README:
 
 ```md
+[![Built with Monid](https://monid.ai/img/built-with-monid.svg)](https://monid.ai/built-with)
 [![Featured in awesome-monid](https://img.shields.io/badge/Featured%20in-awesome--monid-0016D7?style=flat-square)](https://github.com/monid-ai/awesome-monid)
 ```
 

@@ -2,7 +2,7 @@
   "robbyczgw-cla/hermes-web-search-plus": {
     "stars": 442,
     "forks": 36,
-    "commits30d": 15,
+    "commits30d": 14,
     "pushed": "2026-10-31",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/239660374?v=4",
@@ -26,7 +26,7 @@
     }
   },
   "ashafizullah/hermes-monid-websearch": {
-    "stars": 22,
+    "stars": 23,
     "forks": 2,
     "commits30d": 0,
     "pushed": "2026-08-29",
@@ -41,7 +41,7 @@
   "robbyczgw-cla/web-search-plus-mcp": {
     "stars": 5,
     "forks": 4,
-    "commits30d": 9,
+    "commits30d": 8,
     "pushed": "2026-10-31",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/239660374?v=4",
@@ -52,7 +52,7 @@
     }
   },
   "ashafizullah/monid-mcp": {
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "commits30d": 0,
     "pushed": "2026-08-29",
@@ -132,7 +132,7 @@
   "Tushar-Bhowal/dossier": {
     "stars": 0,
     "forks": 0,
-    "commits30d": 10,
+    "commits30d": 2,
     "pushed": "2026-11-05",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/233734644?v=4",
@@ -743,8 +743,8 @@
   "Blankeos/crabcode": {
     "stars": 67,
     "forks": 17,
-    "commits30d": 13,
-    "pushed": "2026-11-04",
+    "commits30d": 15,
+    "pushed": "2026-11-07",
     "lang": "Rust",
     "avatar": "https://avatars.githubusercontent.com/u/38070918?v=4",
     "checked": "2026-11-07",
@@ -756,8 +756,8 @@
   "TianZuo555/pi-extensions": {
     "stars": 22,
     "forks": 9,
-    "commits30d": 76,
-    "pushed": "2026-11-06",
+    "commits30d": 77,
+    "pushed": "2026-11-07",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/31202736?v=4",
     "checked": "2026-11-07",
@@ -770,7 +770,7 @@
     "stars": 0,
     "forks": 2,
     "commits30d": 100,
-    "pushed": "2026-11-06",
+    "pushed": "2026-11-07",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/342387914?v=4",
     "checked": "2026-11-07",
@@ -924,7 +924,7 @@
     "forks": 34,
     "commits30d": 100,
     "pushed": "2026-11-07",
-    "lang": "TypeScript",
+    "lang": "JavaScript",
     "avatar": "https://avatars.githubusercontent.com/u/129819217?v=4",
     "checked": "2026-11-07"
   },
@@ -949,7 +949,7 @@
   "deepception/cc_tool": {
     "stars": 4,
     "forks": 1,
-    "commits30d": 76,
+    "commits30d": 74,
     "pushed": "2026-11-06",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/44085743?v=4",
@@ -968,7 +968,7 @@
     "stars": 8,
     "forks": 0,
     "commits30d": 100,
-    "pushed": "2026-11-06",
+    "pushed": "2026-11-07",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/266695173?v=4",
     "checked": "2026-11-07"
@@ -1004,7 +1004,7 @@
     "stars": 0,
     "forks": 0,
     "commits30d": 100,
-    "pushed": "2026-11-06",
+    "pushed": "2026-11-07",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/101750903?v=4",
     "checked": "2026-11-07"

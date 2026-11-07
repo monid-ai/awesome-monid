@@ -29,7 +29,7 @@ jobs:
         with:
           node-version: 20
       - name: Start from the previous reading on showcase-data
-        run: scripts/pull-data.sh data/github.json data/visits.json
+        run: bash scripts/pull-data.sh data/github.json data/visits.json
       - name: Read stars, last push and language from GitHub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -42,4 +42,4 @@ jobs:
         run: node scripts/build.mjs
       - name: Publish to the showcase-data branch
         run: |
-          scripts/publish-data.sh "showcase: refresh GitHub metadata ($(date -u +%F))" data/github.json data/built-with.json data/visits.json
+          bash scripts/publish-data.sh "showcase: refresh GitHub metadata ($(date -u +%F))" data/github.json data/built-with.json data/visits.json

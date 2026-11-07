@@ -1,13 +1,14 @@
 name: sweep
 
-# Every three days: find repos on GitHub that use Monid and are not on the
-# list, grade them, and open ONE pull request for a maintainer to review.
-# See tools/sweep/README.md. Needs ANTHROPIC_API_KEY or OPENAI_API_KEY in
-# the repo secrets; without one the run logs that and does nothing.
+# Manual backup of the weekly sweep. The scheduled sweep runs on InstaCloud
+# (project awesome-monid-autopr, Mondays 07:00 UTC) and merges its own PR, so
+# this one has no schedule: run it from the Actions tab when that box is down.
+# It finds repos on GitHub that use Monid and are not on the list, grades
+# them, and opens ONE pull request for a maintainer to review. See
+# tools/sweep/README.md. Needs ANTHROPIC_API_KEY or OPENAI_API_KEY in the
+# repo secrets; without one the run logs that and does nothing.
 
 on:
-  schedule:
-    - cron: "23 7 */3 * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -35,11 +36,16 @@ jobs:
       - run: npm ci
         working-directory: tools/sweep
       - name: Start from the grading state on showcase-data
-        run: scripts/pull-data.sh data/sweep/state.json
+        run: bash scripts/pull-data.sh data/sweep/state.json
       - name: Sweep GitHub and open the pull request
         working-directory: tools/sweep
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # SWEEP_TOKEN: a fine-grained PAT scoped to this one repo (Contents and
+          # Pull requests: write). The built-in token cannot open pull requests
+          # while the org keeps "Allow GitHub Actions to create and approve pull
+          # requests" off, and a PAT needs no org-wide change. Without it the
+          # built-in token is used and PR creation fails on that org setting.
+          GITHUB_TOKEN: ${{ secrets.SWEEP_TOKEN || secrets.GITHUB_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           MAX_CANDIDATES: ${{ inputs.max_candidates || '25' }}
@@ -51,4 +57,4 @@ jobs:
       - name: Keep the grading state on showcase-data
         if: ${{ !inputs.dry_run }}
         run: |
-          scripts/publish-data.sh "sweep: grading state ($(date -u +%F))" data/sweep/state.json
+          bash scripts/publish-data.sh "sweep: grading state ($(date -u +%F))" data/sweep/state.json

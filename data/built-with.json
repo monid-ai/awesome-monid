@@ -2513,42 +2513,6 @@
       "verified": false
     },
     {
-      "id": "treg",
-      "name": "Treg",
-      "url": "https://treg.to",
-      "repo": "superdesigndev/treg",
-      "author": "@superdesigndev",
-      "owner": "superdesigndev",
-      "avatar": "https://avatars.githubusercontent.com/u/217153862?v=4",
-      "category": "skills-mcp-plugins",
-      "kind": [
-        "hosted",
-        "oss",
-        "skill"
-      ],
-      "lang": "Python",
-      "cost": "",
-      "monid": [
-        "run",
-        "runs",
-        "hunterioemailverifier",
-        "hunteriodomainsearch",
-        "tikhub"
-      ],
-      "description": "Routes agent tool calls through a hosted registry, CLI and MCP server, including Monid upstream calls and async polling.",
-      "stars": 7397,
-      "forks": 664,
-      "commits30d": 100,
-      "visits7d": null,
-      "starsPrev": null,
-      "starsPrevAt": "",
-      "pushed": "2026-11-07",
-      "hosted": true,
-      "featured": false,
-      "added": "2026-11-07",
-      "verified": false
-    },
-    {
       "id": "skillz",
       "name": "Skillz",
       "url": "https://github.com/tanveerriaz/Skillz",
@@ -2907,7 +2871,7 @@
       "visits7d": null,
       "starsPrev": null,
       "starsPrevAt": "",
-      "pushed": "2026-11-06",
+      "pushed": "2026-11-07",
       "hosted": false,
       "featured": false,
       "added": "2026-11-07",

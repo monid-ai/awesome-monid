@@ -114,7 +114,20 @@ const EVIDENCE = {
 /* ------------------------------------------------------------------ *
  * Validation                                                          *
  * ------------------------------------------------------------------ */
-function validate(projects, categories) {
+function hostOf(u) {
+  try { return new URL(u).host.replace(/^www\./, '').toLowerCase(); } catch { return ''; }
+}
+
+// data/blocklist.yaml: competing registries and the like. Match on repo or url host.
+function blockedBy(blocklist, p) {
+  const repo = String(p.repo || '').toLowerCase();
+  const host = hostOf(p.url);
+  return blocklist.find((b) =>
+    (b.repo && repo && String(b.repo).toLowerCase() === repo) ||
+    (b.url && host && hostOf(b.url) === host)) || null;
+}
+
+function validate(projects, categories, blocklist = []) {
   const errors = [];
   const ids = new Set();
   const catIds = new Set(categories.map((c) => c.id));
@@ -143,6 +156,8 @@ function validate(projects, categories) {
     }
     if (p.category && !catIds.has(p.category)) bad(`unknown category "${p.category}"`);
     if (p.source) bad('the "source" field is gone, this list has no team section');
+    const blocked = blockedBy(blocklist, p);
+    if (blocked) bad(`on data/blocklist.yaml (${blocked.reason || 'blocked'}), it does not go on the list`);
     if (p.repo && OURS.test(p.repo) && !ALLOWED.has(p.repo.toLowerCase())) {
       bad('this is one of our own repos, it does not go on the list');
     }
@@ -299,7 +314,9 @@ function build() {
     );
   }
 
-  const errors = validate(projects, categories);
+  const blocklistPath = join(ROOT, 'data/blocklist.yaml');
+  const blocklist = existsSync(blocklistPath) ? parseList(readFileSync(blocklistPath, 'utf8'), 'data/blocklist.yaml') : [];
+  const errors = validate(projects, categories, blocklist);
   if (errors.length) {
     console.error('Validation failed:\n' + errors.map((e) => `  - ${e}`).join('\n'));
     process.exit(1);

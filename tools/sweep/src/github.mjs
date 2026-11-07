@@ -137,6 +137,29 @@ export class GitHub {
     return r.ok;
   }
 
+  // Squash-merge a pull. GitHub works out mergeability in the background right after a PR is
+  // opened, so a 405 "not mergeable" straight away is retried a few times before it counts.
+  async mergePull(repoFull, number, { title, message } = {}) {
+    let last = null;
+    for (let attempt = 0; attempt < 6; attempt++) {
+      const r = await this.req(`/repos/${repoFull}/pulls/${number}/merge`, {
+        method: 'PUT',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ merge_method: 'squash', commit_title: title, commit_message: message }),
+      });
+      if (r.ok) return r.data;
+      last = r;
+      if (r.status !== 405 || !/not mergeable/i.test(r.text)) break;
+      await sleep(3000);
+    }
+    throw new Error(`merge pull #${number}: ${last.status} ${last.text.slice(0, 300)}`);
+  }
+
+  async deleteBranch(repoFull, branch) {
+    const r = await this.req(`/repos/${repoFull}/git/refs/heads/${encodeURIComponent(branch)}`, { method: 'DELETE' });
+    return r.ok || r.status === 422;
+  }
+
   async comment(repoFull, number, body) {
     const r = await this.req(`/repos/${repoFull}/issues/${number}/comments`, {
       method: 'POST',

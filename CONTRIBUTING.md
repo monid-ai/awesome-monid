@@ -87,6 +87,10 @@ An entry has to clear all of these:
    fork-and-run template, or a write-up that teaches something specific. A demo that wraps one
    endpoint and adds nothing is not enough.
 4. **One project per submission.**
+5. **It is not a competing product.** Tool registries, routers, marketplaces and aggregators that
+   resell or re-route Monid calls as part of their own catalog stay off the list even though they
+   call Monid. Those live in [`data/blocklist.yaml`](data/blocklist.yaml): the sweep skips them
+   before grading and the build fails if one is added by hand.
 
 There is no star floor and no minimum age. Most of what gets built here is days old and has zero
 stars, and a rule that filtered those out would leave an empty page. Curation happens in review

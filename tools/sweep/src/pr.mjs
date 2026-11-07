@@ -1,7 +1,7 @@
 // Git side: clone awesome-monid, append the new entries to data/projects.yaml, regenerate README.md
 // with the repo's own build script, push a bot branch, open (or refresh) the pull request.
 import { execFileSync } from 'node:child_process';
-import { mkdtempSync, readFileSync, writeFileSync, rmSync } from 'node:fs';
+import { mkdtempSync, readFileSync, writeFileSync, rmSync, existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { splitBlocks, renderEntry } from './listdata.mjs';
@@ -31,7 +31,9 @@ export function cloneList({ token }) {
 export function readMainData(dir) {
   const projectsText = readFileSync(join(dir, 'data/projects.yaml'), 'utf8');
   const categoriesText = readFileSync(join(dir, 'data/categories.yaml'), 'utf8');
-  return { projectsText, categoriesText };
+  const blocklistPath = join(dir, 'data/blocklist.yaml');
+  const blocklistText = existsSync(blocklistPath) ? readFileSync(blocklistPath, 'utf8') : '';
+  return { projectsText, categoriesText, blocklistText };
 }
 
 // Entries present on an open bot branch but not on main: the ones a maintainer has not merged yet.
@@ -74,7 +76,7 @@ export function commitEntries({ clone, entries, existingBranch, date }) {
   return { branch, pendingCount: pending.length };
 }
 
-export function prBody({ date, accepted, rejected, skipped, queries, carried }) {
+export function prBody({ date, accepted, rejected, skipped, queries, carried, autoMerge = false }) {
   const row = (e) => {
     const ev = e._files.slice(0, 2).map((f) => `[${f.path.split('/').pop()}](${f.html_url})`).join(', ');
     return `| [${e.name}](${e.url}) | ${e.repo ? `[${e.repo}](https://github.com/${e.repo})` : 'closed source'} | \`${e.evidence}\` ${ev} | \`${e.category}\` | ${e._reason} |`;
@@ -83,7 +85,9 @@ export function prBody({ date, accepted, rejected, skipped, queries, carried }) 
     '## What',
     '',
     `- ${accepted.length} new entr${accepted.length === 1 ? 'y' : 'ies'} from the automated sweep on ${date}: GitHub code search on ${queries.map((q) => `\`${q}\``).join(', ')}, every hit not already listed read past the README and graded against the CONTRIBUTING rules by a model, then checked against the build script's validation.`,
-    `- Every entry is \`verified: false\`. A maintainer still opens the link and confirms the Monid call before merge, same as a human submission.`,
+    autoMerge
+      ? `- Merged by the sweep itself. Every entry is \`verified: false\` until a maintainer opens the link and confirms the Monid call; flip it or revert the entry if it does not hold up.`
+      : `- Every entry is \`verified: false\`. A maintainer still opens the link and confirms the Monid call before merge, same as a human submission.`,
     `- \`README.md\` regenerated with \`npm run build\`; \`--check\` passes.`,
     ...(carried ? [`- ${carried} entr${carried === 1 ? 'y' : 'ies'} from the previous sweep carried over on this branch, still unmerged.`] : []),
     '',
@@ -111,6 +115,14 @@ export async function openOrUpdatePull(gh, { branch, title, body, existing }) {
   const pr = await gh.createPull(LIST_REPO, { title, head: branch, base: 'main', body });
   await gh.addLabels(LIST_REPO, pr.number, ['submission']);
   return pr;
+}
+
+// Merge the PR the sweep just opened and drop its branch. The token has to belong to a repo admin:
+// main's ruleset wants one approving review and only admins bypass it. Returns the merge sha.
+export async function mergePull(gh, pr, { title }) {
+  const m = await gh.mergePull(LIST_REPO, pr.number, { title, message: '' });
+  await gh.deleteBranch(LIST_REPO, pr.head.ref);
+  return m.sha;
 }
 
 export async function findOpenBotPull(gh) {

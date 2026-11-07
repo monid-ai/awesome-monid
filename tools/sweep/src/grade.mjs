@@ -33,6 +33,7 @@ function buildPrompt(c, categories) {
 2. It calls Monid. The code search already found a Monid marker in the files below; confirm from the fragments that the project actually uses it (a real call, config, or documented command), not just a mention in a comparison, a catalog of providers, or a dependency list that is never used.
 3. It is a thing someone can use: a shipped service, an installable skill, plugin or MCP server, a fork-and-run template, or a write-up that teaches something specific. OUT: personal dotfiles, config dumps, homework, empty scaffolds, a demo that wraps one endpoint and adds nothing, generic "agent skills" collections where Monid is one of 200 unrelated files unless the collection is itself a usable product, repos with a live API key committed in source (say so in the reason).
 4. Hackathon entries are in regardless of polish. No star floor, no minimum age.
+5. It is not a competing product. Tool registries, routers, marketplaces and aggregators that resell or re-route Monid calls as part of their own catalog of providers are OUT even though they call Monid (treg and the like). A project that uses Monid to build something for its own users is fine; a project whose product is "many data providers behind one key, Monid among them" is not.
 
 ## Entry fields
 - name: display name, no marketing suffix

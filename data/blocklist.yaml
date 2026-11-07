@@ -1,0 +1,9 @@
+# Projects the list will not take even though they call Monid: competing tool
+# registries, routers, marketplaces and aggregators that resell or re-route
+# Monid calls as part of their own catalog. Match is on repo (owner/name) or
+# the url host. The sweep skips these before grading, and
+# `node scripts/build.mjs --check` fails if one is in data/projects.yaml.
+
+- repo: superdesigndev/treg
+  url: https://treg.to
+  reason: Competing tool registry and router that resells Monid calls.

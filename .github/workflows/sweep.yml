@@ -1,13 +1,14 @@
 name: sweep
 
-# Every three days: find repos on GitHub that use Monid and are not on the
-# list, grade them, and open ONE pull request for a maintainer to review.
-# See tools/sweep/README.md. Needs ANTHROPIC_API_KEY or OPENAI_API_KEY in
-# the repo secrets; without one the run logs that and does nothing.
+# Manual backup of the weekly sweep. The scheduled sweep runs on InstaCloud
+# (project awesome-monid-autopr, Mondays 07:00 UTC) and merges its own PR, so
+# this one has no schedule: run it from the Actions tab when that box is down.
+# It finds repos on GitHub that use Monid and are not on the list, grades
+# them, and opens ONE pull request for a maintainer to review. See
+# tools/sweep/README.md. Needs ANTHROPIC_API_KEY or OPENAI_API_KEY in the
+# repo secrets; without one the run logs that and does nothing.
 
 on:
-  schedule:
-    - cron: "23 7 */3 * *"
   workflow_dispatch:
     inputs:
       dry_run:

@@ -1,7 +1,7 @@
 import { GitHub } from './github.mjs';
 import { grade, llmAvailable } from './grade.mjs';
-import { parseList, validateEntry, tidyDescription, OURS, ALLOWED_OURS } from './listdata.mjs';
-import { cloneList, readMainData, commitEntries, prBody, openOrUpdatePull, findOpenBotPull } from './pr.mjs';
+import { parseList, validateEntry, tidyDescription, blockedBy, OURS, ALLOWED_OURS } from './listdata.mjs';
+import { cloneList, readMainData, commitEntries, prBody, openOrUpdatePull, mergePull, findOpenBotPull } from './pr.mjs';
 import { log, slug, today } from './util.mjs';
 
 // Search query -> evidence tag, in the order the list prefers when several match.
@@ -19,6 +19,7 @@ export async function runSweep({ store, env = process.env, dryRun = false, maxCa
   const startedAt = new Date().toISOString();
   const date = today();
   const gh = new GitHub(env.GITHUB_TOKEN);
+  const autoMerge = /^(1|true|yes)$/i.test(String(env.AUTO_MERGE || ''));
   const summary = { startedAt, date, dryRun, hits: 0, candidates: 0, accepted: [], rejected: [], skipped: [], errors: [], pr: null };
 
   if (!llmAvailable(env)) {
@@ -29,7 +30,8 @@ export async function runSweep({ store, env = process.env, dryRun = false, maxCa
   // 1. The list as it is on main right now.
   const clone = cloneList({ token: dryRun ? '' : env.GITHUB_TOKEN });
   try {
-    const { projectsText, categoriesText } = readMainData(clone.dir);
+    const { projectsText, categoriesText, blocklistText } = readMainData(clone.dir);
+    const blocklist = blocklistText ? parseList(blocklistText) : [];
     const listed = parseList(projectsText);
     const categories = parseList(categoriesText);
     const categoryIds = new Set(categories.map((c) => c.id));
@@ -69,6 +71,12 @@ export async function runSweep({ store, env = process.env, dryRun = false, maxCa
       if (listedRepos.has(key)) continue;
       if (OURS.test(h.repo) && !ALLOWED_OURS.has(key)) { continue; }
       if (NOISE.test(h.repo)) { summary.skipped.push({ repo: h.repo, reason: 'config or dotfiles repo' }); continue; }
+      const blocked = blockedBy(blocklist, { repo: h.repo });
+      if (blocked) {
+        store.setRepo(h.repo, { verdict: 'blocked', reason: blocked.reason || 'on data/blocklist.yaml' });
+        summary.skipped.push({ repo: h.repo, reason: `on data/blocklist.yaml: ${blocked.reason || 'blocked'}` });
+        continue;
+      }
       const prev = store.repo(h.repo);
       if (prev) {
         const ageDays = (Date.now() - new Date(prev.at).getTime()) / 86400000;
@@ -103,7 +111,7 @@ export async function runSweep({ store, env = process.env, dryRun = false, maxCa
         c.homepageAlive = c.meta.homepage && /^https?:\/\//.test(c.meta.homepage) ? await GitHub.urlAlive(c.meta.homepage) : null;
         const g = await grade(c, categories, env);
         const entry = toEntry(c, g, date, ids);
-        const problems = validateEntry(entry, categoryIds, ids);
+        const problems = validateEntry(entry, categoryIds, ids, blocklist);
         if (!g.include) {
           store.setRepo(c.repo, { verdict: 'rejected', reason: g.reason, model: g._model });
           summary.rejected.push({ repo: c.repo, reason: g.reason });
@@ -136,11 +144,22 @@ export async function runSweep({ store, env = process.env, dryRun = false, maxCa
     const { branch, pendingCount } = commitEntries({ clone, entries: accepted, existingBranch: existing?.head?.ref, date });
     const total = accepted.length + pendingCount;
     const title = `Add ${total} project${total === 1 ? '' : 's'} from the ${date} automated sweep`;
-    const body = prBody({ date, accepted, rejected: summary.rejected, skipped: summary.skipped, queries: QUERIES.map((q) => q[0]), carried: pendingCount });
+    const body = prBody({ date, accepted, rejected: summary.rejected, skipped: summary.skipped, queries: QUERIES.map((q) => q[0]), carried: pendingCount, autoMerge });
     const pr = await openOrUpdatePull(gh, { branch, title, body, existing });
-    summary.pr = { number: pr.number, url: pr.html_url, branch, refreshed: !!existing };
+    summary.pr = { number: pr.number, url: pr.html_url, branch, refreshed: !!existing, merged: false };
     for (const e of accepted) store.setRepo(e.repo || e.url, { verdict: 'accepted', id: e.id, pr: pr.number });
     log(`PR ${pr.html_url}`);
+    if (autoMerge) {
+      // A refused merge is not fatal: the PR stays open for a human, same as before.
+      try {
+        summary.pr.mergeSha = await mergePull(gh, pr, { title });
+        summary.pr.merged = true;
+        log(`merged #${pr.number} as ${summary.pr.mergeSha}`);
+      } catch (e) {
+        summary.errors.push(`auto-merge of #${pr.number} failed, left open: ${e.message}`);
+        log(`auto-merge failed: ${e.message}`);
+      }
+    }
     return finish(store, summary);
   } finally {
     clone.cleanup();

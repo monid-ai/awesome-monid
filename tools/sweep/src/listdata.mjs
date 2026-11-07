@@ -8,6 +8,19 @@ export const EVIDENCE = ['api-url', 'api-key', 'cli-package', 'cli-command', 're
 export const OURS = /^(monid-ai|Jasper0122|shengkun-ye)\//i;
 export const ALLOWED_OURS = new Set(['jasper0122/agent-seo-kit']);
 
+// data/blocklist.yaml in the list repo: competing registries and the like, matched on repo
+// (owner/name) or url host. Checked before grading and again on the drafted entry.
+export function hostOf(u) {
+  try { return new URL(u).host.replace(/^www\./, '').toLowerCase(); } catch { return ''; }
+}
+export function blockedBy(blocklist, { repo, url }) {
+  const r = String(repo || '').toLowerCase();
+  const h = hostOf(url);
+  return blocklist.find((b) =>
+    (b.repo && r && String(b.repo).toLowerCase() === r) ||
+    (b.url && h && hostOf(b.url) === h)) || null;
+}
+
 // Same minimal reader as build.mjs: list of flat maps, "- key: value" / "  key: value".
 export function parseList(text) {
   const out = [];
@@ -82,7 +95,7 @@ export function renderEntry(p) {
 }
 
 // Mirrors validate() in build.mjs. Returns [] when the entry would pass CI.
-export function validateEntry(p, categoryIds, existingIds) {
+export function validateEntry(p, categoryIds, existingIds, blocklist = []) {
   const bad = [];
   for (const f of ['id', 'name', 'url', 'author', 'category', 'kind', 'description', 'added', 'evidence']) {
     if (p[f] === undefined || p[f] === '' || (Array.isArray(p[f]) && !p[f].length)) bad.push(`missing ${f}`);
@@ -91,6 +104,8 @@ export function validateEntry(p, categoryIds, existingIds) {
   if (p.id && existingIds.has(p.id)) bad.push('duplicate id');
   if (p.category && !categoryIds.has(p.category)) bad.push(`unknown category ${p.category}`);
   if (p.repo && OURS.test(p.repo) && !ALLOWED_OURS.has(p.repo.toLowerCase())) bad.push('our own repo');
+  const blocked = blockedBy(blocklist, p);
+  if (blocked) bad.push(`on data/blocklist.yaml: ${blocked.reason || 'blocked'}`);
   if (p.evidence && !EVIDENCE.includes(p.evidence)) bad.push('bad evidence');
   for (const k of p.kind || []) if (!KINDS.includes(k)) bad.push(`unknown kind ${k}`);
   for (const l of p.lang || []) if (!LANGS.includes(l)) bad.push(`unknown lang ${l}`);

@@ -1286,22 +1286,6 @@
   added: 2026-11-07
   verified: false
 
-- id: treg
-  name: Treg
-  url: https://treg.to
-  repo: superdesigndev/treg
-  author: "@superdesigndev"
-  category: skills-mcp-plugins
-  kind: [hosted, oss, skill]
-  lang: [py]
-  cost: ""
-  monid: [run, runs, hunterioemailverifier, hunteriodomainsearch, tikhub]
-  evidence: api-url
-  description: "Routes agent tool calls through a hosted registry, CLI and MCP server, including Monid upstream calls and async polling."
-  created: 2026-07-15
-  added: 2026-11-07
-  verified: false
-
 - id: skillz
   name: Skillz
   url: https://github.com/tanveerriaz/Skillz

@@ -25,7 +25,7 @@ leaderboard, are at [monid.ai/built-with](https://monid.ai/built-with); that pag
 
 <div align="center">
 
-![projects](https://img.shields.io/badge/projects-89-0016D7?style=flat-square) ![categories](https://img.shields.io/badge/categories-11-0016D7?style=flat-square) ![with a real price tag](https://img.shields.io/badge/with%20a%20real%20price%20tag-10-0016D7?style=flat-square) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+![projects](https://img.shields.io/badge/projects-88-0016D7?style=flat-square) ![categories](https://img.shields.io/badge/categories-11-0016D7?style=flat-square) ![with a real price tag](https://img.shields.io/badge/with%20a%20real%20price%20tag-10-0016D7?style=flat-square) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 </div>
 
@@ -34,7 +34,7 @@ leaderboard, are at [monid.ai/built-with](https://monid.ai/built-with); that pag
 <table>
   <tr><td><a href="#-research--intel">🔎 Research &amp; Intel</a> <sub>13</sub></td><td><a href="#-sales--lead-gen">🎯 Sales &amp; Lead Gen</a> <sub>5</sub></td><td><a href="#-marketing-seo--geo">📈 Marketing, SEO &amp; GEO</a> <sub>4</sub></td></tr>
   <tr><td><a href="#-commerce--pricing">🛒 Commerce &amp; Pricing</a> <sub>5</sub></td><td><a href="#-social--creator">📱 Social &amp; Creator</a> <sub>5</sub></td><td><a href="#-generative-media">🎬 Generative Media</a> <sub>7</sub></td></tr>
-  <tr><td><a href="#-markets--finance">💹 Markets &amp; Finance</a> <sub>5</sub></td><td><a href="#-local--real-world">🗺️ Local &amp; Real-world</a> <sub>3</sub></td><td><a href="#-agent-skills-mcp--plugins">🧩 Agent Skills, MCP &amp; Plugins</a> <sub>27</sub></td></tr>
+  <tr><td><a href="#-markets--finance">💹 Markets &amp; Finance</a> <sub>5</sub></td><td><a href="#-local--real-world">🗺️ Local &amp; Real-world</a> <sub>3</sub></td><td><a href="#-agent-skills-mcp--plugins">🧩 Agent Skills, MCP &amp; Plugins</a> <sub>26</sub></td></tr>
   <tr><td><a href="#-framework-integrations">🔌 Framework Integrations</a> <sub>14</sub></td><td><a href="#-starters--templates">🧰 Starters &amp; Templates</a> <sub>1</sub></td></tr>
 </table>
 
@@ -170,7 +170,6 @@ leaderboard, are at [monid.ai/built-with](https://monid.ai/built-with); that pag
 - [Skillz](https://github.com/tanveerriaz/Skillz) - Provides reusable agent skills, including a Scroll World skill with Monid CLI video run guidance. `skill` `Python`
 - [Skillz](https://github.com/aktonay/skillz) - Installs cross agent coding skills including a Scroll World workflow that uploads frames and tracks Monid video runs. `skill`
 - [Tool Audit](https://twzrd-sol.github.io/tool-audit/) - Gathers vendor evidence through live tool discovery before an agent is allowed to spend. ([Source Code](https://github.com/twzrd-sol/tool-audit)) `hosted` `TypeScript`
-- [Treg](https://treg.to) - Routes agent tool calls through a hosted registry, CLI and MCP server, including Monid upstream calls and async polling. ([Source Code](https://github.com/superdesigndev/treg)) `hosted` `skill` `Python`
 - [Web Search Plus MCP](https://websearchplus.xyz) - Fans one query across fifteen search and fetch sources, Monid among them. ([Source Code](https://github.com/robbyczgw-cla/web-search-plus-mcp)) `hosted` `Python`
 - [Web Search Plus Plugin](https://github.com/robbyczgw-cla/web-search-plus-plugin) - OpenClaw plugin that routes web search across thirteen providers, including Octen source search through Monid with freshness and domain filters. `skill` `TypeScript`
 - [Zyvo AI](https://github.com/zyvo9/ZYVO-AI) - Runs a Termux coding agent with built in skills, including a scroll video pipeline that stores assets through Monid. `skill` `TypeScript`

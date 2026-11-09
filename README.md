@@ -25,7 +25,7 @@ leaderboard, are at [monid.ai/built-with](https://monid.ai/built-with); that pag
 
 <div align="center">
 
-![projects](https://img.shields.io/badge/projects-101-0016D7?style=flat-square) ![categories](https://img.shields.io/badge/categories-11-0016D7?style=flat-square) ![with a real price tag](https://img.shields.io/badge/with%20a%20real%20price%20tag-11-0016D7?style=flat-square) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+![projects](https://img.shields.io/badge/projects-102-0016D7?style=flat-square) ![categories](https://img.shields.io/badge/categories-11-0016D7?style=flat-square) ![with a real price tag](https://img.shields.io/badge/with%20a%20real%20price%20tag-11-0016D7?style=flat-square) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 </div>
 
@@ -33,7 +33,7 @@ leaderboard, are at [monid.ai/built-with](https://monid.ai/built-with); that pag
 
 <table>
   <tr><td><a href="#-research--intel">🔎 Research &amp; Intel</a> <sub>15</sub></td><td><a href="#-sales--lead-gen">🎯 Sales &amp; Lead Gen</a> <sub>7</sub></td><td><a href="#-marketing-seo--geo">📈 Marketing, SEO &amp; GEO</a> <sub>5</sub></td></tr>
-  <tr><td><a href="#-commerce--pricing">🛒 Commerce &amp; Pricing</a> <sub>5</sub></td><td><a href="#-social--creator">📱 Social &amp; Creator</a> <sub>6</sub></td><td><a href="#-generative-media">🎬 Generative Media</a> <sub>9</sub></td></tr>
+  <tr><td><a href="#-commerce--pricing">🛒 Commerce &amp; Pricing</a> <sub>5</sub></td><td><a href="#-social--creator">📱 Social &amp; Creator</a> <sub>6</sub></td><td><a href="#-generative-media">🎬 Generative Media</a> <sub>10</sub></td></tr>
   <tr><td><a href="#-markets--finance">💹 Markets &amp; Finance</a> <sub>5</sub></td><td><a href="#-local--real-world">🗺️ Local &amp; Real-world</a> <sub>5</sub></td><td><a href="#-agent-skills-mcp--plugins">🧩 Agent Skills, MCP &amp; Plugins</a> <sub>29</sub></td></tr>
   <tr><td><a href="#-framework-integrations">🔌 Framework Integrations</a> <sub>14</sub></td><td><a href="#-starters--templates">🧰 Starters &amp; Templates</a> <sub>1</sub></td></tr>
 </table>
@@ -122,6 +122,7 @@ leaderboard, are at [monid.ai/built-with](https://monid.ai/built-with); that pag
 - [DataBard](https://github.com/thisyearnofear/databard) - Turns a data catalog into an interactive podcast. `TypeScript`
 - [Hypit](https://hypit.ai) - Clones viral videos into editable agent workflows with footage, captions, B roll and effects. ([Source Code](https://github.com/hypit-ai/hypit)) `hosted` `skill` `TypeScript`
 - [Qflow](https://github.com/Pangu-Immortal/qflow) - Lets agents turn reference videos into editable SVML workflows for captions, media, voice and rendering. `skill` `TypeScript`
+- [Scroll World](https://github.com/oso95/scroll-world) - Turns any brand into a scrollable 3D world landing page, rendering the camera flight through Seedance on Monid by default. `skill` `TypeScript`
 - [Scroll World Pro](https://tobeworks.de/skills/scroll-world-pro/) - Claude skill that builds a scroll-scrubbed flythrough landing page for any brand. ([Source Code](https://github.com/Tobeworks/scroll-world-pro-skill)) `hosted` `skill`
 - [The Wildlife Zoo](https://zoo-orcin-tau.vercel.app) - A scroll-driven camera walk through a miniature clay zoo. ([Source Code](https://github.com/premkumar-ponnada/zoo)) `hosted` `TypeScript`
 - [UGCKit](https://github.com/suparahul/ugckit) - Reference video in, recreation out, driven by an agent with ten skills and a local UI. `skill`

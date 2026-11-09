@@ -88,7 +88,7 @@ export async function runSweep({ store, env = process.env, dryRun = false, maxCa
     summary.candidates = fresh.length;
     log(`${fresh.length} repos not listed and not recently graded`);
 
-    // 4. Metadata, then pick the batch: most recently pushed first.
+    // 4. Metadata, then pick the batch: most starred first, recency as the tiebreak.
     const withMeta = [];
     for (const h of fresh) {
       let meta;
@@ -99,7 +99,9 @@ export async function runSweep({ store, env = process.env, dryRun = false, maxCa
       if (listedUrls.has(meta.html_url.toLowerCase())) continue;
       withMeta.push({ ...h, meta });
     }
-    withMeta.sort((a, b) => (b.meta.pushed_at > a.meta.pushed_at ? 1 : -1));
+    // Biggest first, so a 10k-star project is never left in the backlog behind a
+    // fresh push; recency only breaks ties.
+    withMeta.sort((a, b) => (b.meta.stars - a.meta.stars) || (b.meta.pushed_at > a.meta.pushed_at ? 1 : -1));
     const batch = withMeta.slice(0, maxCandidates);
     if (withMeta.length > batch.length) log(`grading ${batch.length} of ${withMeta.length}, the rest next week`);
 

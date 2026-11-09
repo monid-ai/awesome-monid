@@ -1669,3 +1669,19 @@
   created: 2026-10-20
   added: 2026-11-09
   verified: false
+
+- id: scroll-world
+  name: Scroll World
+  url: https://github.com/oso95/scroll-world
+  repo: oso95/scroll-world
+  author: "@oso95"
+  category: generative-media
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [seedance, sfs]
+  evidence: cli-command
+  description: "Turns any brand into a scrollable 3D world landing page, rendering the camera flight through Seedance on Monid by default."
+  created: 2026-07-06
+  added: 2026-11-09
+  verified: false

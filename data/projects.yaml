@@ -1461,3 +1461,211 @@
   created: 2026-08-28
   added: 2026-11-07
   verified: false
+
+- id: doddy
+  name: Doddy
+  url: https://github.com/Bienos/doddy.2
+  repo: Bienos/doddy.2
+  author: "@Bienos"
+  category: local-realworld
+  kind: [oss]
+  lang: [ts, other]
+  cost: ""
+  monid: [search, websearch, newssearch, placesearch]
+  evidence: api-url
+  description: "Provides an iPhone and web assistant that asks before acting and uses Monid for web, news and place searches."
+  created: 2026-10-08
+  added: 2026-11-09
+  verified: false
+
+- id: nodecode-monid
+  name: Nodecode Monid
+  url: https://github.com/nodecode-ai/cells
+  repo: nodecode-ai/cells
+  author: "@nodecode-ai"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [other]
+  cost: ""
+  monid: [discover, catalog, schema, run, poll, cost]
+  evidence: api-url
+  description: "Adds Monid catalog discovery and paid endpoint runs as tools inside Nodecode."
+  created: 2026-09-25
+  added: 2026-11-09
+  verified: false
+
+- id: qflow
+  name: Qflow
+  url: https://github.com/Pangu-Immortal/qflow
+  repo: Pangu-Immortal/qflow
+  author: "@Pangu-Immortal"
+  category: generative-media
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [remoteruns, provideractions]
+  evidence: api-url
+  description: "Lets agents turn reference videos into editable SVML workflows for captions, media, voice and rendering."
+  created: 2026-04-16
+  added: 2026-11-09
+  verified: false
+
+- id: hypit
+  name: Hypit
+  url: https://hypit.ai
+  repo: hypit-ai/hypit
+  author: "@hypit-ai"
+  category: generative-media
+  kind: [hosted, oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [remoteruns, provideractions]
+  evidence: api-url
+  description: "Clones viral videos into editable agent workflows with footage, captions, B roll and effects."
+  created: 2026-07-29
+  added: 2026-11-09
+  verified: false
+
+- id: lumitome
+  name: Lumitome
+  url: https://github.com/fahmi0812/Lumitome
+  repo: fahmi0812/Lumitome
+  author: "@fahmi0812"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [sfs/put, sfs/cat, minimax]
+  evidence: cli-command
+  description: "Runs a terminal coding assistant with a skills registry that includes Monid backed media and storage workflows."
+  created: 2026-11-01
+  added: 2026-11-09
+  verified: false
+
+- id: level-ai
+  name: Level AI
+  url: https://github.com/NoelSason/YCHackathon
+  repo: NoelSason/YCHackathon
+  author: "@NoelSason"
+  category: sales-leadgen
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [google-play, reviews, domain-search, cli]
+  evidence: api-key
+  description: "Runs agents that research puzzle game reviews, find studio leads, send outreach, and deliver paid playtest reports."
+  created: 2026-11-07
+  added: 2026-11-09
+  verified: false
+
+- id: competitive-analysis
+  name: Competitive Analysis
+  url: https://github.com/amr05008/agent-skills
+  repo: amr05008/agent-skills
+  author: "@amr05008"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [other]
+  cost: ""
+  monid: [discover, inspect, run]
+  evidence: api-url
+  description: "Creates evidence graded company and product teardown reports with optional Monid research gateway calls."
+  created: 2026-09-03
+  added: 2026-11-09
+  verified: false
+
+- id: kage
+  name: Kage
+  url: https://github.com/lemon5227/Kage
+  repo: lemon5227/Kage
+  author: "@lemon5227"
+  category: research-intel
+  kind: [oss]
+  lang: [py]
+  cost: ""
+  monid: [tinyfish, search]
+  evidence: api-url
+  description: "Runs a local desktop agent with Monid TinyFish web search as one of its web operation tools."
+  created: 2026-01-27
+  added: 2026-11-09
+  verified: false
+
+- id: founderdesk
+  name: FounderDesk
+  url: https://github.com/ankitshah009/founderdesk
+  repo: ankitshah009/founderdesk
+  author: "@ankitshah009"
+  category: marketing-seo-geo
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [search, pagefetch]
+  evidence: api-url
+  description: "Turns founder notes into sourced articles and approved social posts using Monid search and page fetch."
+  created: 2026-11-07
+  added: 2026-11-09
+  verified: false
+
+- id: nomen
+  name: Nomen
+  url: https://github.com/aiden-guan/Nomen
+  repo: aiden-guan/Nomen
+  author: "@aiden-guan"
+  category: social-creator
+  kind: [oss]
+  lang: [ts]
+  cost: "$1.19/run"
+  monid: [research, social, ads, reddit, chatgpt, perplexity]
+  evidence: api-url
+  description: "Runs autonomous UGC campaigns that research short form outliers, generate videos, route approvals, post, and feed analytics back."
+  created: 2026-11-07
+  added: 2026-11-09
+  verified: false
+
+- id: operis
+  name: Operis
+  url: https://github.com/cubic1M/Naive-Autonomous-Company-Hackathon-Project
+  repo: cubic1M/Naive-Autonomous-Company-Hackathon-Project
+  author: "@cubic1M"
+  category: local-realworld
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [reddit, tikhub, scrape, social, search]
+  evidence: api-url
+  description: "Lets AI agents request verified real-world human tasks through a hosted MCP server and worker payout flow."
+  created: 2026-11-07
+  added: 2026-11-09
+  verified: false
+
+- id: anybench
+  name: Anybench
+  url: https://anybench.vercel.app
+  repo: jaximus808/anybench
+  author: "@jaximus808"
+  category: research-intel
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: ""
+  monid: [discover, inspect, run, runs, agentmail]
+  evidence: api-url
+  description: "Benchmarks AI repos against baselines with hidden tests, repeated trials, scoring, statistics, traces, and signed reports."
+  created: 2026-11-08
+  added: 2026-11-09
+  verified: false
+
+- id: inroad
+  name: Inroad
+  url: https://github.com/aiden-guan/inroad
+  repo: aiden-guan/inroad
+  author: "@aiden-guan"
+  category: sales-leadgen
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [auth/whoami, inspect, run, research, salesintelligence]
+  evidence: api-url
+  description: "Finds high intent accounts, researches buying signals with sources, and drafts founder reviewed outreach."
+  created: 2026-10-20
+  added: 2026-11-09
+  verified: false

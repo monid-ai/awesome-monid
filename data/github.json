@@ -1,12 +1,12 @@
 {
   "robbyczgw-cla/hermes-web-search-plus": {
-    "stars": 443,
-    "forks": 36,
-    "commits30d": 11,
-    "pushed": "2026-11-09",
+    "stars": 444,
+    "forks": 37,
+    "commits30d": 12,
+    "pushed": "2026-11-10",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/239660374?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 427,
       "checked": "2026-10-13"
@@ -19,7 +19,7 @@
     "pushed": "2026-10-15",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/16630514?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 116,
       "checked": "2026-10-13"
@@ -32,7 +32,7 @@
     "pushed": "2026-08-29",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/29304713?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 21,
       "checked": "2026-10-13"
@@ -41,11 +41,11 @@
   "robbyczgw-cla/web-search-plus-mcp": {
     "stars": 5,
     "forks": 4,
-    "commits30d": 6,
-    "pushed": "2026-11-09",
+    "commits30d": 8,
+    "pushed": "2026-11-10",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/239660374?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 5,
       "checked": "2026-10-13"
@@ -58,7 +58,7 @@
     "pushed": "2026-08-29",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/29304713?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -71,7 +71,7 @@
     "pushed": "2026-04-05",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/33943746?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -84,7 +84,7 @@
     "pushed": "2026-07-10",
     "lang": "JavaScript",
     "avatar": "https://avatars.githubusercontent.com/u/33943746?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -97,7 +97,7 @@
     "pushed": "2026-07-23",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/304814259?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -110,7 +110,7 @@
     "pushed": "2026-09-19",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/46465405?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -119,11 +119,11 @@
   "suparahul/ugckit": {
     "stars": 1,
     "forks": 1,
-    "commits30d": 45,
+    "commits30d": 38,
     "pushed": "2026-10-22",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/213215179?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -132,11 +132,11 @@
   "Tushar-Bhowal/dossier": {
     "stars": 0,
     "forks": 0,
-    "commits30d": 2,
-    "pushed": "2026-11-07",
+    "commits30d": 3,
+    "pushed": "2026-11-12",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/233734644?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -149,7 +149,7 @@
     "pushed": "2026-10-18",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/68418085?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -162,7 +162,7 @@
     "pushed": "2026-09-15",
     "lang": "HTML",
     "avatar": "https://avatars.githubusercontent.com/u/142312760?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -175,7 +175,7 @@
     "pushed": "2026-09-15",
     "lang": "HTML",
     "avatar": "https://avatars.githubusercontent.com/u/232404413?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -188,7 +188,7 @@
     "pushed": "2026-09-10",
     "lang": "JavaScript",
     "avatar": "https://avatars.githubusercontent.com/u/273104706?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -201,7 +201,7 @@
     "pushed": "2026-08-24",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/201202896?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -214,7 +214,7 @@
     "pushed": "2026-08-13",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/316722053?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -227,7 +227,7 @@
     "pushed": "2026-10-22",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/271959651?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -240,7 +240,7 @@
     "pushed": "2026-08-30",
     "lang": "Shell",
     "avatar": "https://avatars.githubusercontent.com/u/52962149?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -253,7 +253,7 @@
     "pushed": "2026-11-06",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/74209106?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -262,11 +262,11 @@
   "sneldao/ligis": {
     "stars": 2,
     "forks": 0,
-    "commits30d": 89,
-    "pushed": "2026-10-28",
+    "commits30d": 46,
+    "pushed": "2026-11-12",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/206023603?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 2,
       "checked": "2026-10-13"
@@ -276,10 +276,10 @@
     "stars": 0,
     "forks": 1,
     "commits30d": 100,
-    "pushed": "2026-11-03",
+    "pushed": "2026-11-13",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/249769092?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -292,7 +292,7 @@
     "pushed": "2026-09-26",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/83339624?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -305,7 +305,7 @@
     "pushed": "2026-09-17",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/74408950?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -315,10 +315,10 @@
     "stars": 0,
     "forks": 0,
     "commits30d": 100,
-    "pushed": "2026-11-09",
+    "pushed": "2026-11-10",
     "lang": "JavaScript",
     "avatar": "https://avatars.githubusercontent.com/u/297416545?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -331,7 +331,7 @@
     "pushed": "2026-09-21",
     "lang": "JavaScript",
     "avatar": "https://avatars.githubusercontent.com/u/216035486?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -344,7 +344,7 @@
     "pushed": "2026-09-11",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/53558856?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -357,7 +357,7 @@
     "pushed": "2026-09-09",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/53558856?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -370,7 +370,7 @@
     "pushed": "2026-10-29",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/29267068?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 7,
       "checked": "2026-10-13"
@@ -383,7 +383,7 @@
     "pushed": "2026-10-04",
     "lang": "JavaScript",
     "avatar": "https://avatars.githubusercontent.com/u/45520864?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -396,7 +396,7 @@
     "pushed": "2026-10-03",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/329722214?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -409,7 +409,7 @@
     "pushed": "2026-10-25",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/251552166?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -422,7 +422,7 @@
     "pushed": "2026-09-02",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/298151270?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -435,7 +435,7 @@
     "pushed": "2026-09-19",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/283121663?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 4,
       "checked": "2026-10-13"
@@ -448,7 +448,7 @@
     "pushed": "2026-09-19",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/148014074?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -461,20 +461,20 @@
     "pushed": "2026-10-21",
     "lang": "",
     "avatar": "https://avatars.githubusercontent.com/u/161127243?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
     }
   },
   "Jasper0122/agent-seo-kit": {
-    "stars": 8,
+    "stars": 9,
     "forks": 2,
     "commits30d": 0,
     "pushed": "2026-09-15",
     "lang": "JavaScript",
     "avatar": "https://avatars.githubusercontent.com/u/139950656?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 8,
       "checked": "2026-10-13"
@@ -487,20 +487,20 @@
     "pushed": "2026-09-08",
     "lang": "Go",
     "avatar": "https://avatars.githubusercontent.com/u/66153057?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 4,
       "checked": "2026-10-13"
     }
   },
   "okou-ai/okou": {
-    "stars": 1162,
+    "stars": 1163,
     "forks": 74,
     "commits30d": 100,
-    "pushed": "2026-11-10",
+    "pushed": "2026-11-13",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/242540347?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 1157,
       "checked": "2026-10-13"
@@ -513,7 +513,7 @@
     "pushed": "2026-09-05",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/71334590?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -526,7 +526,7 @@
     "pushed": "2026-06-13",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/1701418?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 2,
       "checked": "2026-10-13"
@@ -539,7 +539,7 @@
     "pushed": "2026-09-26",
     "lang": "JavaScript",
     "avatar": "https://avatars.githubusercontent.com/u/9334813?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 1,
       "checked": "2026-10-13"
@@ -549,10 +549,10 @@
     "stars": 23,
     "forks": 1,
     "commits30d": 100,
-    "pushed": "2026-11-10",
+    "pushed": "2026-11-13",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/6911384?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 20,
       "checked": "2026-10-13"
@@ -565,7 +565,7 @@
     "pushed": "2026-09-23",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/243534?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 3,
       "checked": "2026-10-13"
@@ -578,7 +578,7 @@
     "pushed": "2026-08-28",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/25117244?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -591,7 +591,7 @@
     "pushed": "2026-09-19",
     "lang": "HTML",
     "avatar": "https://avatars.githubusercontent.com/u/295814885?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -600,11 +600,11 @@
   "eliasstravik/gtm-skills": {
     "stars": 24,
     "forks": 2,
-    "commits30d": 6,
+    "commits30d": 5,
     "pushed": "2026-10-15",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/218792529?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 18,
       "checked": "2026-10-13"
@@ -617,7 +617,7 @@
     "pushed": "2026-08-16",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/70379051?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -626,11 +626,11 @@
   "useopencompany/opencompany": {
     "stars": 14,
     "forks": 3,
-    "commits30d": 4,
+    "commits30d": 2,
     "pushed": "2026-11-10",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/262109464?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 13,
       "checked": "2026-10-13"
@@ -640,10 +640,10 @@
     "stars": 13,
     "forks": 4,
     "commits30d": 0,
-    "pushed": "2026-11-09",
+    "pushed": "2026-11-10",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/102138294?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 12,
       "checked": "2026-10-13"
@@ -652,11 +652,11 @@
   "Huskyauto/VisionClaw-Agent-Public-Release": {
     "stars": 26,
     "forks": 10,
-    "commits30d": 10,
-    "pushed": "2026-11-09",
+    "commits30d": 8,
+    "pushed": "2026-11-13",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/165963751?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 26,
       "checked": "2026-10-13"
@@ -669,7 +669,7 @@
     "pushed": "2026-09-26",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/291551439?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -682,7 +682,7 @@
     "pushed": "2026-09-25",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/291551439?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -695,7 +695,7 @@
     "pushed": "2026-09-21",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/80264697?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -704,11 +704,11 @@
   "gentityapp/grantry": {
     "stars": 0,
     "forks": 1,
-    "commits30d": 2,
+    "commits30d": 1,
     "pushed": "2026-11-09",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/285288728?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -721,7 +721,7 @@
     "pushed": "2026-09-27",
     "lang": "Swift",
     "avatar": "https://avatars.githubusercontent.com/u/81096421?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -734,7 +734,7 @@
     "pushed": "2026-10-10",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/239660374?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 101,
       "checked": "2026-10-13"
@@ -743,11 +743,11 @@
   "Blankeos/crabcode": {
     "stars": 67,
     "forks": 17,
-    "commits30d": 15,
-    "pushed": "2026-11-08",
+    "commits30d": 17,
+    "pushed": "2026-11-11",
     "lang": "Rust",
     "avatar": "https://avatars.githubusercontent.com/u/38070918?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 61,
       "checked": "2026-10-13"
@@ -756,11 +756,11 @@
   "TianZuo555/pi-extensions": {
     "stars": 22,
     "forks": 9,
-    "commits30d": 76,
+    "commits30d": 67,
     "pushed": "2026-11-09",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/31202736?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 20,
       "checked": "2026-10-13"
@@ -770,10 +770,10 @@
     "stars": 0,
     "forks": 2,
     "commits30d": 100,
-    "pushed": "2026-11-10",
+    "pushed": "2026-11-12",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/342387914?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -786,7 +786,7 @@
     "pushed": "2026-11-04",
     "lang": "Shell",
     "avatar": "https://avatars.githubusercontent.com/u/529352?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 1,
       "checked": "2026-10-13"
@@ -799,7 +799,7 @@
     "pushed": "2026-08-03",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/529352?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 2,
       "checked": "2026-10-13"
@@ -812,7 +812,7 @@
     "pushed": "2026-08-02",
     "lang": "HTML",
     "avatar": "https://avatars.githubusercontent.com/u/8801224?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -825,20 +825,20 @@
     "pushed": "2026-09-05",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/177383350?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
     }
   },
   "techwarq/Edith": {
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
-    "commits30d": 10,
+    "commits30d": 6,
     "pushed": "2026-10-19",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/102250604?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -851,7 +851,7 @@
     "pushed": "2026-06-20",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/115618980?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -864,7 +864,7 @@
     "pushed": "2026-09-28",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/80048317?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 0,
       "checked": "2026-10-13"
@@ -877,7 +877,7 @@
     "pushed": "2026-09-21",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/63396222?v=4",
-    "checked": "2026-11-10",
+    "checked": "2026-11-13",
     "prev": {
       "stars": 1,
       "checked": "2026-10-13"
@@ -886,47 +886,47 @@
   "leecyno1/boutique-skills": {
     "stars": 6,
     "forks": 0,
-    "commits30d": 9,
-    "pushed": "2026-11-07",
+    "commits30d": 16,
+    "pushed": "2026-11-12",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/200241788?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "ulises-jeremias/agent-toolkit": {
-    "stars": 19,
+    "stars": 20,
     "forks": 5,
     "commits30d": 100,
-    "pushed": "2026-11-10",
-    "lang": "V",
+    "pushed": "2026-11-13",
+    "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/17727170?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "Yale-Undergraduate-Consulting-Group/club-res-website": {
     "stars": 1,
     "forks": 1,
     "commits30d": 100,
-    "pushed": "2026-11-10",
+    "pushed": "2026-11-13",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/264275789?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "darrien-wang/hibachiathome": {
     "stars": 0,
     "forks": 0,
     "commits30d": 100,
-    "pushed": "2026-11-09",
+    "pushed": "2026-11-13",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/115970516?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "Parcha-ai/agentrun": {
-    "stars": 435,
-    "forks": 34,
+    "stars": 759,
+    "forks": 56,
     "commits30d": 100,
-    "pushed": "2026-11-10",
+    "pushed": "2026-11-13",
     "lang": "JavaScript",
     "avatar": "https://avatars.githubusercontent.com/u/129819217?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "tanveerriaz/Skillz": {
     "stars": 1,
@@ -935,70 +935,70 @@
     "pushed": "2026-11-10",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/165689464?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "aktonay/skillz": {
     "stars": 0,
     "forks": 0,
     "commits30d": 5,
-    "pushed": "2026-11-09",
+    "pushed": "2026-11-13",
     "lang": "JavaScript",
     "avatar": "https://avatars.githubusercontent.com/u/154751531?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "deepception/cc_tool": {
     "stars": 4,
     "forks": 1,
-    "commits30d": 16,
-    "pushed": "2026-11-07",
+    "commits30d": 17,
+    "pushed": "2026-11-12",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/44085743?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "synasapmob/hub-william": {
     "stars": 25,
     "forks": 1,
     "commits30d": 100,
-    "pushed": "2026-11-09",
+    "pushed": "2026-11-12",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/42969529?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "zyvo9/ZYVO-AI": {
     "stars": 10,
     "forks": 0,
     "commits30d": 100,
-    "pushed": "2026-11-10",
+    "pushed": "2026-11-13",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/266695173?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "getedgehq/skills": {
     "stars": 5,
     "forks": 0,
-    "commits30d": 50,
-    "pushed": "2026-11-09",
+    "commits30d": 49,
+    "pushed": "2026-11-12",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/327350993?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "coco-research/coco": {
-    "stars": 630,
-    "forks": 14,
-    "commits30d": 84,
-    "pushed": "2026-11-10",
+    "stars": 631,
+    "forks": 15,
+    "commits30d": 81,
+    "pushed": "2026-11-11",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/68911604?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "OpenLinkSoftware/ai-agent-skills": {
     "stars": 42,
     "forks": 10,
-    "commits30d": 62,
-    "pushed": "2026-11-06",
+    "commits30d": 67,
+    "pushed": "2026-11-13",
     "lang": "HTML",
     "avatar": "https://avatars.githubusercontent.com/u/30477123?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "wl2bd/thothly": {
     "stars": 0,
@@ -1007,16 +1007,16 @@
     "pushed": "2026-11-09",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/101750903?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "otomata-tech/oto-backend": {
     "stars": 2,
     "forks": 3,
     "commits30d": 100,
-    "pushed": "2026-11-10",
+    "pushed": "2026-11-13",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/280029837?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "zester4/chusky": {
     "stars": 1,
@@ -1025,52 +1025,53 @@
     "pushed": "2026-11-10",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/182688259?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-10",
+    "missing": true
   },
   "Bienos/doddy.2": {
     "stars": 0,
     "forks": 0,
     "commits30d": 100,
-    "pushed": "2026-11-10",
+    "pushed": "2026-11-13",
     "lang": "Swift",
     "avatar": "https://avatars.githubusercontent.com/u/88660262?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "nodecode-ai/cells": {
     "stars": 1,
-    "forks": 1,
+    "forks": 3,
     "commits30d": 100,
-    "pushed": "2026-11-10",
+    "pushed": "2026-11-13",
     "lang": "Common Lisp",
     "avatar": "https://avatars.githubusercontent.com/u/227057738?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "Pangu-Immortal/qflow": {
     "stars": 9,
     "forks": 1,
-    "commits30d": 18,
+    "commits30d": 15,
     "pushed": "2026-11-09",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/13057690?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "hypit-ai/hypit": {
-    "stars": 28975,
-    "forks": 3359,
-    "commits30d": 12,
-    "pushed": "2026-11-09",
+    "stars": 29628,
+    "forks": 3456,
+    "commits30d": 13,
+    "pushed": "2026-11-13",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/274059971?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "fahmi0812/Lumitome": {
     "stars": 0,
     "forks": 0,
-    "commits30d": 67,
-    "pushed": "2026-11-10",
+    "commits30d": 87,
+    "pushed": "2026-11-13",
     "lang": "HTML",
     "avatar": "https://avatars.githubusercontent.com/u/146805480?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "NoelSason/YCHackathon": {
     "stars": 0,
@@ -1079,7 +1080,7 @@
     "pushed": "2026-11-08",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/212492145?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "amr05008/agent-skills": {
     "stars": 1,
@@ -1088,16 +1089,16 @@
     "pushed": "2026-11-09",
     "lang": "Shell",
     "avatar": "https://avatars.githubusercontent.com/u/22353825?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "lemon5227/Kage": {
     "stars": 0,
     "forks": 0,
     "commits30d": 100,
-    "pushed": "2026-11-08",
+    "pushed": "2026-11-12",
     "lang": "Python",
     "avatar": "https://avatars.githubusercontent.com/u/45664738?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "ankitshah009/founderdesk": {
     "stars": 0,
@@ -1106,7 +1107,7 @@
     "pushed": "2026-11-08",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/3519772?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "aiden-guan/Nomen": {
     "stars": 0,
@@ -1115,7 +1116,7 @@
     "pushed": "2026-11-10",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/108591903?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "cubic1M/Naive-Autonomous-Company-Hackathon-Project": {
     "stars": 0,
@@ -1124,7 +1125,7 @@
     "pushed": "2026-11-08",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/188749183?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "jaximus808/anybench": {
     "stars": 1,
@@ -1133,7 +1134,7 @@
     "pushed": "2026-11-10",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/68038808?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "aiden-guan/inroad": {
     "stars": 0,
@@ -1142,15 +1143,15 @@
     "pushed": "2026-11-08",
     "lang": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/108591903?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   },
   "oso95/scroll-world": {
-    "stars": 10919,
-    "forks": 1190,
+    "stars": 10982,
+    "forks": 1198,
     "commits30d": 0,
     "pushed": "2026-07-29",
     "lang": "JavaScript",
     "avatar": "https://avatars.githubusercontent.com/u/86410452?v=4",
-    "checked": "2026-11-10"
+    "checked": "2026-11-13"
   }
 }

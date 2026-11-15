@@ -9,11 +9,12 @@ name: showcase
 # bot cannot commit there. Everything it rewrites goes to showcase-data via
 # scripts/publish-data.sh; the copies on main are just the seed.
 #
-# After publishing it tells Slack (#built-with-monid, through the incoming
-# webhook in the SLACK_WEBHOOK_URL secret) which projects are new compared
-# with what showcase-data held before the run, so a merged entry is
-# announced once and the metadata refreshes stay silent. Without the secret
-# that step only prints the payload.
+# After publishing it tells Slack (#built-with-monid, as the "Built with
+# Monid" app: SLACK_BOT_TOKEN + SLACK_CHANNEL_ID secrets, or an incoming
+# webhook in SLACK_WEBHOOK_URL) which projects are new compared with what
+# showcase-data held before the run, so a merged entry is announced once
+# and the metadata refreshes stay silent. Without the secrets that step
+# only prints the payload.
 
 on:
   push:
@@ -62,6 +63,8 @@ jobs:
         # fail the job.
         continue-on-error: true
         env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           NOTIFY_IDS: ${{ github.event.inputs.notify_ids }}
           COMMIT_URL: ${{ github.event.head_commit.url }}

@@ -8,6 +8,13 @@ name: showcase
 # Why a branch of its own: main only takes reviewed pull requests, so the
 # bot cannot commit there. Everything it rewrites goes to showcase-data via
 # scripts/publish-data.sh; the copies on main are just the seed.
+#
+# After publishing it tells Slack (#built-with-monid, as the "Built with
+# Monid" app: SLACK_BOT_TOKEN + SLACK_CHANNEL_ID secrets, or an incoming
+# webhook in SLACK_WEBHOOK_URL) which projects are new compared with what
+# showcase-data held before the run, so a merged entry is announced once
+# and the metadata refreshes stay silent. Without the secrets that step
+# only prints the payload.
 
 on:
   push:
@@ -16,6 +23,10 @@ on:
   schedule:
     - cron: "41 5 */3 * *"
   workflow_dispatch:
+    inputs:
+      notify_ids:
+        description: "Announce these project ids again (comma-separated), e.g. to test the Slack post"
+        default: ""
 
 permissions:
   contents: write
@@ -30,6 +41,10 @@ jobs:
           node-version: 20
       - name: Start from the previous reading on showcase-data
         run: bash scripts/pull-data.sh data/github.json data/visits.json
+      - name: Remember which projects the page showed before this run
+        run: |
+          git show origin/showcase-data:data/built-with.json > /tmp/built-with.prev.json 2>/dev/null \
+            || echo '{"projects":[]}' > /tmp/built-with.prev.json
       - name: Read stars, last push and language from GitHub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -43,3 +58,15 @@ jobs:
       - name: Publish to the showcase-data branch
         run: |
           bash scripts/publish-data.sh "showcase: refresh GitHub metadata ($(date -u +%F))" data/github.json data/built-with.json data/visits.json
+      - name: Tell Slack about the new projects
+        # A Slack outage must never hold back the data, so this step cannot
+        # fail the job.
+        continue-on-error: true
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          NOTIFY_IDS: ${{ github.event.inputs.notify_ids }}
+          COMMIT_URL: ${{ github.event.head_commit.url }}
+          COMMIT_MSG: ${{ github.event.head_commit.message }}
+        run: node scripts/notify-slack.mjs --prev /tmp/built-with.prev.json --next data/built-with.json

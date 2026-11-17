@@ -1685,3 +1685,147 @@
   created: 2026-07-06
   added: 2026-11-09
   verified: false
+
+- id: datagen
+  name: DATAGEN
+  url: https://github.com/zi-yue-1129/DATAGEN
+  repo: zi-yue-1129/DATAGEN
+  author: "@zi-yue-1129"
+  category: research-intel
+  kind: [oss]
+  lang: [py]
+  cost: ""
+  monid: [scrape, tinyfishbrowserextraction]
+  evidence: api-url
+  description: "Automates data analysis research with agents that can use Monid webpage extraction for source text."
+  created: 2024-07-23
+  added: 2026-11-17
+  verified: false
+
+- id: beeblio
+  name: Beeblio
+  url: https://github.com/alharkan7/beeblio
+  repo: alharkan7/beeblio
+  author: "@alharkan7"
+  category: research-intel
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [run, research, websearch]
+  evidence: api-url
+  description: "Provides a local AI research workspace whose agent can use Monid-backed web research tools alongside files and citations."
+  created: 2026-09-30
+  added: 2026-11-17
+  verified: false
+
+- id: lets-scroll
+  name: lets-scroll
+  url: https://github.com/AIwithhassan/lets-scroll
+  repo: AIwithhassan/lets-scroll
+  author: "@AIwithhassan"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [ts, py]
+  cost: "≈ $27/6-scene 1080p chain"
+  monid: [sfs/put, sfs/cat, seedance20videogeneration]
+  evidence: cli-command
+  description: "Builds scroll scrubbed landing pages from AI scene stills and Monid frame locked video chains."
+  created: 2026-08-15
+  added: 2026-11-17
+  verified: false
+
+- id: warm-apply
+  name: warm-apply
+  url: https://github.com/goodnight000/warm-apply
+  repo: goodnight000/warm-apply
+  author: "@goodnight000"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [py]
+  cost: "$0.90 first run; about $1/day for five prepared jobs"
+  monid: [linkedinjobsearch, googlejobs, apollo, hunter, contactout, fundingdata]
+  evidence: api-url
+  description: "Finds fitting jobs, identifies referral contacts, drafts notes, tailors resumes, and pre fills application forms for review."
+  created: 2026-10-23
+  added: 2026-11-17
+  verified: false
+
+- id: devnet-faucet
+  name: Devnet Faucet
+  url: https://devnetfaucet-omega.vercel.app
+  repo: ferric-sol/devnetfaucet
+  author: "@ferric-sol"
+  category: markets-finance
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: ""
+  monid: [twitterwebfetch_user_followers, twitterwebfetch_user_post_tweet, social]
+  evidence: api-url
+  description: "Runs a Solana devnet faucet with GitHub ecosystem checks and X follow or post verification."
+  created: 2025-02-20
+  added: 2026-11-17
+  verified: false
+
+- id: hermes-monid-skill
+  name: Hermes Monid Skill
+  url: https://github.com/jcrabapple/hermes-skills
+  repo: jcrabapple/hermes-skills
+  author: "@jcrabapple"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [py]
+  cost: ""
+  monid: [apify/apidojo/tweet-scraper, damilo/google-maps-scraper, scrape, social, leadresearch]
+  evidence: cli-command
+  description: "Adds Hermes Agent skills for running Monid endpoints and using Maps scraping in GTM lead research workflows."
+  created: 2026-05-06
+  added: 2026-11-17
+  verified: false
+
+- id: edge-blog
+  name: Edge Blog
+  url: https://www.068800.xyz
+  repo: nyoungo/EdgeBlog
+  author: "@nyoungo"
+  category: marketing-seo-geo
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: ""
+  monid: [search, web_search, tinyfishwebsearch]
+  evidence: api-url
+  description: "Runs a Cloudflare Workers blog that uses Monid search to gather sources for AI generated scheduled posts."
+  created: 2026-10-18
+  added: 2026-11-17
+  verified: false
+
+- id: agentit
+  name: Agentit
+  url: https://github.com/marcmarti9/agentit
+  repo: marcmarti9/agentit
+  author: "@marcmarti9"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [py]
+  cost: ""
+  monid: [sfs/put, sfs/cat, artifactstorage]
+  evidence: cli-command
+  description: "Adds a JIT skill system for coding agents with a pipeline that stores generated artifacts through Monid SFS."
+  created: 2026-07-28
+  added: 2026-11-17
+  verified: false
+
+- id: lensdna
+  name: LensDNA
+  url: https://github.com/kaascanvas/LensDNA-Extension
+  repo: kaascanvas/LensDNA-Extension
+  author: "@kaascanvas"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [discover, run, poll, recon, leads, social]
+  evidence: cli-command
+  description: "Adds Monid recon tools to a local Chromium desktop agent with voice, page reading and RPA controls."
+  created: 2026-07-22
+  added: 2026-11-17
+  verified: false

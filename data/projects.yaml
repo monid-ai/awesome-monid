@@ -43,6 +43,7 @@
   created: 2026-03-17
   added: 2026-09-18
   verified: true
+  featured: true
 
 - id: medical-mcp
   name: Medical MCP
@@ -203,6 +204,7 @@
   created: 2026-09-11
   added: 2026-09-18
   verified: false
+  featured: true
 
 - id: vectis-agent
   name: Vectis Agent
@@ -315,6 +317,7 @@
   created: 2026-08-13
   added: 2026-09-18
   verified: true
+  featured: true
 
 - id: tool-audit
   name: Tool Audit
@@ -397,6 +400,7 @@
   created: 2026-06-17
   added: 2026-09-18
   verified: true
+  featured: true
 
 - id: sales-agent-ai
   name: Enterprise Sales Intelligence Pipeline
@@ -732,6 +736,7 @@
   created: 2025-11-14
   added: 2026-09-28
   verified: true
+  featured: true
 
 - id: openmonitor
   name: OpenMonitor
@@ -893,6 +898,7 @@
   created: 2026-05-20
   added: 2026-09-28
   verified: true
+  featured: true
 
 - id: hivemindos
   name: HivemindOS
@@ -1200,17 +1206,626 @@
   added: 2026-09-28
   verified: true
 
-- id: edge
-  name: Edge
-  url: https://getedge.cc
-  repo: ""
-  author: "@getedgehq"
+- id: boutique-skills
+  name: Boutique Skills
+  url: https://github.com/leecyno1/boutique-skills
+  repo: leecyno1/boutique-skills
+  author: "@leecyno1"
   category: skills-mcp-plugins
-  kind: [hosted]
+  kind: [oss, skill]
+  lang: [py]
+  cost: ""
+  monid: [sfs, /put, /cat, storage]
+  evidence: cli-command
+  description: "Curates installable agent skills, including a scroll-world pipeline that stores and serves images through Monid SFS."
+  created: 2026-03-04
+  added: 2026-11-07
+  verified: false
+
+- id: agent-toolkit
+  name: Agent Toolkit
+  url: https://github.com/ulises-jeremias/agent-toolkit
+  repo: ulises-jeremias/agent-toolkit
+  author: "@ulises-jeremias"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [ts, py, other]
+  cost: ""
+  monid: [sfs/put, sfs/cat, minimax]
+  evidence: cli-command
+  description: "Packages coding assistant skills and plugins, including a Scroll World workflow that uploads frames to Monid storage and uses Minimax video."
+  created: 2026-08-04
+  added: 2026-11-07
+  verified: false
+
+- id: club-res-website
+  name: Club Res Website
+  url: https://github.com/Yale-Undergraduate-Consulting-Group/club-res-website
+  repo: Yale-Undergraduate-Consulting-Group/club-res-website
+  author: "@Yale-Undergraduate-Consulting-Group"
+  category: research-intel
+  kind: [oss]
+  lang: [py, ts]
+  cost: ""
+  monid: [/v1/run, tinyfishsearch, tinyfishfetch]
+  evidence: api-url
+  description: "Provides a club resources web app with Monid backed TinyFish search and fetch for consulting project research."
+  created: 2026-10-02
+  added: 2026-11-07
+  verified: false
+
+- id: real-hibachi-marketing
+  name: Real Hibachi Marketing
+  url: https://v0-hibachi-website-template.vercel.app
+  repo: darrien-wang/hibachiathome
+  author: "@darrien-wang"
+  category: marketing-seo-geo
+  kind: [hosted, oss]
   lang: [ts]
   cost: ""
-  monid: [discover, inspect, run, runs]
-  evidence: author-stated
-  description: Ranks public agent skills for a task and loads the chosen one, and runs live data tools for agents through Monid discover, inspect and run.
+  monid: [run, runs, redditsubreddit_posts, social]
+  evidence: api-url
+  description: "Runs a hibachi catering marketing site with a Reddit watch feed that can use Monid to fetch subreddit posts."
+  created: 2025-05-01
+  added: 2026-11-07
+  verified: false
+
+- id: agentrun
+  name: AgentRun
+  url: https://github.com/Parcha-ai/agentrun
+  repo: Parcha-ai/agentrun
+  author: "@Parcha-ai"
+  category: framework-integrations
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [discover, inspect, run]
+  evidence: api-url
+  description: "Runs self hosted agents and workflows with Monid discover, inspect, and run tools available through server tool keys."
   created: 2026-09-23
-  added: 2026-11-04
+  added: 2026-11-07
+  verified: false
+
+- id: skillz
+  name: Skillz
+  url: https://github.com/tanveerriaz/Skillz
+  repo: tanveerriaz/Skillz
+  author: "@tanveerriaz"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [py]
+  cost: ""
+  monid: [runs, minimax, video]
+  evidence: cli-command
+  description: "Provides reusable agent skills, including a Scroll World skill with Monid CLI video run guidance."
+  created: 2026-06-03
+  added: 2026-11-07
+  verified: false
+
+- id: aktonay-skillz
+  name: Skillz
+  url: https://github.com/aktonay/skillz
+  repo: aktonay/skillz
+  author: "@aktonay"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [other]
+  cost: ""
+  monid: [sfs, runs, minimaxvideo]
+  evidence: cli-command
+  description: "Installs cross agent coding skills including a Scroll World workflow that uploads frames and tracks Monid video runs."
+  created: 2026-10-29
+  added: 2026-11-07
+  verified: false
+
+- id: cc-tool
+  name: cc_tool
+  url: https://github.com/deepception/cc_tool
+  repo: deepception/cc_tool
+  author: "@deepception"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [py]
+  cost: ""
+  monid: [sfs/put, sfs/cat]
+  evidence: cli-command
+  description: "Installs Claude Code hooks, project skills and a local dashboard, including a scroll world skill that uses Monid SFS for image storage."
+  created: 2026-04-09
+  added: 2026-11-07
+  verified: false
+
+- id: hub-william
+  name: Hub William
+  url: https://hub-william.site
+  repo: synasapmob/hub-william
+  author: "@synasapmob"
+  category: skills-mcp-plugins
+  kind: [hosted, oss, skill]
+  lang: [ts, rust, py, other]
+  cost: ""
+  monid: [sfs, /put, /cat]
+  evidence: cli-command
+  description: "Runs a hosted agent account gateway and tools catalog with a skill pipeline that uses Monid SFS for temporary image upload."
+  created: 2026-09-05
+  added: 2026-11-07
+  verified: false
+
+- id: zyvo-ai
+  name: Zyvo AI
+  url: https://github.com/zyvo9/ZYVO-AI
+  repo: zyvo9/ZYVO-AI
+  author: "@zyvo9"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [sfs/put, sfs/cat, minimax]
+  evidence: cli-command
+  description: "Runs a Termux coding agent with built in skills, including a scroll video pipeline that stores assets through Monid."
+  created: 2026-08-31
+  added: 2026-11-07
+  verified: false
+
+- id: edge-skills
+  name: Edge Skills
+  url: https://getedge.cc
+  repo: getedgehq/skills
+  author: "@getedgehq"
+  category: skills-mcp-plugins
+  kind: [hosted, oss, skill]
+  lang: [py]
+  cost: ""
+  monid: [catalog, run, runsget]
+  evidence: cli-command
+  description: "Loads agent skills, including a Monid CLI skill that lets agents inspect and run pay per call data endpoints."
+  created: 2026-09-10
+  added: 2026-11-07
+  verified: false
+
+- id: coco
+  name: Coco
+  url: https://github.com/coco-research/coco
+  repo: coco-research/coco
+  author: "@coco-research"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [py, other]
+  cost: ""
+  monid: [sfs/put, sfs/cat, minimax]
+  evidence: cli-command
+  description: "Installs agent skills and commands for Claude Code, Cursor and Codex, including a Monid backed media workflow."
+  created: 2026-04-25
+  added: 2026-11-07
+  verified: false
+
+- id: opal-ai-agent-skills
+  name: OPAL AI Agent Skills
+  url: https://github.com/OpenLinkSoftware/ai-agent-skills
+  repo: OpenLinkSoftware/ai-agent-skills
+  author: "@OpenLinkSoftware"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [other]
+  cost: ""
+  monid: [cli, setup]
+  evidence: cli-package
+  description: "Provides a Skills.md Monid skill that installs and sets up the Monid CLI for agent environments."
+  created: 2025-12-19
+  added: 2026-11-07
+  verified: false
+
+- id: thothly
+  name: Thothly
+  url: https://thothly.vercel.app
+  repo: wl2bd/thothly
+  author: "@wl2bd"
+  category: research-intel
+  kind: [hosted, oss]
+  lang: [py, ts]
+  cost: ""
+  monid: [youtubetranscripts, webcontentextraction]
+  evidence: api-url
+  description: "Turns videos, podcasts, playlists, and articles into EPUB and Markdown compilations for reading or AI handoff."
+  created: 2026-05-13
+  added: 2026-11-07
+  verified: false
+
+- id: oto
+  name: Oto
+  url: https://github.com/otomata-tech/oto-backend
+  repo: otomata-tech/oto-backend
+  author: "@otomata-tech"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [py]
+  cost: ""
+  monid: [run, run_list, run_get, run_stop]
+  evidence: api-url
+  description: "Exposes Monid and other data connectors as authenticated MCP tools for Claude with a credential vault and REST backend."
+  created: 2026-05-07
+  added: 2026-11-07
+  verified: false
+
+- id: chusky
+  name: Chusky
+  url: https://github.com/zester4/chusky
+  repo: zester4/chusky
+  author: "@zester4"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [search, inspect, run, run_get, plan]
+  evidence: api-url
+  description: "Runs a self hosted agent service that can inspect and execute Monid endpoints with budgets and owner approvals."
+  created: 2026-08-28
+  added: 2026-11-07
+  verified: false
+
+- id: doddy
+  name: Doddy
+  url: https://github.com/Bienos/doddy.2
+  repo: Bienos/doddy.2
+  author: "@Bienos"
+  category: local-realworld
+  kind: [oss]
+  lang: [ts, other]
+  cost: ""
+  monid: [search, websearch, newssearch, placesearch]
+  evidence: api-url
+  description: "Provides an iPhone and web assistant that asks before acting and uses Monid for web, news and place searches."
+  created: 2026-10-08
+  added: 2026-11-09
+  verified: false
+
+- id: nodecode-monid
+  name: Nodecode Monid
+  url: https://github.com/nodecode-ai/cells
+  repo: nodecode-ai/cells
+  author: "@nodecode-ai"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [other]
+  cost: ""
+  monid: [discover, catalog, schema, run, poll, cost]
+  evidence: api-url
+  description: "Adds Monid catalog discovery and paid endpoint runs as tools inside Nodecode."
+  created: 2026-09-25
+  added: 2026-11-09
+  verified: false
+
+- id: qflow
+  name: Qflow
+  url: https://github.com/Pangu-Immortal/qflow
+  repo: Pangu-Immortal/qflow
+  author: "@Pangu-Immortal"
+  category: generative-media
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [remoteruns, provideractions]
+  evidence: api-url
+  description: "Lets agents turn reference videos into editable SVML workflows for captions, media, voice and rendering."
+  created: 2026-04-16
+  added: 2026-11-09
+  verified: false
+
+- id: hypit
+  name: Hypit
+  url: https://hypit.ai
+  repo: hypit-ai/hypit
+  author: "@hypit-ai"
+  category: generative-media
+  kind: [hosted, oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [remoteruns, provideractions]
+  evidence: api-url
+  description: "Clones viral videos into editable agent workflows with footage, captions, B roll and effects."
+  created: 2026-07-29
+  added: 2026-11-09
+  verified: false
+
+- id: lumitome
+  name: Lumitome
+  url: https://github.com/fahmi0812/Lumitome
+  repo: fahmi0812/Lumitome
+  author: "@fahmi0812"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [sfs/put, sfs/cat, minimax]
+  evidence: cli-command
+  description: "Runs a terminal coding assistant with a skills registry that includes Monid backed media and storage workflows."
+  created: 2026-11-01
+  added: 2026-11-09
+  verified: false
+
+- id: level-ai
+  name: Level AI
+  url: https://github.com/NoelSason/YCHackathon
+  repo: NoelSason/YCHackathon
+  author: "@NoelSason"
+  category: sales-leadgen
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [google-play, reviews, domain-search, cli]
+  evidence: api-key
+  description: "Runs agents that research puzzle game reviews, find studio leads, send outreach, and deliver paid playtest reports."
+  created: 2026-11-07
+  added: 2026-11-09
+  verified: false
+
+- id: competitive-analysis
+  name: Competitive Analysis
+  url: https://github.com/amr05008/agent-skills
+  repo: amr05008/agent-skills
+  author: "@amr05008"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [other]
+  cost: ""
+  monid: [discover, inspect, run]
+  evidence: api-url
+  description: "Creates evidence graded company and product teardown reports with optional Monid research gateway calls."
+  created: 2026-09-03
+  added: 2026-11-09
+  verified: false
+
+- id: kage
+  name: Kage
+  url: https://github.com/lemon5227/Kage
+  repo: lemon5227/Kage
+  author: "@lemon5227"
+  category: research-intel
+  kind: [oss]
+  lang: [py]
+  cost: ""
+  monid: [tinyfish, search]
+  evidence: api-url
+  description: "Runs a local desktop agent with Monid TinyFish web search as one of its web operation tools."
+  created: 2026-01-27
+  added: 2026-11-09
+  verified: false
+
+- id: founderdesk
+  name: FounderDesk
+  url: https://github.com/ankitshah009/founderdesk
+  repo: ankitshah009/founderdesk
+  author: "@ankitshah009"
+  category: marketing-seo-geo
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [search, pagefetch]
+  evidence: api-url
+  description: "Turns founder notes into sourced articles and approved social posts using Monid search and page fetch."
+  created: 2026-11-07
+  added: 2026-11-09
+  verified: false
+
+- id: nomen
+  name: Nomen
+  url: https://github.com/aiden-guan/Nomen
+  repo: aiden-guan/Nomen
+  author: "@aiden-guan"
+  category: social-creator
+  kind: [oss]
+  lang: [ts]
+  cost: "$1.19/run"
+  monid: [research, social, ads, reddit, chatgpt, perplexity]
+  evidence: api-url
+  description: "Runs autonomous UGC campaigns that research short form outliers, generate videos, route approvals, post, and feed analytics back."
+  created: 2026-11-07
+  added: 2026-11-09
+  verified: false
+
+- id: operis
+  name: Operis
+  url: https://github.com/cubic1M/Naive-Autonomous-Company-Hackathon-Project
+  repo: cubic1M/Naive-Autonomous-Company-Hackathon-Project
+  author: "@cubic1M"
+  category: local-realworld
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [reddit, tikhub, scrape, social, search]
+  evidence: api-url
+  description: "Lets AI agents request verified real-world human tasks through a hosted MCP server and worker payout flow."
+  created: 2026-11-07
+  added: 2026-11-09
+  verified: false
+
+- id: anybench
+  name: Anybench
+  url: https://anybench.vercel.app
+  repo: jaximus808/anybench
+  author: "@jaximus808"
+  category: research-intel
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: ""
+  monid: [discover, inspect, run, runs, agentmail]
+  evidence: api-url
+  description: "Benchmarks AI repos against baselines with hidden tests, repeated trials, scoring, statistics, traces, and signed reports."
+  created: 2026-11-08
+  added: 2026-11-09
+  verified: false
+
+- id: inroad
+  name: Inroad
+  url: https://github.com/aiden-guan/inroad
+  repo: aiden-guan/inroad
+  author: "@aiden-guan"
+  category: sales-leadgen
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [auth/whoami, inspect, run, research, salesintelligence]
+  evidence: api-url
+  description: "Finds high intent accounts, researches buying signals with sources, and drafts founder reviewed outreach."
+  created: 2026-10-20
+  added: 2026-11-09
+  verified: false
+
+- id: scroll-world
+  name: Scroll World
+  url: https://github.com/oso95/scroll-world
+  repo: oso95/scroll-world
+  author: "@oso95"
+  category: generative-media
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [seedance, sfs]
+  evidence: cli-command
+  description: "Turns any brand into a scrollable 3D world landing page, rendering the camera flight through Seedance on Monid by default."
+  created: 2026-07-06
+  added: 2026-11-09
+  verified: false
+
+- id: datagen
+  name: DATAGEN
+  url: https://github.com/zi-yue-1129/DATAGEN
+  repo: zi-yue-1129/DATAGEN
+  author: "@zi-yue-1129"
+  category: research-intel
+  kind: [oss]
+  lang: [py]
+  cost: ""
+  monid: [scrape, tinyfishbrowserextraction]
+  evidence: api-url
+  description: "Automates data analysis research with agents that can use Monid webpage extraction for source text."
+  created: 2024-07-23
+  added: 2026-11-17
+  verified: false
+
+- id: beeblio
+  name: Beeblio
+  url: https://github.com/alharkan7/beeblio
+  repo: alharkan7/beeblio
+  author: "@alharkan7"
+  category: research-intel
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [run, research, websearch]
+  evidence: api-url
+  description: "Provides a local AI research workspace whose agent can use Monid-backed web research tools alongside files and citations."
+  created: 2026-09-30
+  added: 2026-11-17
+  verified: false
+
+- id: lets-scroll
+  name: lets-scroll
+  url: https://github.com/AIwithhassan/lets-scroll
+  repo: AIwithhassan/lets-scroll
+  author: "@AIwithhassan"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [ts, py]
+  cost: "≈ $27/6-scene 1080p chain"
+  monid: [sfs/put, sfs/cat, seedance20videogeneration]
+  evidence: cli-command
+  description: "Builds scroll scrubbed landing pages from AI scene stills and Monid frame locked video chains."
+  created: 2026-08-15
+  added: 2026-11-17
+  verified: false
+
+- id: warm-apply
+  name: warm-apply
+  url: https://github.com/goodnight000/warm-apply
+  repo: goodnight000/warm-apply
+  author: "@goodnight000"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [py]
+  cost: "$0.90 first run; about $1/day for five prepared jobs"
+  monid: [linkedinjobsearch, googlejobs, apollo, hunter, contactout, fundingdata]
+  evidence: api-url
+  description: "Finds fitting jobs, identifies referral contacts, drafts notes, tailors resumes, and pre fills application forms for review."
+  created: 2026-10-23
+  added: 2026-11-17
+  verified: false
+
+- id: devnet-faucet
+  name: Devnet Faucet
+  url: https://devnetfaucet-omega.vercel.app
+  repo: ferric-sol/devnetfaucet
+  author: "@ferric-sol"
+  category: markets-finance
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: ""
+  monid: [twitterwebfetch_user_followers, twitterwebfetch_user_post_tweet, social]
+  evidence: api-url
+  description: "Runs a Solana devnet faucet with GitHub ecosystem checks and X follow or post verification."
+  created: 2025-02-20
+  added: 2026-11-17
+  verified: false
+
+- id: hermes-monid-skill
+  name: Hermes Monid Skill
+  url: https://github.com/jcrabapple/hermes-skills
+  repo: jcrabapple/hermes-skills
+  author: "@jcrabapple"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [py]
+  cost: ""
+  monid: [apify/apidojo/tweet-scraper, damilo/google-maps-scraper, scrape, social, leadresearch]
+  evidence: cli-command
+  description: "Adds Hermes Agent skills for running Monid endpoints and using Maps scraping in GTM lead research workflows."
+  created: 2026-05-06
+  added: 2026-11-17
+  verified: false
+
+- id: edge-blog
+  name: Edge Blog
+  url: https://www.068800.xyz
+  repo: nyoungo/EdgeBlog
+  author: "@nyoungo"
+  category: marketing-seo-geo
+  kind: [hosted, oss]
+  lang: [ts]
+  cost: ""
+  monid: [search, web_search, tinyfishwebsearch]
+  evidence: api-url
+  description: "Runs a Cloudflare Workers blog that uses Monid search to gather sources for AI generated scheduled posts."
+  created: 2026-10-18
+  added: 2026-11-17
+  verified: false
+
+- id: agentit
+  name: Agentit
+  url: https://github.com/marcmarti9/agentit
+  repo: marcmarti9/agentit
+  author: "@marcmarti9"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [py]
+  cost: ""
+  monid: [sfs/put, sfs/cat, artifactstorage]
+  evidence: cli-command
+  description: "Adds a JIT skill system for coding agents with a pipeline that stores generated artifacts through Monid SFS."
+  created: 2026-07-28
+  added: 2026-11-17
+  verified: false
+
+- id: lensdna
+  name: LensDNA
+  url: https://github.com/kaascanvas/LensDNA-Extension
+  repo: kaascanvas/LensDNA-Extension
+  author: "@kaascanvas"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [discover, run, poll, recon, leads, social]
+  evidence: cli-command
+  description: "Adds Monid recon tools to a local Chromium desktop agent with voice, page reading and RPA controls."
+  created: 2026-07-22
+  added: 2026-11-17
+  verified: false

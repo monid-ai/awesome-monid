@@ -1,0 +1,15 @@
+{
+  "name": "awesome-monid-sweep",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Finds GitHub repos that use Monid and are not on the list yet, grades them against CONTRIBUTING, and opens one pull request. Run by .github/workflows/sweep.yml every three days.",
+  "scripts": {
+    "run": "node bin/run.mjs",
+    "dry": "node bin/run.mjs --dry-run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.80.0"
+  },
+  "engines": { "node": ">=20" }
+}

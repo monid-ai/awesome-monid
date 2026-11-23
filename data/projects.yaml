@@ -1829,3 +1829,195 @@
   created: 2026-07-22
   added: 2026-11-17
   verified: false
+
+- id: hypit-free-cli
+  name: Hypit Free CLI
+  url: https://github.com/KunjShah95/hypit-free-cli
+  repo: KunjShah95/hypit-free-cli
+  author: "@KunjShah95"
+  category: generative-media
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [remoteruns, providercalls]
+  evidence: api-url
+  description: "Lets agents build and render video workflows, with a Monid provider for authenticated remote runs."
+  created: 2026-10-16
+  added: 2026-11-23
+  verified: false
+
+- id: kshitij-shingare-lets-scroll
+  name: Lets-Scroll
+  url: https://github.com/kshitij-shingare/Lets-Scroll
+  repo: kshitij-shingare/Lets-Scroll
+  author: "@kshitij-shingare"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [py, other]
+  cost: ""
+  monid: [sfs, seedance, minimax, videogeneration]
+  evidence: cli-command
+  description: "Installs an agent skill that builds scroll driven cinematic landing pages using frame locked AI video clips."
+  created: 2026-09-12
+  added: 2026-11-23
+  verified: false
+
+- id: nomad
+  name: Nomad
+  url: https://github.com/varun875/nomad
+  repo: varun875/nomad
+  author: "@varun875"
+  category: research-intel
+  kind: [oss]
+  lang: [other]
+  cost: ""
+  monid: [tinyfishsearch, tinyfishfetch, websearch]
+  evidence: api-url
+  description: "Runs an on-device Android assistant that can use Monid TinyFish for live web search."
+  created: 2026-08-13
+  added: 2026-11-23
+  verified: false
+
+- id: dsh-tinyfish
+  name: dsh-tinyfish
+  url: https://github.com/viztor/dsh-tinyfish
+  repo: viztor/dsh-tinyfish
+  author: "@viztor"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [ts]
+  cost: "$0/call"
+  monid: [run, tinyfishsearch, tinyfishfetch]
+  evidence: api-url
+  description: "Adds TinyFish search and page fetch to DeepSeek Harness through direct APIs or Monid."
+  created: 2026-09-29
+  added: 2026-11-23
+  verified: false
+
+- id: frames-contentos
+  name: Frames ContentOS
+  url: https://github.com/Francixco90/metodologia-frames-agent-os
+  repo: Francixco90/metodologia-frames-agent-os
+  author: "@Francixco90"
+  category: starters-templates
+  kind: [oss]
+  lang: [ts, other]
+  cost: ""
+  monid: [sfs]
+  evidence: cli-command
+  description: "Provides a local creative agent workflow for briefs, campaigns, content drafts and guarded approvals."
+  created: 2026-08-01
+  added: 2026-11-23
+  verified: false
+
+- id: claude-skills
+  name: Claude Skills
+  url: https://github.com/Qadri-uk/claude-skills
+  repo: Qadri-uk/claude-skills
+  author: "@Qadri-uk"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [other]
+  cost: ""
+  monid: [sfs, minimax]
+  evidence: cli-command
+  description: "Installs Claude motion skills that use Monid storage and video calls for chained scroll world clips."
+  created: 2026-11-09
+  added: 2026-11-23
+  verified: false
+
+- id: songs-of-keaches
+  name: Songs of @keaches
+  url: https://github.com/nilay1221/keaches-songs
+  repo: nilay1221/keaches-songs
+  author: "@nilay1221"
+  category: social-creator
+  kind: [oss]
+  lang: [py]
+  cost: ""
+  monid: [tikhub, fetch_user_reels, instagramuser_reels, instagramreels]
+  evidence: api-key
+  description: "Builds a daily archive of songs used in @keaches Instagram reels with Spotify and Apple Music links."
+  created: 2026-10-21
+  added: 2026-11-23
+  verified: false
+
+- id: data-api-bench
+  name: Data API Bench
+  url: https://github.com/promptingcompany/data-api-bench
+  repo: promptingcompany/data-api-bench
+  author: "@promptingcompany"
+  category: tutorials-writeups
+  kind: [oss, writeup]
+  lang: [py]
+  cost: "$0.01 social-listening; $3–10 company-data"
+  monid: [keywordresearch, search, companyenrichment, sociallistening, scrape, pricingpages]
+  evidence: api-key
+  description: "Provides rerunnable benchmark tasks for agents using Monid on search, enrichment, social, pricing and video jobs."
+  created: 2026-11-18
+  added: 2026-11-23
+  verified: false
+
+- id: groundswell
+  name: Groundswell
+  url: https://github.com/Mr-1011/groundswell
+  repo: Mr-1011/groundswell
+  author: "@Mr-1011"
+  category: local-realworld
+  kind: [oss]
+  lang: [ts, py]
+  cost: ""
+  monid: [x, scrape, social]
+  evidence: api-url
+  description: "Maps county level opposition risk for data center projects using agent sourced local evidence."
+  created: 2026-11-09
+  added: 2026-11-23
+  verified: false
+
+- id: sgomez-dev-claude-skills
+  name: Claude Skills
+  url: https://github.com/sgomez-dev/claude-skills
+  repo: sgomez-dev/claude-skills
+  author: "@sgomez-dev"
+  category: skills-mcp-plugins
+  kind: [oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [sfs, minimax, runs]
+  evidence: cli-command
+  description: "Provides Claude Code skills, including a Scroll World workflow that uses Monid storage and Minimax video runs."
+  created: 2026-03-26
+  added: 2026-11-23
+  verified: false
+
+- id: furperfect2026-lets-scroll
+  name: Lets Scroll
+  url: https://tathastu-visions.vercel.app
+  repo: furperfect2026/tathastu-visions
+  author: "@furperfect2026"
+  category: skills-mcp-plugins
+  kind: [hosted, oss, skill]
+  lang: [ts]
+  cost: ""
+  monid: [sfs, minimax, generativemedia]
+  evidence: cli-command
+  description: "Creates chained mobile scroll clips using Monid storage and Minimax video generation."
+  created: 2026-05-07
+  added: 2026-11-23
+  verified: false
+
+- id: quay
+  name: Quay
+  url: https://github.com/Das-rebel/quay
+  repo: Das-rebel/quay
+  author: "@Das-rebel"
+  category: framework-integrations
+  kind: [oss]
+  lang: [ts]
+  cost: ""
+  monid: [cli]
+  evidence: cli-package
+  description: "Runs a self-hosted agent software factory that can set up Monid CLI inside customizable pipelines."
+  created: 2026-07-05
+  added: 2026-11-23
+  verified: false

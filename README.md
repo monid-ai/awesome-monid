@@ -25,17 +25,17 @@ leaderboard, are at [monid.ai/built-with](https://monid.ai/built-with); that pag
 
 <div align="center">
 
-![projects](https://img.shields.io/badge/projects-111-0016D7?style=flat-square) ![categories](https://img.shields.io/badge/categories-11-0016D7?style=flat-square) ![with a real price tag](https://img.shields.io/badge/with%20a%20real%20price%20tag-13-0016D7?style=flat-square) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+![projects](https://img.shields.io/badge/projects-123-0016D7?style=flat-square) ![categories](https://img.shields.io/badge/categories-12-0016D7?style=flat-square) ![with a real price tag](https://img.shields.io/badge/with%20a%20real%20price%20tag-15-0016D7?style=flat-square) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 </div>
 
 <div align="center">
 
 <table>
-  <tr><td><a href="#-research--intel">🔎 Research &amp; Intel</a> <sub>17</sub></td><td><a href="#-sales--lead-gen">🎯 Sales &amp; Lead Gen</a> <sub>7</sub></td><td><a href="#-marketing-seo--geo">📈 Marketing, SEO &amp; GEO</a> <sub>6</sub></td></tr>
-  <tr><td><a href="#-commerce--pricing">🛒 Commerce &amp; Pricing</a> <sub>5</sub></td><td><a href="#-social--creator">📱 Social &amp; Creator</a> <sub>6</sub></td><td><a href="#-generative-media">🎬 Generative Media</a> <sub>10</sub></td></tr>
-  <tr><td><a href="#-markets--finance">💹 Markets &amp; Finance</a> <sub>6</sub></td><td><a href="#-local--real-world">🗺️ Local &amp; Real-world</a> <sub>5</sub></td><td><a href="#-agent-skills-mcp--plugins">🧩 Agent Skills, MCP &amp; Plugins</a> <sub>34</sub></td></tr>
-  <tr><td><a href="#-framework-integrations">🔌 Framework Integrations</a> <sub>14</sub></td><td><a href="#-starters--templates">🧰 Starters &amp; Templates</a> <sub>1</sub></td></tr>
+  <tr><td><a href="#-research--intel">🔎 Research &amp; Intel</a> <sub>18</sub></td><td><a href="#-sales--lead-gen">🎯 Sales &amp; Lead Gen</a> <sub>7</sub></td><td><a href="#-marketing-seo--geo">📈 Marketing, SEO &amp; GEO</a> <sub>6</sub></td></tr>
+  <tr><td><a href="#-commerce--pricing">🛒 Commerce &amp; Pricing</a> <sub>5</sub></td><td><a href="#-social--creator">📱 Social &amp; Creator</a> <sub>7</sub></td><td><a href="#-generative-media">🎬 Generative Media</a> <sub>11</sub></td></tr>
+  <tr><td><a href="#-markets--finance">💹 Markets &amp; Finance</a> <sub>6</sub></td><td><a href="#-local--real-world">🗺️ Local &amp; Real-world</a> <sub>6</sub></td><td><a href="#-agent-skills-mcp--plugins">🧩 Agent Skills, MCP &amp; Plugins</a> <sub>39</sub></td></tr>
+  <tr><td><a href="#-framework-integrations">🔌 Framework Integrations</a> <sub>15</sub></td><td><a href="#-starters--templates">🧰 Starters &amp; Templates</a> <sub>2</sub></td><td><a href="#-tutorials--write-ups">🎓 Tutorials &amp; Write-ups</a> <sub>1</sub></td></tr>
 </table>
 
 </div>
@@ -52,6 +52,7 @@ leaderboard, are at [monid.ai/built-with](https://monid.ai/built-with); that pag
 - [Dossier](https://dossier-navy.vercel.app) - Builds an interview prep kit from a job description and a company URL, down to a day-by-day schedule. ([Source Code](https://github.com/Tushar-Bhowal/dossier)) `hosted` `TypeScript`
 - [JP Gacha Monitor](https://github.com/yumuyou/jp-gacha-monitor) - Weekly competitor monitor covering twenty-six Japanese gacha titles. `Python` `$0.04/run`
 - [Kage](https://github.com/lemon5227/Kage) - Runs a local desktop agent with Monid TinyFish web search as one of its web operation tools. `Python`
+- [Nomad](https://github.com/varun875/nomad) - Runs an on-device Android assistant that can use Monid TinyFish for live web search.
 - [OpenMonitor](https://github.com/diggerhq/openmonitor) - Scheduled web monitor that runs saved watches through Monid or twelve other search APIs and posts new hits to a webhook or Slack. `TypeScript`
 - [Orrery](https://github.com/FeiyouG/orrery) - Renders online discourse about a company or topic as a browsable 3D solar system. `TypeScript`
 - [Pi News Agent](https://github.com/xihuishawpy/news_report) - Local news-monitoring agent that patrols fixed sources, pulls WeChat official-account articles via Monid and drafts an editable Word report. `TypeScript`
@@ -113,6 +114,7 @@ leaderboard, are at [monid.ai/built-with](https://monid.ai/built-with); that pag
 - [Nomen](https://github.com/aiden-guan/Nomen) - Runs autonomous UGC campaigns that research short form outliers, generate videos, route approvals, post, and feed analytics back. `TypeScript` `$1.19/run`
 - [Okou](https://www.okou.ai) - AI teammate for Slack and the web whose social search jobs pull public posts, comments and transcripts from eight platforms through Monid. ([Source Code](https://github.com/okou-ai/okou)) `hosted` `TypeScript`
 - [SoCap Lens](https://github.com/yashbudhia/socap-lens) - Tracks every public Social Capital launch, its hero post, and the creator wave around it.
+- [Songs of @keaches](https://github.com/nilay1221/keaches-songs) - Builds a daily archive of songs used in @keaches Instagram reels with Spotify and Apple Music links. `Python`
 
 <sup>[back to top](#readme)</sup>
 
@@ -124,6 +126,7 @@ leaderboard, are at [monid.ai/built-with](https://monid.ai/built-with); that pag
 - [Curta](https://curta-psi.vercel.app) - Portuguese-language web app that turns a script or site link into a 30 or 60 second explainer video, generating the clips through Monid. ([Source Code](https://github.com/edrodrigues/Curta)) `hosted` `TypeScript`
 - [DataBard](https://github.com/thisyearnofear/databard) - Turns a data catalog into an interactive podcast. `TypeScript`
 - [Hypit](https://hypit.ai) - Clones viral videos into editable agent workflows with footage, captions, B roll and effects. ([Source Code](https://github.com/hypit-ai/hypit)) `hosted` `skill` `TypeScript`
+- [Hypit Free CLI](https://github.com/KunjShah95/hypit-free-cli) - Lets agents build and render video workflows, with a Monid provider for authenticated remote runs. `skill` `TypeScript`
 - [Qflow](https://github.com/Pangu-Immortal/qflow) - Lets agents turn reference videos into editable SVML workflows for captions, media, voice and rendering. `skill` `TypeScript`
 - [Scroll World](https://github.com/oso95/scroll-world) - Turns any brand into a scrollable 3D world landing page, rendering the camera flight through Seedance on Monid by default. `skill` `TypeScript`
 - [Scroll World Pro](https://tobeworks.de/skills/scroll-world-pro/) - Claude skill that builds a scroll-scrubbed flythrough landing page for any brand. ([Source Code](https://github.com/Tobeworks/scroll-world-pro-skill)) `hosted` `skill`
@@ -151,6 +154,7 @@ leaderboard, are at [monid.ai/built-with](https://monid.ai/built-with); that pag
 <sub>Maps, travel, mobility, and anything anchored to a physical place.</sub>
 
 - [Doddy](https://github.com/Bienos/doddy.2) - Provides an iPhone and web assistant that asks before acting and uses Monid for web, news and place searches. `TypeScript`
+- [Groundswell](https://github.com/Mr-1011/groundswell) - Maps county level opposition risk for data center projects using agent sourced local evidence. `TypeScript` `Python`
 - [Land Feasibility GIS Search](https://github.com/Skatelo/gis-feasibility-search) - Screens real estate feasibility across parcel GIS for a hundred North Carolina counties. `TypeScript`
 - [Operis](https://github.com/cubic1M/Naive-Autonomous-Company-Hackathon-Project) - Lets AI agents request verified real-world human tasks through a hosted MCP server and worker payout flow. `skill` `TypeScript`
 - [Raspador de Eventos](https://raspador-eventos.vercel.app) - Unifies Brazilian event listings from Sympla, Ingresse and Shotgun into one agent-queryable base. ([Source Code](https://github.com/oextraordimario/raspador_eventos)) `hosted` `Python`
@@ -168,8 +172,11 @@ leaderboard, are at [monid.ai/built-with](https://monid.ai/built-with); that pag
 - [Boutique Skills](https://github.com/leecyno1/boutique-skills) - Curates installable agent skills, including a scroll-world pipeline that stores and serves images through Monid SFS. `skill` `Python`
 - [cc_tool](https://github.com/deepception/cc_tool) - Installs Claude Code hooks, project skills and a local dashboard, including a scroll world skill that uses Monid SFS for image storage. `skill` `Python`
 - [Chusky](https://github.com/zester4/chusky) - Runs a self hosted agent service that can inspect and execute Monid endpoints with budgets and owner approvals. `skill` `TypeScript`
+- [Claude Skills](https://github.com/Qadri-uk/claude-skills) - Installs Claude motion skills that use Monid storage and video calls for chained scroll world clips. `skill`
+- [Claude Skills](https://github.com/sgomez-dev/claude-skills) - Provides Claude Code skills, including a Scroll World workflow that uses Monid storage and Minimax video runs. `skill` `TypeScript`
 - [Coco](https://github.com/coco-research/coco) - Installs agent skills and commands for Claude Code, Cursor and Codex, including a Monid backed media workflow. `skill` `Python`
 - [Competitive Analysis](https://github.com/amr05008/agent-skills) - Creates evidence graded company and product teardown reports with optional Monid research gateway calls. `skill`
+- [dsh-tinyfish](https://github.com/viztor/dsh-tinyfish) - Adds TinyFish search and page fetch to DeepSeek Harness through direct APIs or Monid. `skill` `TypeScript` `$0/call`
 - [Edge Skills](https://getedge.cc) - Loads agent skills, including a Monid CLI skill that lets agents inspect and run pay per call data endpoints. ([Source Code](https://github.com/getedgehq/skills)) `hosted` `skill` `Python`
 - [Feishu Mark Agent](https://github.com/Noah-wang/feishu-mark-agent) - Personal agent wired into Feishu. `TypeScript`
 - [GoAIMoat Decision Maker Lookup MCP](https://goaimoat.com/mcp-catalog.html) - MCP server that finds decision makers at a company and reveals or verifies their work email through Monid, hosted or self-run via Docker. ([Source Code](https://github.com/jayniebingyu-cyber/goaimoat-decision-maker-lookup-mcp)) `hosted` `skill` `Python`
@@ -179,7 +186,9 @@ leaderboard, are at [monid.ai/built-with](https://monid.ai/built-with); that pag
 - [Hermes Monid Skill](https://github.com/jcrabapple/hermes-skills) - Adds Hermes Agent skills for running Monid endpoints and using Maps scraping in GTM lead research workflows. `skill` `Python`
 - [Hub William](https://hub-william.site) - Runs a hosted agent account gateway and tools catalog with a skill pipeline that uses Monid SFS for temporary image upload. ([Source Code](https://github.com/synasapmob/hub-william)) `hosted` `skill` `TypeScript` `Rust` `Python`
 - [LensDNA](https://github.com/kaascanvas/LensDNA-Extension) - Adds Monid recon tools to a local Chromium desktop agent with voice, page reading and RPA controls. `skill` `TypeScript`
+- [Lets Scroll](https://tathastu-visions.vercel.app) - Creates chained mobile scroll clips using Monid storage and Minimax video generation. ([Source Code](https://github.com/furperfect2026/tathastu-visions)) `hosted` `skill` `TypeScript`
 - [lets-scroll](https://github.com/AIwithhassan/lets-scroll) - Builds scroll scrubbed landing pages from AI scene stills and Monid frame locked video chains. `skill` `TypeScript` `Python` `≈ $27/6-scene 1080p chain`
+- [Lets-Scroll](https://github.com/kshitij-shingare/Lets-Scroll) - Installs an agent skill that builds scroll driven cinematic landing pages using frame locked AI video clips. `skill` `Python`
 - [Lumitome](https://github.com/fahmi0812/Lumitome) - Runs a terminal coding assistant with a skills registry that includes Monid backed media and storage workflows. `skill` `TypeScript`
 - [Medical MCP](https://github.com/JamesANZ/medical-mcp) - Answers medical questions from authoritative sources and pulls academic papers through Monid. `skill` `TypeScript`
 - [Monid MCP](https://github.com/ashafizullah/monid-mcp) - Exposes Monid web search and fetch to any MCP client. `skill` `Python` `$0/call`
@@ -215,6 +224,7 @@ leaderboard, are at [monid.ai/built-with](https://monid.ai/built-with); that pag
 - [opencompany](https://opencompany.cloud) - AI workspace with chat, durable workflows and integrations whose managed social, lead and SEO capabilities run and are priced through Monid. ([Source Code](https://github.com/useopencompany/opencompany)) `hosted` `TypeScript`
 - [Oto Connectors](https://github.com/otomata-tech/connectors) - Python connector library for the Oto agent stack that ships a typed Monid client covering discover, inspect, run and run polling. `Python`
 - [pi-tiny-search](https://github.com/DevMortimer/pi-tiny-search) - Instant web search and page fetch for Pi agents, with no browser and no model summarisation. `skill` `TypeScript`
+- [Quay](https://github.com/Das-rebel/quay) - Runs a self-hosted agent software factory that can set up Monid CLI inside customizable pipelines. `TypeScript`
 - [regimes-probe](https://github.com/yoheinakajima/regimes-probe) - Web-search agent harness that learns its tool-routing policy with a contextual bandit, with Monid discover, inspect and run as optional arms. `Python`
 - [VisionClaw Agent](https://agenticcorporation.net) - Self-hosted multi-tenant agent workspace whose personas browse a curated Monid catalog, then discover, inspect and run endpoints. ([Source Code](https://github.com/Huskyauto/VisionClaw-Agent-Public-Release)) `hosted` `TypeScript`
 
@@ -225,6 +235,15 @@ leaderboard, are at [monid.ai/built-with](https://monid.ai/built-with); that pag
 <sub>Clone-and-run projects meant to be forked.</sub>
 
 - [eve-agents](https://github.com/ravidsrk/eve-agents) - Fifty Vercel eve agent templates, ten of them calling Monid tools through a shared client with per-call and total budget caps. `TypeScript`
+- [Frames ContentOS](https://github.com/Francixco90/metodologia-frames-agent-os) - Provides a local creative agent workflow for briefs, campaigns, content drafts and guarded approvals. `TypeScript`
+
+<sup>[back to top](#readme)</sup>
+
+### 🎓 Tutorials & Write-ups
+
+<sub>Posts, videos and teardowns that show how something was built.</sub>
+
+- [Data API Bench](https://github.com/promptingcompany/data-api-bench) - Provides rerunnable benchmark tasks for agents using Monid on search, enrichment, social, pricing and video jobs. `write-up` `Python` `$0.01 social-listening; $3–10 company-data`
 
 <sup>[back to top](#readme)</sup>
 
